@@ -1,0 +1,1 @@
+# CASE-Implementation-PyPI-Exifread
