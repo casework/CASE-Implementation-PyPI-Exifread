@@ -10,8 +10,6 @@ import rdflib
 import rdflib.plugins.sparql
 import rdflib_jsonld
 
-
-
 _logger = logging.getLogger(os.path.basename(__file__))
 
 parser = argparse.ArgumentParser()
