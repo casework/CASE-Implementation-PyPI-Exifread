@@ -94,6 +94,7 @@ def n_cyber_object_to_node(graph):
     # ))
     return n_controlled_dictionary, n_raster_facets, n_file_facets, n_content_facets
 
+
 def filecontent_object_to_node(graph, n_file_facets, file_information):
     byte_order_facet = rdflib.BNode()
     file_hash_facet = rdflib.BNode()
@@ -139,6 +140,7 @@ def filecontent_object_to_node(graph, n_file_facets, file_information):
         NS_UCO_TYPES.Hash
     ))
 
+
 def raster_object_to_node(graph, controlled_dict, n_raster_facets, file_information):
     file_name, ext = os.path.splitext(file_information['Filename'])
     file_ext = ext[1:]
@@ -156,7 +158,7 @@ def raster_object_to_node(graph, controlled_dict, n_raster_facets, file_informat
         n_raster_facets,
         NS_UCO_OBSERVABLE.pictureHeight,
         rdflib.term.Literal(str(controlled_dict['EXIF ExifImageLength']),
-                       datatype=NS_XSD.integer)
+                            datatype=NS_XSD.integer)
     ))
     graph.add((
         n_raster_facets,
