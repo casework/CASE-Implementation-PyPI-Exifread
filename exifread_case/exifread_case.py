@@ -9,7 +9,7 @@ import exifread
 import rdflib
 import rdflib_jsonld
 
-# import rdflib.plugins.sparql
+import rdflib.plugins.sparql
 # import mimetypes
 
 
@@ -143,14 +143,14 @@ def raster_object_to_node(graph, controlled_dict, n_raster_facets, file_informat
         NS_UCO_OBSERVABLE.pictureType,
         rdflib.Literal(file_ext)
     ))
-    if controlled_dict['EXIF ExifImageLength'] in controlled_dict.keys():
+    if 'EXIF ExifImageLength' in controlled_dict.keys():
         graph.add((
             n_raster_facets,
             NS_UCO_OBSERVABLE.pictureHeight,
             rdflib.term.Literal(str(controlled_dict['EXIF ExifImageLength']),
                                 datatype=NS_XSD.integer)
         ))
-    if controlled_dict['EXIF ExifImageWidth'] in controlled_dict.keys():
+    if 'EXIF ExifImageWidth' in controlled_dict.keys():
         graph.add((
             n_raster_facets,
             NS_UCO_OBSERVABLE.pictureWidth,
