@@ -19,7 +19,6 @@ https://www.w3.org/TR/json-ld11/#terms
 
 __version__ = "0.1.1"
 
-import ast
 import logging
 import os
 import json
@@ -32,8 +31,7 @@ def main():
         doc = None
         with open(args.in_json, "r") as in_fh:
             doc = json.load(in_fh)
-        doc = ast.literal_eval(doc)
-        assert not doc is None
+        assert doc is not None
 
         # Grab the first occurrence of every key.
         total_context = dict()
@@ -42,7 +40,7 @@ def main():
             if local_context is None:
                 continue
             for key in local_context.keys():
-                if not key in total_context:
+                if key not in total_context:
                     # Accrue new key.
                     total_context[key] = local_context[key]
 

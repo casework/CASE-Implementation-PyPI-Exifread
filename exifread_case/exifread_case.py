@@ -8,6 +8,7 @@ import logging
 import exifread
 import rdflib
 import rdflib.plugins.sparql
+import mimetypes
 import rdflib_jsonld
 
 _logger = logging.getLogger(os.path.basename(__file__))
@@ -26,17 +27,24 @@ NS_UCO_VOCABULARY = rdflib.Namespace("https://unifiedcyberontology.org/ontology/
 NS_XSD = rdflib.namespace.XSD
 
 
-def file_information(filepath):
+def get_file_info(filepath):
+    file_information = {}
+    # with open(filepath, "rb") as myfile:
+    #     raw_header = myfile.read(24)
+    # header = raw_header.decode('utf-8', 'ignore')
     try:
-        md5sum = hashlib.md5(open(filepath, "rb").read())
+        sha256 = hashlib.sha256(open(filepath, "rb").read())
         file_stats = os.stat(filepath)
-        print(f'File_name:          {filepath}')
-        print(f'Size:               {file_stats.st_size}')
-        print(f'MD5:                {md5sum.hexdigest()} \n')
+        file_information['Filename'] = filepath
+        file_information['size'] = file_stats.st_size
+        file_information['SHA256'] = sha256.hexdigest()
+        file_information['mimetype'] = mimetypes.MimeTypes().guess_type(filepath)[0]
+        # file_information['magic_number'] = header
     except IOError as io_e:
         print(io_e)
     except ValueError as v_e:
         print(v_e)
+    return file_information
 
 
 def get_exif(file):
@@ -53,12 +61,128 @@ def create_exif_dict(tags):
     return exif
 
 
-def controlled_dictionary_object_to_node(graph, controlled_dict):
+def n_cyber_object_to_node(graph):
+    cyber_object_facet = rdflib.BNode()
+    n_raster_facets = rdflib.BNode()
     n_controlled_dictionary = rdflib.BNode()
+    n_file_facets = rdflib.BNode()
+    n_content_facets = rdflib.BNode()
     graph.add((
-      n_controlled_dictionary,
-      NS_RDF.type,
-      NS_UCO_TYPES.ControlledDictionary
+        cyber_object_facet,
+        NS_RDF.type,
+        NS_UCO_OBSERVABLE.ObservableObject
+    ))
+    graph.add((
+        cyber_object_facet,
+        NS_UCO_CORE.hasFacet,
+        n_controlled_dictionary
+    ))
+    graph.add((
+        cyber_object_facet,
+        NS_UCO_CORE.hasFacet,
+        n_raster_facets
+    ))
+    # graph.add((
+    #     cyber_object_facet,
+    #     NS_UCO_CORE.hasFacet,
+    #     n_content_facets
+    # ))
+    # graph.add((
+    #     cyber_object_facet,
+    #     NS_UCO_CORE.hasFacet,
+    #     n_file_facets
+    # ))
+    return n_controlled_dictionary, n_raster_facets, n_file_facets, n_content_facets
+
+def filecontent_object_to_node(graph, n_file_facets, file_information):
+    byte_order_facet = rdflib.BNode()
+    file_hash_facet = rdflib.BNode()
+    graph.add((
+        n_file_facets,
+        NS_RDF.type,
+        NS_UCO_OBSERVABLE.ContentDataFacet
+    ))
+    graph.add((
+        n_file_facets,
+        NS_UCO_OBSERVABLE.byteOrder,
+        byte_order_facet
+    ))
+    graph.add((
+        byte_order_facet,
+        NS_RDF.type,
+        NS_UCO_VOCABULARY.EndiannessTypeVocab,
+    ))
+    graph.add((
+        byte_order_facet,
+        NS_UCO_VOCABULARY.value,
+        rdflib.Literal("Big-endian")
+    ))
+    graph.add((
+        n_file_facets,
+        NS_UCO_OBSERVABLE.mimeType,
+        rdflib.Literal(file_information["mimetype"])
+    ))
+    graph.add((
+        n_file_facets,
+        NS_UCO_OBSERVABLE.sizeInBytes,
+        rdflib.term.Literal(file_information["size"],
+                            datatype=NS_XSD.integer)
+    ))
+    graph.add((
+        n_file_facets,
+        NS_UCO_OBSERVABLE.hash,
+        file_hash_facet
+    ))
+    graph.add((
+        file_hash_facet,
+        NS_RDF.type,
+        NS_UCO_TYPES.Hash
+    ))
+
+def raster_object_to_node(graph, controlled_dict, n_raster_facets, file_information):
+    file_name, ext = os.path.splitext(file_information['Filename'])
+    file_ext = ext[1:]
+    graph.add((
+        n_raster_facets,
+        NS_RDF.type,
+        NS_UCO_OBSERVABLE.RasterPictureFacet
+    ))
+    graph.add((
+        n_raster_facets,
+        NS_UCO_OBSERVABLE.pictureType,
+        rdflib.Literal(file_ext)
+    ))
+    graph.add((
+        n_raster_facets,
+        NS_UCO_OBSERVABLE.pictureHeight,
+        rdflib.term.Literal(str(controlled_dict['EXIF ExifImageLength']),
+                       datatype=NS_XSD.integer)
+    ))
+    graph.add((
+        n_raster_facets,
+        NS_UCO_OBSERVABLE.pictureWidth,
+        rdflib.term.Literal(str(controlled_dict['EXIF ExifImageWidth']),
+                            datatype=NS_XSD.integer)
+    ))
+    graph.add((
+        n_raster_facets,
+        NS_UCO_OBSERVABLE.bitsPerPixel,
+        rdflib.term.Literal(str(controlled_dict['EXIF CompressedBitsPerPixel']),
+                            datatype=NS_XSD.integer)
+    ))
+    graph.add((
+        n_raster_facets,
+        NS_RDFS.comment,
+        rdflib.Literal("Information represented here from exif information not from "
+                       "file system stats except for extension, which uses os python lib")
+    ))
+
+
+def controlled_dictionary_object_to_node(graph, controlled_dict, n_controlled_dictionary):
+    graph.add((
+        n_controlled_dictionary,
+        NS_RDF.type,
+        NS_UCO_TYPES.ControlledDictionary
     ))
     for key in sorted(controlled_dict.keys()):
         v_value = controlled_dict[key]
@@ -89,11 +213,13 @@ def controlled_dictionary_object_to_node(graph, controlled_dict):
           NS_UCO_TYPES.value,
           v_value
         ))
-    return n_controlled_dictionary
+    #return n_controlled_dictionary
 
 
 if __name__ == "__main__":
-    tags = get_exif(args.file)
+    local_file = args.file
+    file_info = get_file_info(local_file)
+    tags = get_exif(local_file)
     tag_dict = create_exif_dict(tags)
     out_graph = rdflib.Graph()
     out_graph.namespace_manager.bind("uco-core", NS_UCO_CORE)
@@ -101,7 +227,11 @@ if __name__ == "__main__":
     out_graph.namespace_manager.bind("uco-observable", NS_UCO_OBSERVABLE)
     out_graph.namespace_manager.bind("uco-types", NS_UCO_TYPES)
     out_graph.namespace_manager.bind("uco-vocabulary", NS_UCO_VOCABULARY)
-    controlled_dictionary_object_to_node(out_graph, tag_dict)
+    controlled_dictionary_node, raster_facets_node, file_facets_node, content_facets \
+        = n_cyber_object_to_node(out_graph)
+    controlled_dictionary_object_to_node(out_graph, tag_dict, controlled_dictionary_node)
+    raster_object_to_node(out_graph, tag_dict, raster_facets_node, file_info)
+    #   filecontent_object_to_node(out_graph, file_facets_node, file_info)
 
 context = {"kb": "http://example.org/kb/",
            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -112,10 +242,8 @@ context = {"kb": "http://example.org/kb/",
            "uco-types": "https://unifiedcyberontology.org/ontology/uco/types#",
            "xsd": "http://www.w3.org/2001/XMLSchema#"}
 
-graphed = out_graph.serialize(format='json-ld', context=context, indent=4, sort_keys=True)
-data = json.loads(graphed)
-pretty = json.dumps(data, indent=4)
-print(pretty)
+graphed = out_graph.serialize(format='json-ld', context=context)
 
-
-
+doc = json.loads(graphed.decode('utf-8'))
+case_json = json.dumps(doc, indent=4)
+print(case_json)
