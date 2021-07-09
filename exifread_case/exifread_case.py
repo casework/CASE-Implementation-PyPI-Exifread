@@ -7,9 +7,11 @@ import argparse
 import logging
 import exifread
 import rdflib
-import rdflib.plugins.sparql
-import mimetypes
 import rdflib_jsonld
+
+# import rdflib.plugins.sparql
+# import mimetypes
+
 
 _logger = logging.getLogger(os.path.basename(__file__))
 
@@ -29,17 +31,12 @@ NS_XSD = rdflib.namespace.XSD
 
 def get_file_info(filepath):
     file_information = {}
-    # with open(filepath, "rb") as myfile:
-    #     raw_header = myfile.read(24)
-    # header = raw_header.decode('utf-8', 'ignore')
     try:
         sha256 = hashlib.sha256(open(filepath, "rb").read())
         file_stats = os.stat(filepath)
         file_information['Filename'] = filepath
         file_information['size'] = file_stats.st_size
         file_information['SHA256'] = sha256.hexdigest()
-        file_information['mimetype'] = mimetypes.MimeTypes().guess_type(filepath)[0]
-        # file_information['magic_number'] = header
     except IOError as io_e:
         print(io_e)
     except ValueError as v_e:
@@ -82,16 +79,6 @@ def n_cyber_object_to_node(graph):
         NS_UCO_CORE.hasFacet,
         n_raster_facets
     ))
-    # graph.add((
-    #     cyber_object_facet,
-    #     NS_UCO_CORE.hasFacet,
-    #     n_content_facets
-    # ))
-    # graph.add((
-    #     cyber_object_facet,
-    #     NS_UCO_CORE.hasFacet,
-    #     n_file_facets
-    # ))
     return n_controlled_dictionary, n_raster_facets, n_file_facets, n_content_facets
 
 
@@ -118,17 +105,19 @@ def filecontent_object_to_node(graph, n_file_facets, file_information):
         NS_UCO_VOCABULARY.value,
         rdflib.Literal("Big-endian")
     ))
-    graph.add((
-        n_file_facets,
-        NS_UCO_OBSERVABLE.mimeType,
-        rdflib.Literal(file_information["mimetype"])
-    ))
-    graph.add((
-        n_file_facets,
-        NS_UCO_OBSERVABLE.sizeInBytes,
-        rdflib.term.Literal(file_information["size"],
-                            datatype=NS_XSD.integer)
-    ))
+    if 'mimetype' in file_information.keys():
+        graph.add((
+            n_file_facets,
+            NS_UCO_OBSERVABLE.mimeType,
+            rdflib.Literal(file_information["mimetype"])
+        ))
+    if 'size' in file_information.keys():
+        graph.add((
+            n_file_facets,
+            NS_UCO_OBSERVABLE.sizeInBytes,
+            rdflib.term.Literal(file_information["size"],
+                                datatype=NS_XSD.integer)
+        ))
     graph.add((
         n_file_facets,
         NS_UCO_OBSERVABLE.hash,
@@ -154,24 +143,27 @@ def raster_object_to_node(graph, controlled_dict, n_raster_facets, file_informat
         NS_UCO_OBSERVABLE.pictureType,
         rdflib.Literal(file_ext)
     ))
-    graph.add((
-        n_raster_facets,
-        NS_UCO_OBSERVABLE.pictureHeight,
-        rdflib.term.Literal(str(controlled_dict['EXIF ExifImageLength']),
-                            datatype=NS_XSD.integer)
-    ))
-    graph.add((
-        n_raster_facets,
-        NS_UCO_OBSERVABLE.pictureWidth,
-        rdflib.term.Literal(str(controlled_dict['EXIF ExifImageWidth']),
-                            datatype=NS_XSD.integer)
-    ))
-    graph.add((
-        n_raster_facets,
-        NS_UCO_OBSERVABLE.bitsPerPixel,
-        rdflib.term.Literal(str(controlled_dict['EXIF CompressedBitsPerPixel']),
-                            datatype=NS_XSD.integer)
-    ))
+    if controlled_dict['EXIF ExifImageLength'] in controlled_dict.keys():
+        graph.add((
+            n_raster_facets,
+            NS_UCO_OBSERVABLE.pictureHeight,
+            rdflib.term.Literal(str(controlled_dict['EXIF ExifImageLength']),
+                                datatype=NS_XSD.integer)
+        ))
+    if controlled_dict['EXIF ExifImageWidth'] in controlled_dict.keys():
+        graph.add((
+            n_raster_facets,
+            NS_UCO_OBSERVABLE.pictureWidth,
+            rdflib.term.Literal(str(controlled_dict['EXIF ExifImageWidth']),
+                                datatype=NS_XSD.integer)
+        ))
+    if 'EXIF CompressedBitsPerPixel' in controlled_dict.keys():
+        graph.add((
+            n_raster_facets,
+            NS_UCO_OBSERVABLE.bitsPerPixel,
+            rdflib.term.Literal(str(controlled_dict['EXIF CompressedBitsPerPixel']),
+                                datatype=NS_XSD.integer)
+        ))
     graph.add((
         n_raster_facets,
         NS_RDFS.comment,
@@ -196,29 +188,28 @@ def controlled_dictionary_object_to_node(graph, controlled_dict, n_controlled_di
             raise
         n_entry = rdflib.BNode()
         graph.add((
-          n_controlled_dictionary,
-          NS_UCO_TYPES.entry,
-          n_entry
+            n_controlled_dictionary,
+            NS_UCO_TYPES.entry,
+            n_entry
         ))
         graph.add((
-          n_entry,
-          NS_RDF.type,
-          NS_UCO_TYPES.ControlledDictionaryEntry
+            n_entry,
+            NS_RDF.type,
+            NS_UCO_TYPES.ControlledDictionaryEntry
         ))
         graph.add((
-          n_entry,
-          NS_UCO_TYPES.key,
-          rdflib.Literal(key)
+            n_entry,
+            NS_UCO_TYPES.key,
+            rdflib.Literal(key)
         ))
         graph.add((
-          n_entry,
-          NS_UCO_TYPES.value,
-          v_value
+            n_entry,
+            NS_UCO_TYPES.value,
+            v_value
         ))
-    #return n_controlled_dictionary
 
 
-if __name__ == "__main__":
+def main():
     local_file = args.file
     file_info = get_file_info(local_file)
     tags = get_exif(local_file)
@@ -233,19 +224,22 @@ if __name__ == "__main__":
         = n_cyber_object_to_node(out_graph)
     controlled_dictionary_object_to_node(out_graph, tag_dict, controlled_dictionary_node)
     raster_object_to_node(out_graph, tag_dict, raster_facets_node, file_info)
-    #   filecontent_object_to_node(out_graph, file_facets_node, file_info)
 
-context = {"kb": "http://example.org/kb/",
-           "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-           "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-           "uco-core": "https://unifiedcyberontology.org/ontology/uco/core#",
-           "uco-location": "https://unifiedcyberontology.org/ontology/uco/location#",
-           "uco-observable": "https://unifiedcyberontology.org/ontology/uco/observable#",
-           "uco-types": "https://unifiedcyberontology.org/ontology/uco/types#",
-           "xsd": "http://www.w3.org/2001/XMLSchema#"}
+    context = {"kb": "http://example.org/kb/",
+               "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+               "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+               "uco-core": "https://unifiedcyberontology.org/ontology/uco/core#",
+               "uco-location": "https://unifiedcyberontology.org/ontology/uco/location#",
+               "uco-observable": "https://unifiedcyberontology.org/ontology/uco/observable#",
+               "uco-types": "https://unifiedcyberontology.org/ontology/uco/types#",
+               "xsd": "http://www.w3.org/2001/XMLSchema#"}
 
-graphed = out_graph.serialize(format='json-ld', context=context)
+    graphed = out_graph.serialize(format='json-ld', context=context)
 
-doc = json.loads(graphed.decode('utf-8'))
-case_json = json.dumps(doc, indent=4)
-print(case_json)
+    doc = json.loads(graphed.decode('utf-8'))
+    case_json = json.dumps(doc, indent=4)
+    print(case_json)
+
+
+if __name__ == "__main__":
+    main()
