@@ -13,4 +13,4 @@ This repository follows CASE community guidance on describing [development statu
 
 The status of this repository is:
 
-1 - Planning
+4 - Beta
