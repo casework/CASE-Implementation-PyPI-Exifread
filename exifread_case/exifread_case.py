@@ -12,6 +12,7 @@ import rdflib_jsonld
 import rdflib.plugins.sparql
 # import mimetypes
 
+__version__ = "0.1.0"
 
 _logger = logging.getLogger(os.path.basename(__file__))
 
