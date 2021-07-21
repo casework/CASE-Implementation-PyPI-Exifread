@@ -26,17 +26,17 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install flake8 pylint anybadge pytest
         python -m pip install .
+    - name: Check CLI functionality
+      run: |
         exifread2case --help
+        exifread2case 799987.jpg
     - name: Lint with flake8
       run: |
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Lint with pylint
       run: |
-        pylint --exit-zero --output-format=text *.py */*.py | tee pylint.txt
-        score=$(sed -n 's/^Your code has been rated at \([-0-9.]*\)\/.*/\1/p' pylint.txt)
-        echo "Pylint score was $score"
-        anybadge --file=pylint.svg --label=pylint --value=$score 2=red 4=orange 8=yellow 10=green
+        pylint --exit-zero *.py */*.py
 #     - name: Test with pytest
 #       run: |
 #         pytest
