@@ -4,13 +4,14 @@ A repository for the development of an [Exifread](https://pypi.org/project/Exifr
 # Usage
 > Use of a python virtual environment suggested
 
-```pip install requirements.txt```
+```cd CASE-Implementation-PyPI-Exifread```
+```pip install .```
+exifread2case <nameof.jpeg>
 
-```python exifread_case.py <image.jpg>```
 
 # Development Status
 This repository follows CASE community guidance on describing [development status](https://caseontology.org/resources/github_policies.html#development-statuses), by adherence to noted support requirements.
 
 The status of this repository is:
 
-1 - Planning
+4 - Beta
