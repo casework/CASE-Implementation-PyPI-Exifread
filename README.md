@@ -5,8 +5,10 @@ A repository for the development of an [Exifread](https://pypi.org/project/Exifr
 > Use of a python virtual environment suggested
 
 ```cd CASE-Implementation-PyPI-Exifread```
+
 ```pip install .```
-exifread2case <nameof.jpeg>
+
+```exifread2case <nameof.jpeg>```
 
 
 # Development Status
