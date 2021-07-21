@@ -8,9 +8,8 @@ import logging
 import exifread
 import rdflib
 import rdflib_jsonld
-
 import rdflib.plugins.sparql
-# import mimetypes
+
 
 __version__ = "0.1.0"
 
@@ -80,19 +79,24 @@ def n_cyber_object_to_node(graph):
         NS_UCO_CORE.hasFacet,
         n_raster_facets
     ))
+    graph.add((
+        cyber_object_facet,
+        NS_UCO_CORE.hasFacet,
+        n_file_facets
+    ))
     return n_controlled_dictionary, n_raster_facets, n_file_facets, n_content_facets
 
 
-def filecontent_object_to_node(graph, n_file_facets, file_information):
+def filecontent_object_to_node(graph, n_content_facets, file_information):
     byte_order_facet = rdflib.BNode()
     file_hash_facet = rdflib.BNode()
     graph.add((
-        n_file_facets,
+        n_content_facets,
         NS_RDF.type,
         NS_UCO_OBSERVABLE.ContentDataFacet
     ))
     graph.add((
-        n_file_facets,
+        n_content_facets,
         NS_UCO_OBSERVABLE.byteOrder,
         byte_order_facet
     ))
@@ -108,19 +112,19 @@ def filecontent_object_to_node(graph, n_file_facets, file_information):
     ))
     if 'mimetype' in file_information.keys():
         graph.add((
-            n_file_facets,
+            n_content_facets,
             NS_UCO_OBSERVABLE.mimeType,
             rdflib.Literal(file_information["mimetype"])
         ))
     if 'size' in file_information.keys():
         graph.add((
-            n_file_facets,
+            n_content_facets,
             NS_UCO_OBSERVABLE.sizeInBytes,
             rdflib.term.Literal(file_information["size"],
                                 datatype=NS_XSD.integer)
         ))
     graph.add((
-        n_file_facets,
+        n_content_facets,
         NS_UCO_OBSERVABLE.hash,
         file_hash_facet
     ))
@@ -129,6 +133,38 @@ def filecontent_object_to_node(graph, n_file_facets, file_information):
         NS_RDF.type,
         NS_UCO_TYPES.Hash
     ))
+
+
+def filefacets_object_to_node(graph, n_file_facets, file_information):
+    file_name, ext = os.path.splitext(file_information['Filename'])
+    file_ext = ext[1:]
+    graph.add((
+        n_file_facets,
+        NS_RDF.type,
+        NS_UCO_OBSERVABLE.FileFacet
+    ))
+    graph.add((
+        n_file_facets,
+        NS_UCO_OBSERVABLE.fileName,
+        rdflib.Literal(os.path.basename(file_information["Filename"]))
+    ))
+    graph.add((
+        n_file_facets,
+        NS_UCO_OBSERVABLE.filePath,
+        rdflib.Literal(os.path.abspath(file_information["Filename"]))
+    ))
+    graph.add((
+        n_file_facets,
+        NS_UCO_OBSERVABLE.extension,
+        rdflib.Literal(file_ext)
+    ))
+    if 'size' in file_information.keys():
+        graph.add((
+            n_file_facets,
+            NS_UCO_OBSERVABLE.sizeInBytes,
+            rdflib.term.Literal(file_information["size"],
+                                datatype=NS_XSD.integer)
+        ))
 
 
 def raster_object_to_node(graph, controlled_dict, n_raster_facets, file_information):
@@ -184,7 +220,7 @@ def controlled_dictionary_object_to_node(graph, controlled_dict, n_controlled_di
         v_value = rdflib.Literal(v_value)
         try:
             assert isinstance(v_value, rdflib.Literal)
-        except:
+        except AssertionError:
             _logger.info("v_value = %r." % v_value)
             raise
         n_entry = rdflib.BNode()
@@ -224,6 +260,7 @@ def main():
     controlled_dictionary_node, raster_facets_node, file_facets_node, content_facets \
         = n_cyber_object_to_node(out_graph)
     controlled_dictionary_object_to_node(out_graph, tag_dict, controlled_dictionary_node)
+    filefacets_object_to_node(out_graph, file_facets_node, file_info)
     raster_object_to_node(out_graph, tag_dict, raster_facets_node, file_info)
 
     context = {"kb": "http://example.org/kb/",
@@ -237,8 +274,8 @@ def main():
 
     graphed = out_graph.serialize(format='json-ld', context=context)
 
-    doc = json.loads(graphed.decode('utf-8'))
-    case_json = json.dumps(doc, indent=4)
+    graph = json.dumps(graphed, indent=4)
+    case_json = json.loads(graph.encode('utf-8'))
     print(case_json)
 
 
