@@ -1,3 +1,6 @@
+[![CASE-Implementation-PyPI-Exifread](https://github.com/casework/CASE-Implementation-PyPI-Exifread/actions/workflows/python-package.yml/badge.svg)](https://github.com/casework/CASE-Implementation-PyPI-Exifread/actions/workflows/python-package.yml)
+
+
 # CASE-Implementation-PyPI-Exifread
 A repository for the development of an [Exifread](https://pypi.org/project/Exifread/) to [CASE](https://caseontology.org) implementation.
 

@@ -2,9 +2,9 @@ name: CASE-Implementation-PyPI-Exifread
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, develop ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, develop ]
 
 jobs:
   build:
@@ -24,7 +24,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        python -m pip install flake8 pylint pylint-exit pytest
+        python -m pip install flake8 pylint anybadge pytest
         python -m pip install .
         exifread2case --help
     - name: Lint with flake8
@@ -33,7 +33,10 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Lint with pylint
       run: |
-        pylint --exit-zero *.py */*.py
+        pylint --exit-zero --output-format=text *.py */*.py | tee pylint.txt
+        score=$(sed -n 's/^Your code has been rated at \([-0-9.]*\)\/.*/\1/p' pylint.txt)
+        echo "Pylint score was $score"
+        anybadge --file=pylint.svg --label=pylint --value=$score 2=red 4=orange 8=yellow 10=green
 #     - name: Test with pytest
 #       run: |
 #         pytest
