@@ -30,6 +30,11 @@ NS_XSD = rdflib.namespace.XSD
 
 
 def get_file_info(filepath):
+    """
+    A funtion to get some basic information about the file application being run against
+    :param filepath: The relative path to the image
+    :return: A Dictinary with some information about the file
+    """
     file_information = {}
     try:
         sha256 = hashlib.sha256(open(filepath, "rb").read())
@@ -45,6 +50,11 @@ def get_file_info(filepath):
 
 
 def get_exif(file):
+    """
+    Get the exif information from an image
+    :param file: The image file
+    :return: Dictionary with the exif from the image
+    """
     file = open(file, 'rb')
     exif_tags = exifread.process_file(file)
     file.close()
@@ -52,6 +62,12 @@ def get_exif(file):
 
 
 def create_exif_dict(tags):
+    """
+    Creates a Dictionary for next steps TODO: may be possible to remove due to format not being
+    required any longer
+    :param tags:
+    :return:
+    """
     exif = {}
     for tag in tags:
         exif[tag] = tags[tag]
@@ -59,6 +75,11 @@ def create_exif_dict(tags):
 
 
 def n_cyber_object_to_node(graph):
+    """
+    Initial function to create the blank nodes for each of the file's facet nodes
+    :param graph: rdflib graph object for adding nodes to
+    :return: The four blank nodes for each fo the other functions to fill
+    """
     cyber_object_facet = rdflib.BNode()
     n_raster_facets = rdflib.BNode()
     n_controlled_dictionary = rdflib.BNode()
@@ -88,6 +109,13 @@ def n_cyber_object_to_node(graph):
 
 
 def filecontent_object_to_node(graph, n_content_facets, file_information):
+    """
+    Unused: Create a node that will add the file content facet node to the graph
+    :param graph: rdflib graph object for adding nodes to
+    :param n_content_facets: Blank node to contain all of the content facet information
+    :param file_information: Dictionary containing information about file being analysed
+    :return: None
+    """
     byte_order_facet = rdflib.BNode()
     file_hash_facet = rdflib.BNode()
     graph.add((
@@ -136,6 +164,13 @@ def filecontent_object_to_node(graph, n_content_facets, file_information):
 
 
 def filefacets_object_to_node(graph, n_file_facets, file_information):
+    """
+    Adding file facet object to the graph object
+    :param graph: rdflib graph object for adding nodes to
+    :param n_file_facets: file facet node to add facets of file to
+    :param file_information: Dictionary containing information about file being analysed
+    :return: None
+    """
     file_name, ext = os.path.splitext(file_information['Filename'])
     file_ext = ext[1:]
     graph.add((
@@ -168,6 +203,14 @@ def filefacets_object_to_node(graph, n_file_facets, file_information):
 
 
 def raster_object_to_node(graph, controlled_dict, n_raster_facets, file_information):
+    """
+    Adding file's raster facet objects to the graph object
+    :param graph: rdflib graph object for adding nodes to
+    :param controlled_dict: Dictionary containing the EXIF information from image
+    :param n_raster_facets: raster facet node to add raster facets of file to
+    :param file_information: Dictionary containing information about file being analysed
+    :return: None
+    """
     file_name, ext = os.path.splitext(file_information['Filename'])
     file_ext = ext[1:]
     graph.add((
@@ -210,6 +253,13 @@ def raster_object_to_node(graph, controlled_dict, n_raster_facets, file_informat
 
 
 def controlled_dictionary_object_to_node(graph, controlled_dict, n_controlled_dictionary):
+    """
+    Add controlled dictionary object to accept all of the Values in the extracted exif
+    :param graph: rdflib graph object for adding nodes to
+    :param controlled_dict: Dictionary containing the EXIF information from image
+    :param n_controlled_dictionary:
+    :return: None
+    """
     graph.add((
         n_controlled_dictionary,
         NS_RDF.type,
@@ -247,6 +297,10 @@ def controlled_dictionary_object_to_node(graph, controlled_dict, n_controlled_di
 
 
 def main():
+    """
+    Main function to run the application
+    :return: prints out the case file - TODO: write to file instead
+    """
     local_file = args.file
     file_info = get_file_info(local_file)
     tags = get_exif(local_file)
