@@ -26,6 +26,6 @@ Version notes:
 
 - 0.1.1 - Update to Beta release to deal with removal of rdflib-jsonld (unused import)
   
-    [Show Archived Status of rdflib-jsonld]([https://github.com/RDFLib/rdflib-jsonld])
+    [Show Archived Status of rdflib-jsonld](https://github.com/RDFLib/rdflib-jsonld)
 
 - 0.1.2 - [TBC]
