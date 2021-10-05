@@ -7,11 +7,10 @@ import argparse
 import logging
 import exifread
 import rdflib
-#import rdflib_jsonld
 import rdflib.plugins.sparql
 
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 _logger = logging.getLogger(os.path.basename(__file__))
 
@@ -31,7 +30,7 @@ NS_XSD = rdflib.namespace.XSD
 
 def get_file_info(filepath):
     """
-    A funtion to get some basic information about the file application being run against
+    A function to get some basic information about the file application being run against
     :param filepath: The relative path to the image
     :return: A Dictinary with some information about the file
     """
