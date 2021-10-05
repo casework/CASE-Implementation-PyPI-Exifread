@@ -7,7 +7,7 @@ import argparse
 import logging
 import exifread
 import rdflib
-import rdflib_jsonld
+#import rdflib_jsonld
 import rdflib.plugins.sparql
 
 
