@@ -7,12 +7,10 @@ import argparse
 import logging
 import exifread
 import rdflib
-import rdflib_jsonld
-
 import rdflib.plugins.sparql
-# import mimetypes
 
-__version__ = "0.1.0"
+
+__version__ = "0.1.1"
 
 _logger = logging.getLogger(os.path.basename(__file__))
 
@@ -31,6 +29,11 @@ NS_XSD = rdflib.namespace.XSD
 
 
 def get_file_info(filepath):
+    """
+    A function to get some basic information about the file application being run against
+    :param filepath: The relative path to the image
+    :return: A Dictinary with some information about the file
+    """
     file_information = {}
     try:
         sha256 = hashlib.sha256(open(filepath, "rb").read())
@@ -46,6 +49,11 @@ def get_file_info(filepath):
 
 
 def get_exif(file):
+    """
+    Get the exif information from an image
+    :param file: The image file
+    :return: Dictionary with the exif from the image
+    """
     file = open(file, 'rb')
     exif_tags = exifread.process_file(file)
     file.close()
@@ -53,6 +61,12 @@ def get_exif(file):
 
 
 def create_exif_dict(tags):
+    """
+    Creates a Dictionary for next steps TODO: may be possible to remove due to format not being
+    required any longer
+    :param tags:
+    :return:
+    """
     exif = {}
     for tag in tags:
         exif[tag] = tags[tag]
@@ -60,6 +74,11 @@ def create_exif_dict(tags):
 
 
 def n_cyber_object_to_node(graph):
+    """
+    Initial function to create the blank nodes for each of the file's facet nodes
+    :param graph: rdflib graph object for adding nodes to
+    :return: The four blank nodes for each fo the other functions to fill
+    """
     cyber_object_facet = rdflib.BNode()
     n_raster_facets = rdflib.BNode()
     n_controlled_dictionary = rdflib.BNode()
@@ -80,19 +99,31 @@ def n_cyber_object_to_node(graph):
         NS_UCO_CORE.hasFacet,
         n_raster_facets
     ))
+    graph.add((
+        cyber_object_facet,
+        NS_UCO_CORE.hasFacet,
+        n_file_facets
+    ))
     return n_controlled_dictionary, n_raster_facets, n_file_facets, n_content_facets
 
 
-def filecontent_object_to_node(graph, n_file_facets, file_information):
+def filecontent_object_to_node(graph, n_content_facets, file_information):
+    """
+    Unused: Create a node that will add the file content facet node to the graph
+    :param graph: rdflib graph object for adding nodes to
+    :param n_content_facets: Blank node to contain all of the content facet information
+    :param file_information: Dictionary containing information about file being analysed
+    :return: None
+    """
     byte_order_facet = rdflib.BNode()
     file_hash_facet = rdflib.BNode()
     graph.add((
-        n_file_facets,
+        n_content_facets,
         NS_RDF.type,
         NS_UCO_OBSERVABLE.ContentDataFacet
     ))
     graph.add((
-        n_file_facets,
+        n_content_facets,
         NS_UCO_OBSERVABLE.byteOrder,
         byte_order_facet
     ))
@@ -108,19 +139,19 @@ def filecontent_object_to_node(graph, n_file_facets, file_information):
     ))
     if 'mimetype' in file_information.keys():
         graph.add((
-            n_file_facets,
+            n_content_facets,
             NS_UCO_OBSERVABLE.mimeType,
             rdflib.Literal(file_information["mimetype"])
         ))
     if 'size' in file_information.keys():
         graph.add((
-            n_file_facets,
+            n_content_facets,
             NS_UCO_OBSERVABLE.sizeInBytes,
             rdflib.term.Literal(file_information["size"],
                                 datatype=NS_XSD.integer)
         ))
     graph.add((
-        n_file_facets,
+        n_content_facets,
         NS_UCO_OBSERVABLE.hash,
         file_hash_facet
     ))
@@ -131,7 +162,54 @@ def filecontent_object_to_node(graph, n_file_facets, file_information):
     ))
 
 
+def filefacets_object_to_node(graph, n_file_facets, file_information):
+    """
+    Adding file facet object to the graph object
+    :param graph: rdflib graph object for adding nodes to
+    :param n_file_facets: file facet node to add facets of file to
+    :param file_information: Dictionary containing information about file being analysed
+    :return: None
+    """
+    file_name, ext = os.path.splitext(file_information['Filename'])
+    file_ext = ext[1:]
+    graph.add((
+        n_file_facets,
+        NS_RDF.type,
+        NS_UCO_OBSERVABLE.FileFacet
+    ))
+    graph.add((
+        n_file_facets,
+        NS_UCO_OBSERVABLE.fileName,
+        rdflib.Literal(os.path.basename(file_information["Filename"]))
+    ))
+    graph.add((
+        n_file_facets,
+        NS_UCO_OBSERVABLE.filePath,
+        rdflib.Literal(os.path.abspath(file_information["Filename"]))
+    ))
+    graph.add((
+        n_file_facets,
+        NS_UCO_OBSERVABLE.extension,
+        rdflib.Literal(file_ext)
+    ))
+    if 'size' in file_information.keys():
+        graph.add((
+            n_file_facets,
+            NS_UCO_OBSERVABLE.sizeInBytes,
+            rdflib.term.Literal(file_information["size"],
+                                datatype=NS_XSD.integer)
+        ))
+
+
 def raster_object_to_node(graph, controlled_dict, n_raster_facets, file_information):
+    """
+    Adding file's raster facet objects to the graph object
+    :param graph: rdflib graph object for adding nodes to
+    :param controlled_dict: Dictionary containing the EXIF information from image
+    :param n_raster_facets: raster facet node to add raster facets of file to
+    :param file_information: Dictionary containing information about file being analysed
+    :return: None
+    """
     file_name, ext = os.path.splitext(file_information['Filename'])
     file_ext = ext[1:]
     graph.add((
@@ -174,6 +252,13 @@ def raster_object_to_node(graph, controlled_dict, n_raster_facets, file_informat
 
 
 def controlled_dictionary_object_to_node(graph, controlled_dict, n_controlled_dictionary):
+    """
+    Add controlled dictionary object to accept all of the Values in the extracted exif
+    :param graph: rdflib graph object for adding nodes to
+    :param controlled_dict: Dictionary containing the EXIF information from image
+    :param n_controlled_dictionary:
+    :return: None
+    """
     graph.add((
         n_controlled_dictionary,
         NS_RDF.type,
@@ -184,7 +269,7 @@ def controlled_dictionary_object_to_node(graph, controlled_dict, n_controlled_di
         v_value = rdflib.Literal(v_value)
         try:
             assert isinstance(v_value, rdflib.Literal)
-        except:
+        except AssertionError:
             _logger.info("v_value = %r." % v_value)
             raise
         n_entry = rdflib.BNode()
@@ -211,6 +296,10 @@ def controlled_dictionary_object_to_node(graph, controlled_dict, n_controlled_di
 
 
 def main():
+    """
+    Main function to run the application
+    :return: prints out the case file - TODO: write to file instead
+    """
     local_file = args.file
     file_info = get_file_info(local_file)
     tags = get_exif(local_file)
@@ -224,6 +313,7 @@ def main():
     controlled_dictionary_node, raster_facets_node, file_facets_node, content_facets \
         = n_cyber_object_to_node(out_graph)
     controlled_dictionary_object_to_node(out_graph, tag_dict, controlled_dictionary_node)
+    filefacets_object_to_node(out_graph, file_facets_node, file_info)
     raster_object_to_node(out_graph, tag_dict, raster_facets_node, file_info)
 
     context = {"kb": "http://example.org/kb/",
@@ -237,8 +327,8 @@ def main():
 
     graphed = out_graph.serialize(format='json-ld', context=context)
 
-    doc = json.loads(graphed.decode('utf-8'))
-    case_json = json.dumps(doc, indent=4)
+    graph = json.dumps(graphed, indent=4)
+    case_json = json.loads(graph.encode('utf-8'))
     print(case_json)
 
 
