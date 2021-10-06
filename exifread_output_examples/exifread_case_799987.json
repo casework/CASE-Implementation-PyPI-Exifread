@@ -11,916 +11,918 @@
   },
   "@graph": [
     {
-      "@id": "_:Nc6073a3e38d743d9abf97f992f7c001f",
+      "@id": "_:N8e76dc11dd7947149019e1ab7a716ae8",
       "@type": "uco-observable:ObservableObject",
       "uco-core:hasFacet": [
         {
-          "@id": "_:Nf4aa5b6dca22450b927e0bf0e38a9da8"
+          "@id": "_:N49505f72bff2457d80d86b3c3cc799fa"
         },
         {
-          "@id": "_:Na4f890092c3b4922a728dc65726f2bbe"
+          "@id": "_:N5e9b8506f8d94650a37767c6b08df292"
         },
         {
-          "@id": "_:Ncd2b6f820c9d4ab39bfdc0692879572d"
+          "@id": "_:N6fdb5d4ea60d4f0cb4b45773c5da8ba6"
         }
-      ]
+      ],
+      "uco-observable:hasChanged": false
     },
     {
-      "@id": "_:Nf4aa5b6dca22450b927e0bf0e38a9da8",
+      "@id": "_:N49505f72bff2457d80d86b3c3cc799fa",
       "@type": "uco-observable:EXIFFacet",
       "uco-observable:exifData": {
-        "@id": "_:N06a6d9f73a6546918a97ac476d58d892"
+        "@id": "_:N2d7071e463f54baa9ddacde23f0363c6"
       }
     },
     {
-      "@id": "_:N06a6d9f73a6546918a97ac476d58d892",
+      "@id": "_:N2d7071e463f54baa9ddacde23f0363c6",
+      "@type": "uco-types:ControlledDictionary",
       "uco-types:entry": [
         {
-          "@id": "_:N9045a285563646ca8350fcb441b59a46"
+          "@id": "_:N63960e49aa8a4fd0b0d6dd181b78ddf5"
         },
         {
-          "@id": "_:Na0e540245eb848bb8841b201d0e4ae4e"
+          "@id": "_:Nc5cf5e4f85ac49578d067c10ef163fb3"
         },
         {
-          "@id": "_:N6de7d89a49bd42abb1542617c1bf600a"
+          "@id": "_:Nd7c61d2448dc47fba52be1d141dd07f9"
         },
         {
-          "@id": "_:Nf05c0e0c8da7447ebcb65f010b9066a0"
+          "@id": "_:Nf5c5d0f09a81486480e22e1967055940"
         },
         {
-          "@id": "_:Na442900429ce42008e9fa3cfbc8f527d"
+          "@id": "_:N3c9263193b0640f6b892bf2e7d270a11"
         },
         {
-          "@id": "_:N354af304ef6940d6a2623767ceb8a1fc"
+          "@id": "_:N5c81ad08ba6a4b779c230e74c44053d8"
         },
         {
-          "@id": "_:Nf79ba5b59aaf4c95871d2db056099d9d"
+          "@id": "_:Nec062643a92a452f90c9a29a128489a1"
         },
         {
-          "@id": "_:Nfb71d26da257482493ef0678b53225f4"
+          "@id": "_:Nd42abb4403604e5bbc09c60a606bd13b"
         },
         {
-          "@id": "_:Nbe147dd0c94846c188ff73d375a89874"
+          "@id": "_:N51a69e64f1a944cea6cb97c78c986255"
         },
         {
-          "@id": "_:N9333fee87d584c209426aef01c533a03"
+          "@id": "_:Nc34698524b994ec4a5372f72355678f6"
         },
         {
-          "@id": "_:Ne0f0f4dda4c24c40ba34c2d1621f61f9"
+          "@id": "_:N6f46d07b1f2c403481b174f7d916aaa2"
         },
         {
-          "@id": "_:Na1f8d971f8c9461bbfb54652b74bac8d"
+          "@id": "_:N3a7b7fded24d4d8c9babe495e3d29783"
         },
         {
-          "@id": "_:Nd6762eb155d4478dbc4549005718e0bb"
+          "@id": "_:N67f3d9a4c821454fa729128d997111e0"
         },
         {
-          "@id": "_:N452aba97f1d849febec57c533385a3fd"
+          "@id": "_:Nad5f1ad09fb24c6b8d642476ffc805f4"
         },
         {
-          "@id": "_:N5000a3200d00450db7d8319086683e68"
+          "@id": "_:N35483e00b0924dc5af658b617e3985ee"
         },
         {
-          "@id": "_:Nd21ae7fe57ba4884b6f15ff619d99f3a"
+          "@id": "_:N523d7c4bdc80428c9abfdd35205c597d"
         },
         {
-          "@id": "_:N1af05ead9ebb41d088b318cf1f028f52"
+          "@id": "_:N25b5d8aea54944868abc6d1e6eda2a0c"
         },
         {
-          "@id": "_:N03e5a45c5d97483eb389ee22682443ff"
+          "@id": "_:Ne1c41d55bfc94e35ab4dc57c719f98d1"
         },
         {
-          "@id": "_:Nacb3940973804aa3b471ef551c910a65"
+          "@id": "_:N4d8fa2127cee4160b72b30125f4f83ab"
         },
         {
-          "@id": "_:N629a3189bc104eedb65185c135e7edaa"
+          "@id": "_:Nabc6a395e6b5480498c213b78a1cc12e"
         },
         {
-          "@id": "_:Nfc0ac603f47d407f939a6faa976934a8"
+          "@id": "_:N8848826a7c1540dfaf690a72625adcad"
         },
         {
-          "@id": "_:Ncf17f1b474eb413db77e9e005cf816ac"
+          "@id": "_:N130c20d958c24c95b20272b730a01583"
         },
         {
-          "@id": "_:Ndbf3287de9b94a2dba53de23464e87a3"
+          "@id": "_:Nf5d421aa30154f69a996000740a73a4f"
         },
         {
-          "@id": "_:N431537524a464f6f877d0f98778c22ff"
+          "@id": "_:N84884c79ee7a401fabb9dff0f41da1b7"
         },
         {
-          "@id": "_:Nbe8352ed003c48daa29dfa44e0040e7b"
+          "@id": "_:N0b2ae79b511f42e7a51ba0f6bea36e69"
         },
         {
-          "@id": "_:N990f404f39494c899b624de4b375f573"
+          "@id": "_:N820da08125174ea59f5fa4db5ca5d4a1"
         },
         {
-          "@id": "_:N864d0dd223ad46989f5f992902ef7ed0"
+          "@id": "_:Na338465ea9a54f63a70f5bb7f870c5ba"
         },
         {
-          "@id": "_:N1082e2b6370743868542075463d243ce"
+          "@id": "_:N744eb54192f142f88272bda41c9ddbb9"
         },
         {
-          "@id": "_:N05e766168595467a892c85ea3cd1e25e"
+          "@id": "_:Nc24097cddfd94ab4ab63b73507bfe132"
         },
         {
-          "@id": "_:Na396f260f0fb412dbf88e49827521b7b"
+          "@id": "_:N0f7bfe98e3ec44f78b853b5f416c048e"
         },
         {
-          "@id": "_:N97fb1653f2634743a529fb15c5638668"
+          "@id": "_:N003f4fb6e6994d9ebf514aabe0f62690"
         },
         {
-          "@id": "_:N95ee95c64ed8473f94daa35abb4c93f5"
+          "@id": "_:N06ee78fe95c34874a126b952ac2bbfb9"
         },
         {
-          "@id": "_:N32e02da11c854b46aeb0c73c6c3eee7b"
+          "@id": "_:N21d1829d8b8742069de32a83f75e3732"
         },
         {
-          "@id": "_:Nf045749fc29f438e97a4e283733b13b5"
+          "@id": "_:N37d7fe214e1d4ea5b354fc3bbe4c13e7"
         },
         {
-          "@id": "_:Nbd4fada005074e9ebc9ffb826e44f95a"
+          "@id": "_:N23a7e942894442c4a7fc3cb6fdcbb1f8"
         },
         {
-          "@id": "_:N476815ad9d4346c2ab9c8c81c26404a8"
+          "@id": "_:N02f748c03aab4d80ba8dafd57a521064"
         },
         {
-          "@id": "_:Nd756334586104ac79b77e88169c785cb"
+          "@id": "_:Nece3466edb354f9796988cbadba50242"
         },
         {
-          "@id": "_:N7bb8c5618abc4ae4affc585ef83eeddb"
+          "@id": "_:N7574ba286bc54fcbb77ed9974766af78"
         },
         {
-          "@id": "_:N9ed398964db24edea8c02bcedd3b599a"
+          "@id": "_:N7b000b3acdf349d8b8d60dd479b95860"
         },
         {
-          "@id": "_:N5e9933b837cb4ca3aef84f6702cddd39"
+          "@id": "_:Ndfb4d85def164b1cbdfe5f5542c9ef3a"
         },
         {
-          "@id": "_:Nb2fbcc71ecb54a3cb61a2daa35eda4ff"
+          "@id": "_:Nd52b00b3edd94c349897937def275b80"
         },
         {
-          "@id": "_:Nb705d926dd364cb29112f09ddd3b57b6"
+          "@id": "_:Nd1d984fd8adc4b5eb9e5414431bc44f5"
         },
         {
-          "@id": "_:N852dfe3d28ed4a3fbf5720d040097eb1"
+          "@id": "_:Nc49ddfd2d39443ab927bb5f1217bd279"
         },
         {
-          "@id": "_:N9bbbb624b417413187f2c5d3092db0f0"
+          "@id": "_:N0309183f0e6b46feb6080d146dbae50b"
         },
         {
-          "@id": "_:Nc033bf78a54f485faa26605a9b924671"
+          "@id": "_:Nea315b15244342dfa34d34e0389d47f8"
         },
         {
-          "@id": "_:N1bcd8bcd2b9049e0880dcfaaed836c00"
+          "@id": "_:Nf3f2a7313aad4f6bb69521931bf78ad9"
         },
         {
-          "@id": "_:Ndefc1d57b21e4f93b48061b45f83885f"
+          "@id": "_:N6c56a7affde84056bd549d168f623462"
         },
         {
-          "@id": "_:Ne5cf3a2131ea4b9b81644b96c2c19292"
+          "@id": "_:Na8d140949b4b479e9a040f067b64a58f"
         },
         {
-          "@id": "_:N5ccc54c578ab4ae2896fb7d05181135f"
+          "@id": "_:N548cec6d81624859a7f63ff858c7d87a"
         },
         {
-          "@id": "_:N0bc0982077624a70bfe6e9e84617d57e"
+          "@id": "_:N378f5fae1637453a890be06782784383"
         },
         {
-          "@id": "_:N9e7a4548005d4492950f3cd4a9191fa4"
+          "@id": "_:Na0692aa983a1442db48f2371527b17c1"
         },
         {
-          "@id": "_:N487de94e424d4d1389609480ef7adbda"
+          "@id": "_:N1fa1fece3102499ea7a9b32341f43f51"
         },
         {
-          "@id": "_:Nbf14aec7bd15453a8fb6d09fd5096dc1"
+          "@id": "_:Nfcc8f9bac8e948e28ec8e46907774bc9"
         },
         {
-          "@id": "_:N2fb3f7b601244ff9891eb97b54ed7112"
+          "@id": "_:N670d5f29881244d981f07ad8e3e26c82"
         },
         {
-          "@id": "_:N3e4622150cdb41e9b71c497e49e225aa"
+          "@id": "_:Nc58e14ad118a4efa9ab40ab54d80a7ad"
         },
         {
-          "@id": "_:N2c1e969f5d084385bbc300e553afa30d"
+          "@id": "_:N51b6d1da0161422284b0a86222e4c5ae"
         },
         {
-          "@id": "_:N2d0fa5432bbf4e19a7dc488cff79b03f"
+          "@id": "_:Ne9f39105915c4ab69eb3031579f3b2e9"
         },
         {
-          "@id": "_:Nf078baf1dcbf48ef95609e2930636769"
+          "@id": "_:N69fb689ee7ea4489810b7cc243c787a0"
         },
         {
-          "@id": "_:Ndbe04fe43ad34f3091310b83e4cc94e7"
+          "@id": "_:Nef289c9b43c240deb5d1cccf4405e1b2"
         },
         {
-          "@id": "_:N46560f86ef724b8d8056fd5a9ade8d0a"
+          "@id": "_:Nc2c2c3265c8f47c18b4c4890c26324fe"
         },
         {
-          "@id": "_:N7cab2e531709433f8a87b51de74736ec"
+          "@id": "_:N9242e6321b0042efa10035d1f2199c5e"
         },
         {
-          "@id": "_:N5370830c45fc4063bcfdcfd3b986ded5"
+          "@id": "_:Nf74a88e9c3064324ac883dc5e69ffe75"
         },
         {
-          "@id": "_:N1992032d1f9c4e5a87610c915018d67e"
+          "@id": "_:N74b055f6bb3c4617875b4df0d2e91f45"
         },
         {
-          "@id": "_:N35ffa5d379264aedb53f6f3503b6169d"
+          "@id": "_:N191bbf0ef1564b8abb727b27f01a33f8"
         },
         {
-          "@id": "_:N55d432b8b0ac427fba263da35e8cb0f5"
+          "@id": "_:N333823ec83764845811955a437025eef"
         },
         {
-          "@id": "_:N20883bd8552e4c54b6b88b9907a258fd"
+          "@id": "_:N5f468134a432432aaa0625abcb380779"
         },
         {
-          "@id": "_:N54a8b16834db4e23ba7d5309bebeef09"
+          "@id": "_:N7c1821a40f984bb4bc78fd74441afede"
         },
         {
-          "@id": "_:Nce0f00bc275340e89dfe965953bb1592"
+          "@id": "_:Ne729f639064a41b2ab20501c43ae0b9e"
         },
         {
-          "@id": "_:N4eb7ac72e89943138857a1cf657f81b2"
+          "@id": "_:N1b6c9cd3742b40fe94c9f149b3b58192"
         },
         {
-          "@id": "_:N750726f3d12e4c67af642cbb9b257166"
+          "@id": "_:Ncdff6eb8aab440f2a7a3ffad4b80cae8"
         },
         {
-          "@id": "_:N99a291e4663845a29bb9ebf8560af224"
+          "@id": "_:N2bcaef4c3e814103a2b12cc75fc2ca1b"
         },
         {
-          "@id": "_:N6afa5b0034db49178d16c89ebaf5fa48"
+          "@id": "_:N235f06f2fbb243dfa7f19e76d2a217c6"
         },
         {
-          "@id": "_:N9f6ec5c5781643aba9daab70248a4024"
+          "@id": "_:N04aa9bd9f4a1409c98a1a37951ff54b1"
         },
         {
-          "@id": "_:Nfee560cd3e5a449386e2096b31775b26"
+          "@id": "_:Nd9ed726d1eac40e8bcb37c03ebd19553"
         },
         {
-          "@id": "_:N1cc160242df147db91aa9e2d48cd5ce2"
+          "@id": "_:N84f0b1e3a4a44a589c6822444d127fb2"
         },
         {
-          "@id": "_:Nc743b7d35d014516b6055d7fb1fb811f"
+          "@id": "_:N22cd66e136314b168c7e318a02a36d24"
         },
         {
-          "@id": "_:Nc41d51168fd64cd7a4d767f9a234cd44"
+          "@id": "_:N7c503adae3b84d13978b934f43f69bd8"
         },
         {
-          "@id": "_:Na17f1fab83d94dcfba24152ef8630597"
+          "@id": "_:Nfb90dad6e46145adbc637f773a4d81ee"
         },
         {
-          "@id": "_:N61001134324341e2ab36f31bcd6778bb"
+          "@id": "_:N3e569c0fb5824f9aad14b5a86b366e9c"
         },
         {
-          "@id": "_:N68b17aaa4dd740a0a511fbde3e4b7645"
+          "@id": "_:N37aa2a38b956413892f70bf7247f3458"
         },
         {
-          "@id": "_:N8dd9f2e2baf94748b9e1106301d02ec2"
+          "@id": "_:N2cbb0fe81236430da522325530251341"
         },
         {
-          "@id": "_:Nd20a2ed1895e49bbb678e3289e4ce14c"
+          "@id": "_:Na4dbfd20e9ce4867b2382651af5b956d"
         },
         {
-          "@id": "_:Nf415d4c86aa04367b4f4587c64432e99"
+          "@id": "_:Nc2f3565d761a425c8f78701c823882c7"
         },
         {
-          "@id": "_:N88c3e912e2034c91987b8cdd847cf870"
+          "@id": "_:Nf7368f97631445e29f38cad7d1bf550b"
         },
         {
-          "@id": "_:Ne84855c2f7f940f2acce31b36070eb40"
+          "@id": "_:Nca68e423bc5e4cfc9863a6961acac965"
         },
         {
-          "@id": "_:Nacacb4bc25b9456cab9316ac586f69b6"
+          "@id": "_:N9863689e84874a8fb4b381474d2e4cd3"
         },
         {
-          "@id": "_:N68793130aa5e422d81957462904e0fb2"
+          "@id": "_:N7a6631113b694ea5963870352ebff18b"
         },
         {
-          "@id": "_:N29309f73031d46dabbc3fcc836f6558f"
+          "@id": "_:N602ac5223bf54977945cc6f27b46104f"
         },
         {
-          "@id": "_:Ndb553d18bef9438187112d8a39521a72"
+          "@id": "_:N9cee993ed4fe4f3ebf91842c2d47256b"
         },
         {
-          "@id": "_:N8f168dfd44934a989b3595f0042a6356"
+          "@id": "_:N8fbae1b7ab32480993043f24d1dec8b2"
         },
         {
-          "@id": "_:N643a86a1ba7b4ac0afaaa57e2020fe3f"
+          "@id": "_:N3276c52ed56244cfa307d91bd5b9f834"
         },
         {
-          "@id": "_:N3624cfb0223547e3af881b6aa26f42de"
+          "@id": "_:Nba88648ba9ba48388d83d85084ef02c0"
         },
         {
-          "@id": "_:Ndaa5ab5b25ed4ad5a586317a02e52ec7"
+          "@id": "_:N46ffa568b40545688609498a2ab31c13"
         },
         {
-          "@id": "_:N0aa8adff653141cdb8e760716998e2fd"
+          "@id": "_:Nfbe5fe8295c340ce95375897b3e2766a"
         },
         {
-          "@id": "_:N48bbbbb8fd7f4ecfa7c12405828f15cb"
+          "@id": "_:N48c15b0c08cf4327873e68bc343f30e3"
         },
         {
-          "@id": "_:N8f04989a391d474793631d389d9e786f"
+          "@id": "_:Nb33033aea0234c66899305aa9b4164a4"
         },
         {
-          "@id": "_:N10adccc47a4342cdabb43e491ab506c9"
+          "@id": "_:Nd67844a965b445a684cdc19a18e78563"
         },
         {
-          "@id": "_:Nd1ecedd35c634c918123456e4e004ca1"
+          "@id": "_:Nb5707f20805542b89ed065b520f8bd2b"
         }
       ]
     },
     {
-      "@id": "_:N9045a285563646ca8350fcb441b59a46",
+      "@id": "_:N63960e49aa8a4fd0b0d6dd181b78ddf5",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF CVAPattern",
       "uco-types:value": "[0, 2, 0, 2, 2, 1, 1, 0]"
     },
     {
-      "@id": "_:Na0e540245eb848bb8841b201d0e4ae4e",
+      "@id": "_:Nc5cf5e4f85ac49578d067c10ef163fb3",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF ColorSpace",
       "uco-types:value": "sRGB"
     },
     {
-      "@id": "_:N6de7d89a49bd42abb1542617c1bf600a",
+      "@id": "_:Nd7c61d2448dc47fba52be1d141dd07f9",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF ComponentsConfiguration",
       "uco-types:value": "YCbCr"
     },
     {
-      "@id": "_:Nf05c0e0c8da7447ebcb65f010b9066a0",
+      "@id": "_:Nf5c5d0f09a81486480e22e1967055940",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF CompressedBitsPerPixel",
       "uco-types:value": "2"
     },
     {
-      "@id": "_:Na442900429ce42008e9fa3cfbc8f527d",
+      "@id": "_:N3c9263193b0640f6b892bf2e7d270a11",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF Contrast",
       "uco-types:value": "Hard"
     },
     {
-      "@id": "_:N354af304ef6940d6a2623767ceb8a1fc",
+      "@id": "_:N5c81ad08ba6a4b779c230e74c44053d8",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF CustomRendered",
       "uco-types:value": "Normal"
     },
     {
-      "@id": "_:Nf79ba5b59aaf4c95871d2db056099d9d",
+      "@id": "_:Nec062643a92a452f90c9a29a128489a1",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF DateTimeDigitized",
       "uco-types:value": "2005:08:31 21:40:03"
     },
     {
-      "@id": "_:Nfb71d26da257482493ef0678b53225f4",
+      "@id": "_:Nd42abb4403604e5bbc09c60a606bd13b",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF DateTimeOriginal",
       "uco-types:value": "2005:08:31 21:40:03"
     },
     {
-      "@id": "_:Nbe147dd0c94846c188ff73d375a89874",
+      "@id": "_:N51a69e64f1a944cea6cb97c78c986255",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF DigitalZoomRatio",
       "uco-types:value": "1"
     },
     {
-      "@id": "_:N9333fee87d584c209426aef01c533a03",
+      "@id": "_:Nc34698524b994ec4a5372f72355678f6",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF ExifImageLength",
       "uco-types:value": "1960"
     },
     {
-      "@id": "_:Ne0f0f4dda4c24c40ba34c2d1621f61f9",
+      "@id": "_:N6f46d07b1f2c403481b174f7d916aaa2",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF ExifImageWidth",
       "uco-types:value": "3008"
     },
     {
-      "@id": "_:Na1f8d971f8c9461bbfb54652b74bac8d",
+      "@id": "_:N3a7b7fded24d4d8c9babe495e3d29783",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF ExifVersion",
       "uco-types:value": "0220"
     },
     {
-      "@id": "_:Nd6762eb155d4478dbc4549005718e0bb",
+      "@id": "_:N67f3d9a4c821454fa729128d997111e0",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF ExposureBiasValue",
       "uco-types:value": "0"
     },
     {
-      "@id": "_:N452aba97f1d849febec57c533385a3fd",
+      "@id": "_:Nad5f1ad09fb24c6b8d642476ffc805f4",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF ExposureMode",
       "uco-types:value": "Auto Exposure"
     },
     {
-      "@id": "_:N5000a3200d00450db7d8319086683e68",
+      "@id": "_:N35483e00b0924dc5af658b617e3985ee",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF ExposureProgram",
       "uco-types:value": "Program Normal"
     },
     {
-      "@id": "_:Nd21ae7fe57ba4884b6f15ff619d99f3a",
+      "@id": "_:N523d7c4bdc80428c9abfdd35205c597d",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF ExposureTime",
       "uco-types:value": "1/320"
     },
     {
-      "@id": "_:N1af05ead9ebb41d088b318cf1f028f52",
+      "@id": "_:N25b5d8aea54944868abc6d1e6eda2a0c",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF FNumber",
       "uco-types:value": "9"
     },
     {
-      "@id": "_:N03e5a45c5d97483eb389ee22682443ff",
+      "@id": "_:Ne1c41d55bfc94e35ab4dc57c719f98d1",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF FileSource",
       "uco-types:value": "Digital Camera"
     },
     {
-      "@id": "_:Nacb3940973804aa3b471ef551c910a65",
+      "@id": "_:N4d8fa2127cee4160b72b30125f4f83ab",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF Flash",
       "uco-types:value": "Flash did not fire"
     },
     {
-      "@id": "_:N629a3189bc104eedb65185c135e7edaa",
+      "@id": "_:Nabc6a395e6b5480498c213b78a1cc12e",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF FlashPixVersion",
       "uco-types:value": "0100"
     },
     {
-      "@id": "_:Nfc0ac603f47d407f939a6faa976934a8",
+      "@id": "_:N8848826a7c1540dfaf690a72625adcad",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF FocalLength",
       "uco-types:value": "50"
     },
     {
-      "@id": "_:Ncf17f1b474eb413db77e9e005cf816ac",
+      "@id": "_:N130c20d958c24c95b20272b730a01583",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF FocalLengthIn35mmFilm",
       "uco-types:value": "75"
     },
     {
-      "@id": "_:Ndbf3287de9b94a2dba53de23464e87a3",
+      "@id": "_:Nf5d421aa30154f69a996000740a73a4f",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF GainControl",
       "uco-types:value": "None"
     },
     {
-      "@id": "_:N431537524a464f6f877d0f98778c22ff",
+      "@id": "_:N84884c79ee7a401fabb9dff0f41da1b7",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF InteroperabilityOffset",
       "uco-types:value": "25734"
     },
     {
-      "@id": "_:Nbe8352ed003c48daa29dfa44e0040e7b",
+      "@id": "_:N0b2ae79b511f42e7a51ba0f6bea36e69",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF LightSource",
       "uco-types:value": "Unknown"
     },
     {
-      "@id": "_:N990f404f39494c899b624de4b375f573",
+      "@id": "_:N820da08125174ea59f5fa4db5ca5d4a1",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF MakerNote",
       "uco-types:value": "[78, 105, 107, 111, 110, 0, 2, 0, 0, 0, 77, 77, 0, 42, 0, 0, 0, 8, 0, 29, ... ]"
     },
     {
-      "@id": "_:N864d0dd223ad46989f5f992902ef7ed0",
+      "@id": "_:Na338465ea9a54f63a70f5bb7f870c5ba",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF MaxApertureValue",
       "uco-types:value": "9/2"
     },
     {
-      "@id": "_:N1082e2b6370743868542075463d243ce",
+      "@id": "_:N744eb54192f142f88272bda41c9ddbb9",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF MeteringMode",
       "uco-types:value": "Pattern"
     },
     {
-      "@id": "_:N05e766168595467a892c85ea3cd1e25e",
+      "@id": "_:Nc24097cddfd94ab4ab63b73507bfe132",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF Saturation",
       "uco-types:value": "Normal"
     },
     {
-      "@id": "_:Na396f260f0fb412dbf88e49827521b7b",
+      "@id": "_:N0f7bfe98e3ec44f78b853b5f416c048e",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF SceneCaptureType",
       "uco-types:value": "Standard"
     },
     {
-      "@id": "_:N97fb1653f2634743a529fb15c5638668",
+      "@id": "_:N003f4fb6e6994d9ebf514aabe0f62690",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF SceneType",
       "uco-types:value": "Directly Photographed"
     },
     {
-      "@id": "_:N95ee95c64ed8473f94daa35abb4c93f5",
+      "@id": "_:N06ee78fe95c34874a126b952ac2bbfb9",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF SensingMethod",
       "uco-types:value": "One-chip color area"
     },
     {
-      "@id": "_:N32e02da11c854b46aeb0c73c6c3eee7b",
+      "@id": "_:N21d1829d8b8742069de32a83f75e3732",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF Sharpness",
       "uco-types:value": "Normal"
     },
     {
-      "@id": "_:Nf045749fc29f438e97a4e283733b13b5",
+      "@id": "_:N37d7fe214e1d4ea5b354fc3bbe4c13e7",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF SubSecTime",
       "uco-types:value": "02"
     },
     {
-      "@id": "_:Nbd4fada005074e9ebc9ffb826e44f95a",
+      "@id": "_:N23a7e942894442c4a7fc3cb6fdcbb1f8",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF SubSecTimeDigitized",
       "uco-types:value": "02"
     },
     {
-      "@id": "_:N476815ad9d4346c2ab9c8c81c26404a8",
+      "@id": "_:N02f748c03aab4d80ba8dafd57a521064",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF SubSecTimeOriginal",
       "uco-types:value": "02"
     },
     {
-      "@id": "_:Nd756334586104ac79b77e88169c785cb",
+      "@id": "_:Nece3466edb354f9796988cbadba50242",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF SubjectDistanceRange",
       "uco-types:value": "0"
     },
     {
-      "@id": "_:N7bb8c5618abc4ae4affc585ef83eeddb",
+      "@id": "_:N7574ba286bc54fcbb77ed9974766af78",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF UserComment",
       "uco-types:value": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
     },
     {
-      "@id": "_:N9ed398964db24edea8c02bcedd3b599a",
+      "@id": "_:N7b000b3acdf349d8b8d60dd479b95860",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "EXIF WhiteBalance",
       "uco-types:value": "Auto"
     },
     {
-      "@id": "_:N5e9933b837cb4ca3aef84f6702cddd39",
+      "@id": "_:Ndfb4d85def164b1cbdfe5f5542c9ef3a",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "GPS GPSAltitude",
       "uco-types:value": "151"
     },
     {
-      "@id": "_:Nb2fbcc71ecb54a3cb61a2daa35eda4ff",
+      "@id": "_:Nd52b00b3edd94c349897937def275b80",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "GPS GPSAltitudeRef",
       "uco-types:value": "0"
     },
     {
-      "@id": "_:Nb705d926dd364cb29112f09ddd3b57b6",
+      "@id": "_:Nd1d984fd8adc4b5eb9e5414431bc44f5",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "GPS GPSLatitude",
       "uco-types:value": "[30, 1833/100, 0]"
     },
     {
-      "@id": "_:N852dfe3d28ed4a3fbf5720d040097eb1",
+      "@id": "_:Nc49ddfd2d39443ab927bb5f1217bd279",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "GPS GPSLatitudeRef",
       "uco-types:value": "N"
     },
     {
-      "@id": "_:N9bbbb624b417413187f2c5d3092db0f0",
+      "@id": "_:N0309183f0e6b46feb6080d146dbae50b",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "GPS GPSLongitude",
       "uco-types:value": "[89, 381/20, 0]"
     },
     {
-      "@id": "_:Nc033bf78a54f485faa26605a9b924671",
+      "@id": "_:Nea315b15244342dfa34d34e0389d47f8",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "GPS GPSLongitudeRef",
       "uco-types:value": "W"
     },
     {
-      "@id": "_:N1bcd8bcd2b9049e0880dcfaaed836c00",
+      "@id": "_:Nf3f2a7313aad4f6bb69521931bf78ad9",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "GPS GPSMapDatum",
       "uco-types:value": "         "
     },
     {
-      "@id": "_:Ndefc1d57b21e4f93b48061b45f83885f",
+      "@id": "_:N6c56a7affde84056bd549d168f623462",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "GPS GPSSatellites",
       "uco-types:value": "04"
     },
     {
-      "@id": "_:Ne5cf3a2131ea4b9b81644b96c2c19292",
+      "@id": "_:Na8d140949b4b479e9a040f067b64a58f",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "GPS GPSTimeStamp",
       "uco-types:value": "[21, 39, 596/25]"
     },
     {
-      "@id": "_:N5ccc54c578ab4ae2896fb7d05181135f",
+      "@id": "_:N548cec6d81624859a7f63ff858c7d87a",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "GPS GPSVersionID",
       "uco-types:value": "[2, 2, 0, 0]"
     },
     {
-      "@id": "_:N0bc0982077624a70bfe6e9e84617d57e",
+      "@id": "_:N378f5fae1637453a890be06782784383",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Image DateTime",
       "uco-types:value": "2005:08:31 21:40:03"
     },
     {
-      "@id": "_:N9e7a4548005d4492950f3cd4a9191fa4",
+      "@id": "_:Na0692aa983a1442db48f2371527b17c1",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Image ExifOffset",
       "uco-types:value": "252"
     },
     {
-      "@id": "_:N487de94e424d4d1389609480ef7adbda",
+      "@id": "_:N1fa1fece3102499ea7a9b32341f43f51",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Image GPSInfo",
       "uco-types:value": "25764"
     },
     {
-      "@id": "_:Nbf14aec7bd15453a8fb6d09fd5096dc1",
+      "@id": "_:Nfcc8f9bac8e948e28ec8e46907774bc9",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Image ImageDescription",
       "uco-types:value": "                               "
     },
     {
-      "@id": "_:N2fb3f7b601244ff9891eb97b54ed7112",
+      "@id": "_:N670d5f29881244d981f07ad8e3e26c82",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Image Make",
       "uco-types:value": "NIKON CORPORATION"
     },
     {
-      "@id": "_:N3e4622150cdb41e9b71c497e49e225aa",
+      "@id": "_:Nc58e14ad118a4efa9ab40ab54d80a7ad",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Image Model",
       "uco-types:value": "NIKON D1X"
     },
     {
-      "@id": "_:N2c1e969f5d084385bbc300e553afa30d",
+      "@id": "_:N51b6d1da0161422284b0a86222e4c5ae",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Image ResolutionUnit",
       "uco-types:value": "Pixels/Inch"
     },
     {
-      "@id": "_:N2d0fa5432bbf4e19a7dc488cff79b03f",
+      "@id": "_:Ne9f39105915c4ab69eb3031579f3b2e9",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Image Software",
       "uco-types:value": "Ver.5.01 "
     },
     {
-      "@id": "_:Nf078baf1dcbf48ef95609e2930636769",
+      "@id": "_:N69fb689ee7ea4489810b7cc243c787a0",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Image XResolution",
       "uco-types:value": "300"
     },
     {
-      "@id": "_:Ndbe04fe43ad34f3091310b83e4cc94e7",
+      "@id": "_:Nef289c9b43c240deb5d1cccf4405e1b2",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Image YCbCrPositioning",
       "uco-types:value": "Co-sited"
     },
     {
-      "@id": "_:N46560f86ef724b8d8056fd5a9ade8d0a",
+      "@id": "_:Nc2c2c3265c8f47c18b4c4890c26324fe",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Image YResolution",
       "uco-types:value": "300"
     },
     {
-      "@id": "_:N7cab2e531709433f8a87b51de74736ec",
+      "@id": "_:N9242e6321b0042efa10035d1f2199c5e",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Interoperability InteroperabilityIndex",
       "uco-types:value": "R98"
     },
     {
-      "@id": "_:N5370830c45fc4063bcfdcfd3b986ded5",
+      "@id": "_:Nf74a88e9c3064324ac883dc5e69ffe75",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Interoperability InteroperabilityVersion",
       "uco-types:value": "[48, 49, 48, 48]"
     },
     {
-      "@id": "_:N1992032d1f9c4e5a87610c915018d67e",
+      "@id": "_:N74b055f6bb3c4617875b4df0d2e91f45",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "JPEGThumbnail",
       "uco-types:value": "b'\\xff\\xd8\\xff\\xdb\\x00\\x84\\x00\\x02\\x02\\x02\\x03\\x02\\x02\\x03\\x03\\x03\\x03\\x04\\x03\\x03\\x04\\x05\\x08\\x05\\x05\\x04\\x04\\x05\\n\\x07\\x07\\x06\\x08\\x0c\\n\\x0c\\x0c\\x0b\\n\\x0b\\x0b\\r\\x0e\\x12\\x10\\r\\x0e\\x11\\x0e\\x0b\\x0b\\x10\\x16\\x10\\x11\\x13\\x14\\x15\\x15\\x15\\x0c\\x0f\\x17\\x18\\x16\\x14\\x18\\x12\\x14\\x15\\x14\\x01\\x02\\x04\\x04\\x05\\x04\\x05\\t\\x05\\x05\\t\\x14\\r\\x0b\\r\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\xff\\xc4\\x01\\xa2\\x00\\x00\\x01\\x05\\x01\\x01\\x01\\x01\\x01\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\\t\\n\\x0b\\x10\\x00\\x02\\x01\\x03\\x03\\x02\\x04\\x03\\x05\\x05\\x04\\x04\\x00\\x00\\x01}\\x01\\x02\\x03\\x00\\x04\\x11\\x05\\x12!1A\\x06\\x13Qa\\x07\"q\\x142\\x81\\x91\\xa1\\x08#B\\xb1\\xc1\\x15R\\xd1\\xf0$3br\\x82\\t\\n\\x16\\x17\\x18\\x19\\x1a%&\\'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz\\x83\\x84\\x85\\x86\\x87\\x88\\x89\\x8a\\x92\\x93\\x94\\x95\\x96\\x97\\x98\\x99\\x9a\\xa2\\xa3\\xa4\\xa5\\xa6\\xa7\\xa8\\xa9\\xaa\\xb2\\xb3\\xb4\\xb5\\xb6\\xb7\\xb8\\xb9\\xba\\xc2\\xc3\\xc4\\xc5\\xc6\\xc7\\xc8\\xc9\\xca\\xd2\\xd3\\xd4\\xd5\\xd6\\xd7\\xd8\\xd9\\xda\\xe1\\xe2\\xe3\\xe4\\xe5\\xe6\\xe7\\xe8\\xe9\\xea\\xf1\\xf2\\xf3\\xf4\\xf5\\xf6\\xf7\\xf8\\xf9\\xfa\\x01\\x00\\x03\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\\t\\n\\x0b\\x11\\x00\\x02\\x01\\x02\\x04\\x04\\x03\\x04\\x07\\x05\\x04\\x04\\x00\\x01\\x02w\\x00\\x01\\x02\\x03\\x11\\x04\\x05!1\\x06\\x12AQ\\x07aq\\x13\"2\\x81\\x08\\x14B\\x91\\xa1\\xb1\\xc1\\t#3R\\xf0\\x15br\\xd1\\n\\x16$4\\xe1%\\xf1\\x17\\x18\\x19\\x1a&\\'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz\\x82\\x83\\x84\\x85\\x86\\x87\\x88\\x89\\x8a\\x92\\x93\\x94\\x95\\x96\\x97\\x98\\x99\\x9a\\xa2\\xa3\\xa4\\xa5\\xa6\\xa7\\xa8\\xa9\\xaa\\xb2\\xb3\\xb4\\xb5\\xb6\\xb7\\xb8\\xb9\\xba\\xc2\\xc3\\xc4\\xc5\\xc6\\xc7\\xc8\\xc9\\xca\\xd2\\xd3\\xd4\\xd5\\xd6\\xd7\\xd8\\xd9\\xda\\xe2\\xe3\\xe4\\xe5\\xe6\\xe7\\xe8\\xe9\\xea\\xf2\\xf3\\xf4\\xf5\\xf6\\xf7\\xf8\\xf9\\xfa\\xff\\xc0\\x00\\x11\\x08\\x00x\\x00\\xa0\\x03\\x01!\\x00\\x02\\x11\\x01\\x03\\x11\\x01\\xff\\xda\\x00\\x0c\\x03\\x01\\x00\\x02\\x11\\x03\\x11\\x00?\\x00\\xfc=\\xff\\x00\\x85Q\\xe3l\\xff\\x00\\xc8\\x9d\\xaf\\xff\\x00\\xe0\\xae\\x7f\\xfe\"\\xa4_\\x84~9|\\xe3\\xc1~!8\\xeb\\x8d*\\x7f\\xfe\"\\xba=\\x8dE\\xf6_\\xdcq}f\\x87\\xf3\\xaf\\xbd\\n>\\x10\\xf8\\xec\\x9c\\x7f\\xc2\\x15\\xe2,\\xfa\\x7feO\\xff\\x00\\xc4R\\xff\\x00\\xc2\\xa0\\xf1\\xde3\\xff\\x00\\x08O\\x88\\xb1\\xeb\\xfd\\x95?\\xff\\x00\\x11K\\xd9T\\xfeW\\xf7\\x0f\\xeb\\x14\\x7f\\x9d}\\xe8g\\xfc*O\\x1c\\xff\\x00\\xd0\\x99\\xe2\\x1e?\\xea\\x15?\\xff\\x00\\x11R\\x8f\\x83\\xbe=+\\x9f\\xf8B<G\\x8c\\x81\\x9f\\xec\\x9b\\x8e\\xbf\\xf7\\xc5?eS\\xf9_\\xdc\\x1fX\\xa3\\xfc\\xeb\\xefE\\xc5\\xf8\\x1b\\xf1\\x1d\\xd4\\x95\\xf8\\x7f\\xe2\\x96\\x00\\xed$h\\xb7=}>\\xe59\\xfe\\x05|I\\x8ce\\xbe\\x1e\\xf8\\xa9@\\x19\\xc9\\xd1.G\\xfe\\xc9S\\xec\\xe6\\xba1\\xacE\\x17\\xb4\\xd7\\xde\\x86\\xa7\\xc0\\xdf\\x88\\xf2\\x1c/\\xc3\\xff\\x00\\x14\\xb1\\xf4\\x1a-\\xc9\\xff\\x00\\xd9*_\\xf8P\\xbf\\x13?\\xe8\\x9dx\\xb3\\xff\\x00\\x04w_\\xfcEW\\xb2\\xa9\\xfc\\xaf\\xee\\'\\xeb4?\\x9d}\\xe8i\\xf8\\x11\\xf1(\\x1f\\xf9\\'\\x9e+\\xff\\x00\\xc1%\\xcf\\xff\\x00\\x11H~\\x05|I\\x1f\\xf3O|U\\xff\\x00\\x82[\\x9f\\xfe\"\\x8fcS\\xf9_\\xdc/\\xadP\\xff\\x00\\x9f\\x8b\\xefC\\x1b\\xe0w\\xc4u\\xeb\\xf0\\xff\\x00\\xc5#\\xeb\\xa2\\xdc\\xff\\x00\\xf1\\x14\\xc3\\xf0K\\xe2 \\xff\\x00\\x99\\x07\\xc4\\xff\\x00\\xf8&\\xb9\\xff\\x00\\xe2*\\xbd\\x85_\\xe5\\x7fs\\'\\xebx\\x7f\\xf9\\xf9\\x1f\\xbd\\x01\\xf8\\'\\xf1\\x10\\x7f\\xcc\\x85\\xe2\\x7f\\xfc\\x13\\xdc\\x7f\\xf1\\x14\\x9f\\xf0\\xa4\\xfe!\\xff\\x00\\xd0\\x85\\xe2\\x7f\\xfc\\x13\\xdc\\x7f\\xf1\\x14{\\n\\xbf\\xc8\\xfe\\xe6\\x1f[\\xc3\\xff\\x00\\xcf\\xc8\\xfd\\xe8i\\xf8-\\xf1\\x08u\\xf0\\'\\x89\\x87\\xfd\\xc1\\xee?\\xf8\\x8aC\\xf0c\\xe2\\x02\\xf5\\xf0/\\x89G\\xd7H\\xb8\\xff\\x00\\xe2)\\xfb\\n\\xdf\\xc8\\xfe\\xe6\\x1f[\\xc3\\xff\\x00\\xcf\\xc8\\xfd\\xe8i\\xf87\\xe3\\xe1\\xff\\x002?\\x89?\\xf0Qq\\xff\\x00\\xc4S\\x0f\\xc1\\xef\\x1e\\x8e\\xbe\\x08\\xf1\\x18\\xff\\x00\\xb8M\\xc7\\xff\\x00\\x11G\\xd5\\xeb\\x7f#\\xfb\\x98\\xfe\\xb7\\x87\\xff\\x00\\x9f\\x91\\xfb\\xd1\\xfbOm}\\x14\\x92\\x04a\\x02\\xe7?;\\x021\\xf9\\x03Ry\\xa4\\x11\\xb6d\\x91[\\xa0\\x19\\x18>\\xfcW\\xd7\\xde\\xdb\\x9f\\x96\\xf2\\xf6\\'\\xf3Y\\xa4E\\x12\\xc4s\\xd7\\xe6\\xe0}I\\x15zxn\\xa0\\xc2HT\\xe7\\x07\\xe4l\\x8epq\\x9e\\x9d\\xc1\\xfcjy\\x8d\\x12\\xb1\\x0c\\x82h\\xdb\\x19F!7\\xe4\\x1eG\\x19\\xc7#\\xa8\\xa4In%\\x80\\xc8\\x01\\xf2\\xd4\\x13\\xbf#\\x9c{Rl\\xd1+\\x9do\\x87u?\\x14\\xe8\\xd73\\xdbi\\x89r\\xb2?\\xfa\\xc5H\\x81\\xea\\x07<\\x83\\xed\\xc8\\xeb],>*\\xf1E\\xac\\xc7\\xed0\\xa4\\xc4\\xe7\\xe5\\x9623\\xcf\\xaa\\x8e\\xbdx\\xcfj\\xe6U)\\'\\xa6\\xec\\xe9\\x95*\\x92\\x8d\\x9e\\xc8\\xea\\xad|S\\x7f\\x05\\xccp\\xea:d\\xf1\\x99\\xbeh\\xde\\x11\\xb9v\\x901\\x9f\\xc4\\x81\\x9a\\xea\\xb4\\x9b\\xcb}r\\x07\\x95$\\x92\\xd8\\xa3\\xec\"\\xf1\\x0cC<c\\x93\\xc7qC\\xae\\xa2\\xb9\\xba\\x18,+\\x93\\xe5\\xbe\\xa3\\xf5H^\\xc5\\xd6?:\\t\\x89\\\\\\x95\\x86B\\xd8\\x1f\\xed`q\\\\\\xfc\\xb7.\\x01\\'`\\x00\\xf6\\xae\\xdaU#R*H\\xf3\\xabR\\x95\\x198\\xc8\\xa4\\xd2\\xf9\\xaaN\\xe1\\xc7\\xb8\\x07\\xff\\x00\\xafUX\\xe0d\\xb2\\x8c\\x0e\\xe3\\xadw\\'c\\xcdh\\xac\\xf2\\x85\\xc8\\xc89\\xee\\x05D\\x08\\x91\\x89\\x19\\xc0\\xeaI\\xadoa\"\\x9c\\xcc\\x88x_\\xd6\\xa8\\xc9\"\\x80F9\\xf6\\xc5Zle\\t\\'#\\x80:{\\n\\xce\\x9ava\\xd2\\xb4Lh\\xf1xY\\x9eEH\\xff\\x00y\\xbb\\xa6\\x0f \\xfaSM\\xd0B7\\x10_\\xa7\\x07\\xa5|\\xfd\\xcf}\\xa2h\\xe7\\xde\\x1d\\xc0\\x19^\\xac\\x0fCW\\xe3\\xba\\xb8\\x8e\\xc7a\\x9c\\x08\\x8c\\xa3\\x114\\xc0|\\xc4cv\\xd2}\\x00\\xe7\\xe9S\\xb9i\\x10\\xc5x\\xcd<\\xa3-\\'\\x04\\xc8z\\xa9\\x03\\xdc\\x1c\\x1a\\xd4\\xb2\\x82mA\\x95\\xad\"\\x9at\\x07\\x05\\xd0\\x1d\\xa0\\xfadp8\\xa8\\x94\\x94U\\xdb4\\x84\\\\\\xb4H\\xf7\\xcf\\x08xa\\xe6\\xd3\\xc4\\xcdu\\xa9\\xc7{q\\x8d\\xf2\\xb8T\\x85A\\xf5\\xcf-\\xd3\\xaf>\\x98\\x1dk\\xa9\\xb6\\xf0\\x85\\xf6\\x8fws\"\\xf9\\xba\\x88\\xb9RV0\\x8a\\xd1)\\xc98l\\xb2\\xee99\\x07n8<\\n\\xf99W\\xe6\\x9b\\x8e\\x9a\\xf6>\\xba8u\\x18)\\xea\\xed\\xdc\\xeatE\\xd5R\\x0cj6\\x16\\x8c\\xdbvyL\\x8d\\x85\\\\\\xf69 \\x1f\\xa5W\\xbc\\xd1\\xe7\\xb5\\xb87\\x0bd\\x81U\\x81EW*\\x06:\\x10\\xa2\\xbb)B\\x1c\\xd6r\\xd1\\x9c5\\xa7>[\\xc6\\x1a\\xa3\\x0bQ\\xd7^\\xfa/\"\\xf2\\xd6\\xde\\xee Nb\\xb8\\x8fx9\\xfa\\xff\\x00J\\xe4\\xbc\\x8b@$X\\xf4\\xf8m\\xe3n6F\\xa3\\x0c1\\x8e\\x99<W\\xd5Q\\xa4\\xa8\\xabA\\xe8|uz\\xd2\\xac\\xfd\\xf5\\xa9Y\\xb4\\xebb\\x18\\xb5\\xac*\\xa4\\x92IA\\xceq\\x9f\\xe4?*\\xa2\\xf1[)`\\xb1F2I\\xe1G$\\x9c\\x9f\\xcc\\xe2\\xbd\\x04\\xeey\\x8d\\x14\\xa4\\x8e\\x02O\\xeec?U\\xf7\\xcf\\xf3\\xe6\\xab\\xb0\\x89I\\xc4Q\\xe7\\x1dp:gw\\xf3\\xe6\\xb4\\x12 r\\x19~\\xea\\x81\\xcep=N\\x7f\\x9dS\\x95#!\\x83\\x00\\xc0\\x82\\x08=\\xf3\\xc9\\xa0\\xb4P\\x9a@\\xc4\\xf1\\xd7<\\xf5\\xeb\\xd6\\xa8\\xc8\\xea[\\xe5\\xfa\\xf1\\xf4\\xc5R\\x19\\x8b\\xa0h\\xd3Msr\\x91x~\\xfe\\xf4\\xc8\\x85Qey\\xa3g\\xcfF\\x01S\\x1fP\\xc7\\x15\\xd7x7\\xc2\\x1e-\\xb6\\xbb\\x9eK/\\x0b\\xda\\xda\\xf9\\x88\\xb0\\xe3Po\\x9e1\\xbb\\x96\\xc3\\x0c\\xf2\\xb9\\x07\\x04d\\x13\\xc5|\\x8dLE\\x18_\\x9a\\x7fw\\xfc\\x03\\xeb)\\xe1\\xabM\\xaeX\\xff\\x00_3\\xbb\\xb0\\xfd\\x9f\\xf5\\xab\\xf2\\r\\xde\\xbf%\\xa4\\x0c\\xec\\xff\\x00`\\xb7\\x80\\x88P\\x93\\x9c(\\xdc\\xa3\\x1e\\x87\\x15\\xe8\\xdao\\xec\\xe9\\xa3X@\\xb3\\xde[\\xcb\\xa8\\xce\\x9c\\x92\\xcc\\xd8o\\xaa\\x83\\x8f\\xe9_?W1\\x9c\\xf4\\xa2\\xb9|\\xfb\\x9fEG.\\x845\\xac\\xee^\\xba\\xf0~\\x95d\\xacl\\xfc>\\x96w\\x10\\x8e&\\xb8\\xb1v\\x87\\xeb\\x81\\x8fOZ\\x86\\xdbF\\xd3.\\xd3}\\xed\\xcc2F\\xc3\"(\\x02\\xc0\\x8a\\xdd\\xc8\\xc0\\xde>\\x9b\\xb1X\\xd3\\x85I+\\xb6\\xdb\\xfb\\xcd*T\\xa5\\x07\\xcb\\xa4W\\xa5\\xbf\\x1f\\xf25\\xad\\xa4\\xf0\\xf6\\x99\\x1f\\x11\\xdboN\\x86 \\xbb\\x8f\\xe3\\xd6\\xa0\\xbe\\xf1\\xad\\x99\\x01 \\x86b\\x17<\\xf9\\xe4`\\xff\\x00/\\xd2\\xbdjx:\\x93w\\x91\\xe4U\\xc7\\xd3\\x82\\xb45\\xf49\\xe7\\xf1t\\xe9\\xb8E\\x90\\x0fy\\x1c\\xb1\\xfe\\x83\\xf4\\xac[\\xadv\\xe2\\xe4\\xe5\\xdct\\xc7\\n\\x07\\xf2\\xaf\\xa2\\xa7\\x86\\x8c5>^\\xa6*u4\\xe8d=\\xd1\\'9\\xe9\\xcf4\\xc5\\x9d\\x88\\r\\xf2\\xe0\\xf7<\\xd7\\xa1d\\x8f6\\xed\\x99\\xb7\\x17\\x9b\\x8e\\x0b\\x16\\xf6\\x15S\\xcd\\x05I=+e\\xa2#s)\\xef\\x01\\'\\x1f\\xce\\x95e8\\xce\\xdc\\x1fN\\xf5M\\xe8\\t\\x15d\\x9aW$\\xecu\\\\u#\\x83\\xf8\\xd6\\\\\\x92\\xb2\\xc8Wr\\xf4\\xcf\\'\\x8a\\x11V3\\xa4\\x94\\x13\\xc95^I\\xd4.9\\xcf\\xaej\\xd3\\x04\\x8f\\xac\\xec\\xe6\\xd4\\xec\\xc9\\x9a{\\x1bkX\\x87\\x02(\\xa53+{\\xe1\\x99\\x009\\xff\\x00d\\xd6Cx\\xd2\\xe2IYL,\\xad\\x1b\\x0c\\x95>Xo\\xfb\\xe7\\x07\\x1f\\x89\\xfa\\xd7\\xe6\\xd4p\\x10\\xa8\\xee\\xe5\\x7f\\x91\\xfa\\x05|\\xc6\\xa5-\\x14m\\xf3\\x15|u\\xa8\\xc5r\\xd3@L\\x0cF\\xd2\\x03\\xbb)\\x1fB\\xc4~5w\\xfe\\x16&\\xb5#\\x80$\\x8b\\'\\x8c\\x18\\x95\\xb3\\xf9\\x8a\\xf7#\\x80\\xa3\\x15\\xa9\\xe1K2\\xc4I\\xe8lG\\xf1?\\xc46\\x087\\xc5\\x16\\xcfY-\\xf6\\xff\\x00,Tr|X\\xb9\\xb9\\x00\\\\\\xd9\\xc5!=\\xd1\\x8a\\xe3\\xdcu\\xc7\\xff\\x00^\\xa1\\xe0)\\xcbXH\\xddfu\\xa3\\xa4\\xe2\\xbf\"[\\xdf\\x88:%\\xf4J\\x93[\\\\\\xe4(\\x05|\\xa4pO\\xaew\\n\\xe1\\xaf\\xf5_\\x0f\\\\\\xb8\\xd9\\x15\\xd4$\\x0e\\x02F\\x8b\\xf9\\xfc\\xe75\\xa5\\x1c>\"\\x8e\\xcd[\\xe7\\xfeDW\\xc4\\xe1\\xeb\\xea\\xe2\\xd3\\xf4_\\xe6s\\xf3]\\xda9+\\x08p\\xbc\\xe0\\xb9\\x01\\xb1\\xeezV<\\xd32\\xf4 \\xfd\\x085\\xed\\xc5\\xc9i#\\xc2\\x92\\x8b\\xd6%F\\x98\\x8f\\xc7\\x9ej\\xc4\\x97\\x1bmWi\\x19<V\\xcf\\xa1\\x822\\xca\\x97`\\xc0\\x95\\x1d\\xf8\\xa6<\\x9b\\xa3\\xda\\xaa\\xc4wf\\xe0U\\xee\"\\x88e\\\\\\xe4\\xa0\\x1f\\xec\\xf2j\\x9c\\xd7\\x8a\\xa7\\x8c6;\\x9aw\\x04\\x8a\\x17\\x17m \\xf9\\x89\\xc0\\xe4\\x01T\\x1ePF7t\\xf4\\xa7q\\xd8\\xa3$\\xd8\\x07sg\\xf0\\xaa\\x8f>\\x0f\\x7f\\xc6\\xad1\\xa4{\\xdf\\xda\\xf6\\x83\\xd8z\\xd3\\x05\\xd6G\\x1f\\xa5y\\xc9\\x0c\\x89\\xees\\xc6O\\xe5\\xc5V\\x91\\xfc\\xd8\\xd9\\x1b\\x90x+\\xebZ$#1l\"F\\x06?2<vW#\\xf0 U\\xc7a\\xb4e\\xc8\\x1e\\x83\"\\xa9h;\\xdca\\x98`s\\x9f`j36\\xd1\\xd7\\x07\\xf5\\xaa\\xb8\\x87\\x12\\xe7\\x04d{\\xe2\\xa3wE?3\\xaf\\x1e\\x9c\\xd3\\xb8\\x15Z\\xed0@V\\x18\\xe8\\xcd\\xd0\\xd4&\\xfd8\\xc8S\\xf4Rh\\x02\\xd5\\xce\\xa2\\xb1\\xc1\\xb5\\x08\\x00\\x8e\\xc3\\xfc+\\x94\\x9e\\xf0\\xb1\\xc9n{f\\xa6%4U\\x92\\xf0\\x84\\xc0\\xc0\\xfcj\\xb1\\xba\\xc2\\x9e~\\xf5h\"\\xa4\\x92g\\xa9\\x19\\xcfS\\xfc\\xaa\\xabM\\x86\\xc6\\xe0{\\xe4S\\xb8\\xd2)=\\xc7\\xca@$\\x1fZ\\xa1$\\xc4\\x9e\\t\\'\\xdcU&RG\\xbd\\xac\\xfbH\\xe8;\\xe4P\\xd3\\xe0\\x1c\\xe7\\xd7&\\xb8\\x89hg\\xdaT\\x10@\\xfcI\\xebLi\\x99S\\n\\xaf\\x8faT\\x82\\xc4\\r6Fw\\xb2\\xfbq\\x8a\\x89\\xaeQO\\x05Y\\x80\\xee\\xc75Ab1|1\\x90\\xa0{\\x93Q\\x1b\\xc2\\x06s\\x8f\\xa7\\x14\\xc7b\\xbb\\xdd\\x97PK\\xf0z\\x8c\\xd5i/\\t \\x01\\x80\\x7f:w\\x15\\x8a\\xf2\\xde\\x13\\x9e\\x84\\x8fSIk\\x99\\xe6\\x04\\x9c\\xf1\\xdb5-\\xd9\\x14\\x91\\x1d\\xf5\\xc6\\x1fnr\\x07\\xa5b\\xcb.FOOzq\\xd8\\x1e\\xe56\\x95NF\\xecb\\x90\\xcc\\x019#\\xd3\\x00\\xe6\\xad\\x82(\\xbd\\xdeO\\x07\\x83\\xe8j\\x89\\x9dO=G\\xae{\\xd0U\\x8a\\xb2\\\\\\x1d\\xb8$\\x1c{\\xf3U\\x9el1\\xe3nG\\x04\\xf7\\xfc\\xa9\\xa6R=\\xd9\\'y\\x14\\x9d\\xe4\\x0f\\xd2\\x94\\xdc\\xc4\\x80\\x1d\\xe5\\xb8\\xe0\\x8e\\x07\\xe7\\\\\\x86v!k\\xec?\\xee\\xc0_\\xf6\\xbb\\xfdj\\xbb\\xcf$\\xac77\\xcd\\xf8U\\x05\\x88\\x1ab\\tV\\xf9\\x8f`=\\xea\\x138S\\xed\\xefUq\\xd8\\x8c\\xdcd\\x95\\xc9$\\xfd*\\x17\\xba\\xc0#8\\xcf\\\\w\\xa7q\\xd8\\xacns\\xcf\\x1dzc\\x06\\xa17L\\xe3\\x03\\xa7\\xa50\\xb1\\\\\\xca\\n\\xb1\\xceB\\xf6\\xabv\\xd3\\xf9\\x7f>\\xe2\\x14\\x8e\\xd5\\x12\\xd8i\\x19s^y\\x8e\\xc4\\xb7S\\xd4\\x1a\\xa5-\\xd7\\x01z\\x8c\\xe3\\x9e\\xf5\\xa2\\x11\\t\\xb9\\x01I\\x0c\\x08\\x1d\\xb1\\xcdRk\\xa3\\xb8\\xa1\\xcez\\xe0\\x10(\\xb8\\xecUy\\x89\\xc8\\xf9\\x8e{\\x8e\\xb5S\\xcf\\xde\\xbc\\x923\\xc6\\x08\\xcd\\x03 yp\\xc3\\x80}\\xfd*\\xa3\\\\\\x85S\\xc0\\x1e\\xe3\\xd6\\x9ae${[]\\xb3/\\xde\\x18\\xf4\\x1d\\xaa\\x11>\\t\\xdc\\x01\\xcf\\xbf5\\xcc@\\xa9rYq\\xd0\\x0e1\\xde\\x9an\\x82\\xa8\\x00\\x06\\x07\\xaex\\xaa\\x02\\xa3\\xde\\xednN2q\\x85\\xa4y\\xf2\\xbd3\\x91\\x9f\\xad1\\x91\\x1b\\x9c\\xa9\\xf9\\xb1\\xed\\x8a\\xaa.F\\xf6\\x19\\x1f\\x8d\\x01a\\x8fp\\xa0aO\\xcd\\xd8\\x1a\\xaa\\xb7C$\\xb1;\\xbd\\x00\\xe7\\xf3\\xa6;\\x10\\x8b\\x8d\\xc4\\xa9\\xc6{\\x01\\xd2\\x91\\xefHP\\t\\xe4\\x1e\\x94\\x05\\x86Iq\\xb5\\x18)\\xc9\\xacy\\xae\\xbc\\xb97\\x10\\x02\\x9e\\xb9$sB`\\xd1\\x1c\\xb7;A\\x00\\x12\\xc7\\xa2\\xe4qU\\xcc\\xc5\\x97$rz\\x03\\x9aw\\x19^[\\xa7R\\x17 \\xe3\\xb8\\xed\\xf4\\xaa\\xd2\\xce\\xc4\\x12\\xdbJ\\x1e\\xe7\\xfa\\xd3\\x1aE?11\\xc7\\xe7T\\xa5\\x99ZBx\\xe3\\xf8\\xb3M\\x16\\x91\\xed\\x9fh\\xfa\\x11\\xd3\\x19\\xa8\\xdas\\x1a\\xf2\\xf9\\xf4\\x07\\x8a\\xe73hV\\xbaX\\xd4\\x0c\\xe3=\\x81\\xc8\\xfc\\xea\\x01r\\x14\\xe0\\xb0\\xdcG\\xafj\\x07a\\xa6\\xe4\\xa8\\x1d\\x87\\xbf5Q\\xa7!\\x89\\xdf\\xef\\x8f\\xfe\\xb5R\\x0b\\x11,\\xbb\\x8f\\xde?Bj\\xb4\\xd7\\x047\\xc9\\xf3\\xe3\\x92\\x07\\x19\\xa7q\\x91\\x9b\\x9f1\\xcepr9\\x03\\xad2K\\xbd\\xee\\x15W\\xe5\\xf5\\'\\xfa\\xd0+\\\\\\x89\\xeeB\\x9e\\xd9\\xeeOj\\x82)\\x82\\xbb\\x0c\\xa9\\'\\xa3n\\xebCv)\"\\tn\\x1cK\\xcbn\\xe3\\x9e?\\xcf\\xf2\\xaa3M\\xb4\\x92\\t\\xc6rA\\\\f\\x84+\\x11\\xbd\\xda\\x91\\xb8\\x81\\xd3\\xee\\x83\\x90\\x7f\\x1a\\xaf$\\xca3\\xb1\\x87\\xfc\\x04\\xe0S\\x1d\\x8a\\xed(m\\xa7#>\\x8b\\xce~\\xb5^K\\x9f\\xe0\\\\\\x00=\\x18\\x00}\\xa8\\x19\\tbG\\x04\\xe4\\xf5]\\xd9\\xaa\\xd2J\\x8c\\xdcv\\xeb\\x81\\xd2\\x84R=\\x86g\\x96\\xddQ\\x9dY\\x03\\x8c\\xaeA\\x01\\xbd\\xfd\\xea\\x10\\xcc\\xe0\\xb0\\xcb\\xb0\\x04\\x9c\\x8e\\x83\\xb9\\xaet\\xd3\\xd5\\t\\xc5\\xa7b#s\\xbdH\\x038\\xed\\x81\\x8aa\\xb8 dpGZ\\xa1X\\x88M\\xb8\\x92O\\x07\\xb9\\xfe\\x95ZK\\x92\\xee@\\x07o\\xae\\x06?\\xa5P\\xecE$\\xd9?{\\x00\\x7f\\t\\xc5B.\\t\\xf9\\x14\\x82s\\xca\\x81\\x9d\\xbf\\x8f\\xf8\\xd3\\x15\\x88\\xdaR\\xcc9;GV\\xf55^k\\x95\\x8c\\x86\\x03,G\\x19\\x19#\\xfaP\\x16+\\xcb8+\\xd3\\xe6\\xf5\\x1cR\\x8b\\xcf \\x8e\\xa7\\xb0<g\\xf2\\xa1\\xea2\\xbbJ\\x01.IL\\xf58\\xc6j\\xbc\\xb2\\x96m\\xe7*\\xa3\\xa6\\x7f\\xc2\\x9d\\xc4W\\x96_5\\xc7%\\x90\\xf7\\x1d\\xaa6\\xb9!\\xb0\\xbf6;\\xee\\xe4~\\x14\\x86B\\xf23\\xaf8\\xf6\\xc0\\xaa\\xe6\\xe3\\xcbN0\\x01\\xecx\\xa7p+\\xbc\\xa8\\xb99\\x19\\xc7By?\\x8dS\\x13y\\xa3\\xae=\\xc5\\x17-#\\xaf\\xb1\\x82Xu\\xab\\xcb\\xa7\\x99\\xcf\\x9a\\x00\\x03\\xb0\\x03\\xa7\\x03\\xebR\\xeb\\xab-\\xdcVA\\x1c\\xa8K\\x94\\x94\\xf1\\x8cm\\xcfo\\xc6\\xb0Z$\\x8d\\x1e\\xb2\\xb9\\xaf\\r\\xd3\\xc42N\\xe6^\\x80\\x8c)?\\x86+\\x17F\\xd4\\xef\\xee\\xa0\\x9amRcurd,ZF$\\xe3\\x8f\\x7f\\\\\\xd3\\xd2\\xf7%ma\\xd7\\xda\\xa5\\xd2\\xdfYC\\x18O!\\xc3\\xb4\\xa5\\xb1\\x9c\\xe0m\\x00\\xe3#\\x19=\\xf0s\\xec*\\xf3j\\x8be\\x13\\\\In.D`\\xb1\\x88\\x12\\x03\\x9cp\\t\\xc88\\xe9\\xd0\\xd0\\xf6\\xd3pKTe\\xd8\\xea\\xd2\\xea\\x16\\x91\\xcd$\\x06\\x19$\\x1c\\x85l(\\x19\\xe3\\xb9#\\xe9N\\xb9\\xd4\\x96+\\xc8m\\xf2K4FG+\\x91\\x8e@\\x00g\\x19\\xef\\xf9v\\xaa\\x15\\xb7$\\x82\\xf2\\x08W\\xcd\\xba\\x95\\xa2\\xb6PY\\xd9W$\\x00\\x0fl\\xf5\\xe2\\xb3 \\xd5\\xa1\\xbd\\x8b\\xcd\\x82FDl\\x95W\\xce\\xfcg\\xa7\\xa6~\\x94&\\xdb\\xf2\\x0bip{\\xcbe\\x8e##\\x98\\xe5\\x91\\x9b`|\\xe1\\x82\\x80X\\x93\\x9e1\\xb9p9\\xceOLs \\xb8i\\xddQX\\xc8O\\x00\\'#\\xf9\\xe2\\x9d\\xf4\\xb8\\x9a\\xe8B\\xf2\\xae\\x19D\\x89&\\xd3\\x82\\xd1\\x90\\xdc\\xf5\\xebIo\\x13\\xcf\\xe60\\n\\x04j]\\x9aG\\x081\\xd3\\x8c\\x9cd\\xf0\\x00\\xeaI\\x00R\\xe6I\\\\|\\xae\\xf6*<\\x9bF8\\xdb\\xee@\\xa4)$jf\\xd8DLJ\\xab\\x058b;g\\xf1\\x1f\\x9d\\x17HV\\xb9Q\\xe5h\\xce\\xe6 \\x8fL\\xe5\\x85@\\xd3\\xb0A\\xf2\\xbb\\x13\\xd3<\\x1f\\xc6\\x9d\\xc6\\x91X\\xc8\\x1dr\\xc66\\xc7\\x1bA\\xceM6B\\xcb\\xce\\xe0\\xa0\\xf3\\x9cQr\\xd2=\\x06;\\x92\\xc4\\x92\\xf9\\x1f\\x99>\\xd9\\xa5-\\x95\\x18\\xc0\\x00\\xf2N\\x06+ h\\x91\\xa6\"3\\xf2\\x93\\x8eNy\\'\\xe9\\x8a\\xa5\\x13\\x88\\x94\\x01\\x85\\xcfV\\xe9\\x8a\\x10\\xac#L\\x0c\\x8a\\xe0\\x86\\xc7\\x03\\x06\\xa1\\x98\\x02\\x87p\\x07waT\\x04PH\\n\\x04\\x8f\\'gE^\\x7f^\\xd5\\\\\\xec\\x17[\\xdc\\xe1\\x87a\\xc9\\xa0\\x08\\xae\\xe6\\xf3\\xe3u`\\xaa\\xaf\\xc6\\t\\xe9PY7\\xd9\\xa0\\x11\\xc6H\\x00`\\x85\\xe3\\x1f\\x9d\\x01\\xd0\\xabu\\x1cS^\\xc567\\x94V\\x00\\xb8\\xce3\\xff\\x00\\xea\\xab\\x06r\\x91y\\xbc\\x8fB\\x9e\\xbf\\xe7\\xbd\\x00ci\\xb0}\\x92\\xd7nK6\\xec\\x96n\\xb8\\xc0\\x03\\xf4\\x15f\\xf6i\\xbc\\x81\\x1cR\\x18\\x83:y\\x84cs\\x00\\xc1\\xbf\\x0e@4\\xbaX\\xab\\xebq\\xe2GE\\x1f3\\x00z\\xb3\\x1e\\xbf\\x9f\\xf8V}\\xd6\\xb7{uq\\x05\\xbc\\x97\\x05l\\xe0B\\xa8\\x83-\\xd4\\xe7\\xb9\\xc6r[\\x9fz\\x99$\\xdalq\\xd14\\x02vf\\\\1+\\x9f\\xe2 \\x13U\\xeeu\\x07\\xd5.\\xe6\\x9d\\xe3TWr\\xaa\\xac\\xe4\\x95Pp\\xa38\\xe8\\x00\\x03\\xb7J\\xaf\\xb5q\\xad\\x89l\\xb5\\x9b}\\x12e\\xba\\x9a\\xddnc\\x88\\x1c[\\x05;Y\\xb1\\x80H\\'\\xb1\\xe7\\x1d\\xf1Y2\\xea/{3\\\\\\x18\\x05\\xbaJK\\xfc\\xa7\\x01s\\xce\\x00\\'\\xfcjR\\xf7\\x9b\\xbfC_\\xb2\\x8fU2\\x02\\xa4\\xe5\\xa4\\xcf]\\xf98\\xa9c&F\\xc8\\xc6\\x01\\x1f0\\xc0\\xc7\\xe7\\x93\\xf9T\\xb3&\\x89\\x1c\\xaa\\x96\\x04\\xee#\\xf8\\x8eX\\x9fj\\xa6\\xf2(9\\xdb\\x96c\\x90N?\\xc2\\x9a&\\xc59\\xa5\\xf9\\x80\\x07-\\xecG\\x7f\\xc6\\xa02q\\xbc\\xf0z`0\\'5a`wb\\xa3p\\r\\x8e\\xd2|\\xd8\\xfc*\\x03(\\x04m$(\\xea3\\xf2\\xfd1@\\x11\\xc91\\x0b\\xd0\\x0cw\\xe3\\x81\\xfa\\x9a\\x81\\xa7e\\xc0\\x03\\x8e\\xdb\\x8e(\\x0b\\x10\\xb4\\xbb\\x1b,FO\\xa8\\xc7\\xf3\\xa8\\x9aP\\xc7-\\xc7\\x1d\\xb9?\\xca\\x98X\\x8ddQ\\x9cq\\xcf\\xf0\\xf1\\x9a\\xaf$\\xae[\\'\\x908\\xc2q@$\\x12\\xce\\x02\\x00\\x18{\\x80q\\xf8u9\\xaa\\x86f\\x04\\x16\\xdc\\xa7\\xd0\\x1f\\xfe\\xb5\"\\xac2I\\xb7F8\\'=>`?\\x9d@\\xb2\\x90\\x8a0q\\x9e8\\'\\xff\\x00\\xadAv*\\xdc\\xba\\xc8v\\x02\\xaf\\x9e\\xa3#\\x8a\\x85YU6\\xa0\\nGO,\\x81\\x9f\\xae\\x06jlZ?9h\\xaf\\x8e?Q\\n(\\x00\\xa2\\x80\\n(\\x00\\xa2\\x80\\n(\\x00\\xa2\\x80\\n(\\x00\\xa2\\x80\\n(\\x03\\xff\\xd9'"
     },
     {
-      "@id": "_:N35ffa5d379264aedb53f6f3503b6169d",
+      "@id": "_:N191bbf0ef1564b8abb727b27f01a33f8",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote AFFocusPosition",
       "uco-types:value": "1CenterCenterCenter"
     },
     {
-      "@id": "_:N55d432b8b0ac427fba263da35e8cb0f5",
+      "@id": "_:N333823ec83764845811955a437025eef",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote AutoBracketRelease",
       "uco-types:value": "0"
     },
     {
-      "@id": "_:N20883bd8552e4c54b6b88b9907a258fd",
+      "@id": "_:N5f468134a432432aaa0625abcb380779",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote AutoFlashMode",
       "uco-types:value": "        "
     },
     {
-      "@id": "_:N54a8b16834db4e23ba7d5309bebeef09",
+      "@id": "_:N7c1821a40f984bb4bc78fd74441afede",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote BracketingMode",
       "uco-types:value": "Single frame, no bracketing"
     },
     {
-      "@id": "_:Nce0f00bc275340e89dfe965953bb1592",
+      "@id": "_:Ne729f639064a41b2ab20501c43ae0b9e",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote ColorMode",
       "uco-types:value": "MODE1   "
     },
     {
-      "@id": "_:N4eb7ac72e89943138857a1cf657f81b2",
+      "@id": "_:N1b6c9cd3742b40fe94c9f149b3b58192",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote ExposureDifference",
       "uco-types:value": "0 EV"
     },
     {
-      "@id": "_:N750726f3d12e4c67af642cbb9b257166",
+      "@id": "_:Ncdff6eb8aab440f2a7a3ffad4b80cae8",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote FlashMode",
       "uco-types:value": "Did Not Fire"
     },
     {
-      "@id": "_:N99a291e4663845a29bb9ebf8560af224",
+      "@id": "_:N2bcaef4c3e814103a2b12cc75fc2ca1b",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote FlashSetting",
       "uco-types:value": "            "
     },
     {
-      "@id": "_:N6afa5b0034db49178d16c89ebaf5fa48",
+      "@id": "_:N235f06f2fbb243dfa7f19e76d2a217c6",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote FocusMode",
       "uco-types:value": "AF-C  "
     },
     {
-      "@id": "_:N9f6ec5c5781643aba9daab70248a4024",
+      "@id": "_:N04aa9bd9f4a1409c98a1a37951ff54b1",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote HueAdjustment",
       "uco-types:value": "3"
     },
     {
-      "@id": "_:Nfee560cd3e5a449386e2096b31775b26",
+      "@id": "_:Nd9ed726d1eac40e8bcb37c03ebd19553",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote ISOSetting",
       "uco-types:value": "È"
     },
     {
-      "@id": "_:N1cc160242df147db91aa9e2d48cd5ce2",
+      "@id": "_:N84f0b1e3a4a44a589c6822444d127fb2",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote ImageSharpening",
       "uco-types:value": "NORMAL"
     },
     {
-      "@id": "_:Nc743b7d35d014516b6055d7fb1fb811f",
+      "@id": "_:N22cd66e136314b168c7e318a02a36d24",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote LensData",
       "uco-types:value": "[48, 49, 48, 48, 1, 117, 120, 64, 55, 110, 44, 60, 124, 21, 54, 20, 99, 28, 100, 0]"
     },
     {
-      "@id": "_:Nc41d51168fd64cd7a4d767f9a234cd44",
+      "@id": "_:N7c503adae3b84d13978b934f43f69bd8",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote LensFStops",
       "uco-types:value": "[64, 1, 12, 0]"
     },
     {
-      "@id": "_:Na17f1fab83d94dcfba24152ef8630597",
+      "@id": "_:Nfb90dad6e46145adbc637f773a4d81ee",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote LensMinMaxFocalMaxAperture",
       "uco-types:value": "[24, 120, 7/2, 28/5]"
     },
     {
-      "@id": "_:N61001134324341e2ab36f31bcd6778bb",
+      "@id": "_:N3e569c0fb5824f9aad14b5a86b366e9c",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote LensType",
       "uco-types:value": "14"
     },
     {
-      "@id": "_:N68b17aaa4dd740a0a511fbde3e4b7645",
+      "@id": "_:N37aa2a38b956413892f70bf7247f3458",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote LightingType",
       "uco-types:value": "NATURAL    "
     },
     {
-      "@id": "_:N8dd9f2e2baf94748b9e1106301d02ec2",
+      "@id": "_:N2cbb0fe81236430da522325530251341",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote MakernoteVersion",
       "uco-types:value": "0200"
     },
     {
-      "@id": "_:Nd20a2ed1895e49bbb678e3289e4ce14c",
+      "@id": "_:Na4dbfd20e9ce4867b2382651af5b956d",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote NikonPreview",
       "uco-types:value": "640"
     },
     {
-      "@id": "_:Nf415d4c86aa04367b4f4587c64432e99",
+      "@id": "_:Nc2f3565d761a425c8f78701c823882c7",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote ProgramShift",
       "uco-types:value": "0 EV"
     },
     {
-      "@id": "_:N88c3e912e2034c91987b8cdd847cf870",
+      "@id": "_:Nf7368f97631445e29f38cad7d1bf550b",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote Quality",
       "uco-types:value": "NORMAL "
     },
     {
-      "@id": "_:Ne84855c2f7f940f2acce31b36070eb40",
+      "@id": "_:Nca68e423bc5e4cfc9863a6961acac965",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote SensorPixelSize",
       "uco-types:value": "[59/10, 59/10]"
     },
     {
-      "@id": "_:Nacacb4bc25b9456cab9316ac586f69b6",
+      "@id": "_:N9863689e84874a8fb4b381474d2e4cd3",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote ShotInfo",
       "uco-types:value": "[48, 49, 48, 48, 0, 0, 0, 0, 50, 77, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... ]"
     },
     {
-      "@id": "_:N68793130aa5e422d81957462904e0fb2",
+      "@id": "_:N7a6631113b694ea5963870352ebff18b",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote Tag 0x008E",
       "uco-types:value": "[387/512, -27/256, -1/4, 395/512]"
     },
     {
-      "@id": "_:N29309f73031d46dabbc3fcc836f6558f",
+      "@id": "_:N602ac5223bf54977945cc6f27b46104f",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote ToneCompensation",
       "uco-types:value": "HIGH    "
     },
     {
-      "@id": "_:Ndb553d18bef9438187112d8a39521a72",
+      "@id": "_:N9cee993ed4fe4f3ebf91842c2d47256b",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote WhiteBalanceBias",
       "uco-types:value": "0"
     },
     {
-      "@id": "_:N8f168dfd44934a989b3595f0042a6356",
+      "@id": "_:N8fbae1b7ab32480993043f24d1dec8b2",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote WhiteBalanceRBCoeff",
       "uco-types:value": "[139/64, 155/128, 1, 1]"
     },
     {
-      "@id": "_:N643a86a1ba7b4ac0afaaa57e2020fe3f",
+      "@id": "_:N3276c52ed56244cfa307d91bd5b9f834",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "MakerNote Whitebalance",
       "uco-types:value": "AUTO        "
     },
     {
-      "@id": "_:N3624cfb0223547e3af881b6aa26f42de",
+      "@id": "_:Nba88648ba9ba48388d83d85084ef02c0",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Thumbnail Compression",
       "uco-types:value": "JPEG (old-style)"
     },
     {
-      "@id": "_:Ndaa5ab5b25ed4ad5a586317a02e52ec7",
+      "@id": "_:N46ffa568b40545688609498a2ab31c13",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Thumbnail JPEGInterchangeFormat",
       "uco-types:value": "26086"
     },
     {
-      "@id": "_:N0aa8adff653141cdb8e760716998e2fd",
+      "@id": "_:Nfbe5fe8295c340ce95375897b3e2766a",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Thumbnail JPEGInterchangeFormatLength",
       "uco-types:value": "4818"
     },
     {
-      "@id": "_:N48bbbbb8fd7f4ecfa7c12405828f15cb",
+      "@id": "_:N48c15b0c08cf4327873e68bc343f30e3",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Thumbnail ResolutionUnit",
       "uco-types:value": "Pixels/Inch"
     },
     {
-      "@id": "_:N8f04989a391d474793631d389d9e786f",
+      "@id": "_:Nb33033aea0234c66899305aa9b4164a4",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Thumbnail XResolution",
       "uco-types:value": "300"
     },
     {
-      "@id": "_:N10adccc47a4342cdabb43e491ab506c9",
+      "@id": "_:Nd67844a965b445a684cdc19a18e78563",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Thumbnail YCbCrPositioning",
       "uco-types:value": "Co-sited"
     },
     {
-      "@id": "_:Nd1ecedd35c634c918123456e4e004ca1",
+      "@id": "_:Nb5707f20805542b89ed065b520f8bd2b",
       "@type": "uco-types:ControlledDictionaryEntry",
       "uco-types:key": "Thumbnail YResolution",
       "uco-types:value": "300"
     },
     {
-      "@id": "_:Na4f890092c3b4922a728dc65726f2bbe",
+      "@id": "_:N5e9b8506f8d94650a37767c6b08df292",
       "@type": "uco-observable:RasterPictureFacet",
       "rdfs:comment": "Information represented here from exif information not from file system stats except for extension, which uses os python lib",
       "uco-observable:bitsPerPixel": 2,
@@ -929,11 +931,11 @@
       "uco-observable:pictureWidth": 3008
     },
     {
-      "@id": "_:Ncd2b6f820c9d4ab39bfdc0692879572d",
+      "@id": "_:N6fdb5d4ea60d4f0cb4b45773c5da8ba6",
       "@type": "uco-observable:FileFacet",
       "uco-observable:extension": "jpg",
       "uco-observable:fileName": "799987.jpg",
-      "uco-observable:filePath": "/home/user/CASE-Implementation-PyPI-Exifread/799987.jpg",
+      "uco-observable:filePath": "/home/user/directory/CASE-Implementation-PyPI-Exifread/799987.jpg",
       "uco-observable:sizeInBytes": 1526008
     }
   ]

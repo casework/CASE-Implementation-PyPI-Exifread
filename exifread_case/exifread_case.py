@@ -91,6 +91,11 @@ def n_cyber_object_to_node(graph):
     ))
     graph.add((
         cyber_object_facet,
+        NS_UCO_OBSERVABLE.hasChanged,
+        rdflib.Literal(False)
+    ))
+    graph.add((
+        cyber_object_facet,
         NS_UCO_CORE.hasFacet,
         n_exif_facets
     ))
@@ -269,6 +274,11 @@ def controlled_dictionary_object_to_node(graph, controlled_dict, n_exif_facet):
         n_exif_facet,
         NS_UCO_OBSERVABLE.exifData,
         n_controlled_dictionary
+    ))
+    graph.add((
+        n_controlled_dictionary,
+        NS_RDF.type,
+        NS_UCO_TYPES.ControlledDictionary
     ))
     for key in sorted(controlled_dict.keys()):
         v_value = controlled_dict[key]
