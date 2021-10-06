@@ -81,9 +81,9 @@ def n_cyber_object_to_node(graph):
     """
     cyber_object_facet = rdflib.BNode()
     n_raster_facets = rdflib.BNode()
-    n_controlled_dictionary = rdflib.BNode()
     n_file_facets = rdflib.BNode()
     n_content_facets = rdflib.BNode()
+    n_exif_facets = rdflib.BNode()
     graph.add((
         cyber_object_facet,
         NS_RDF.type,
@@ -92,7 +92,7 @@ def n_cyber_object_to_node(graph):
     graph.add((
         cyber_object_facet,
         NS_UCO_CORE.hasFacet,
-        n_controlled_dictionary
+        n_exif_facets
     ))
     graph.add((
         cyber_object_facet,
@@ -104,7 +104,7 @@ def n_cyber_object_to_node(graph):
         NS_UCO_CORE.hasFacet,
         n_file_facets
     ))
-    return n_controlled_dictionary, n_raster_facets, n_file_facets, n_content_facets
+    return n_exif_facets, n_raster_facets, n_file_facets, n_content_facets
 
 
 def filecontent_object_to_node(graph, n_content_facets, file_information):
@@ -251,7 +251,7 @@ def raster_object_to_node(graph, controlled_dict, n_raster_facets, file_informat
     ))
 
 
-def controlled_dictionary_object_to_node(graph, controlled_dict, n_controlled_dictionary):
+def controlled_dictionary_object_to_node(graph, controlled_dict, n_exif_facet):
     """
     Add controlled dictionary object to accept all of the Values in the extracted exif
     :param graph: rdflib graph object for adding nodes to
@@ -259,10 +259,16 @@ def controlled_dictionary_object_to_node(graph, controlled_dict, n_controlled_di
     :param n_controlled_dictionary:
     :return: None
     """
+    n_controlled_dictionary = rdflib.BNode()
     graph.add((
-        n_controlled_dictionary,
+        n_exif_facet,
         NS_RDF.type,
-        NS_UCO_TYPES.ControlledDictionary
+        NS_UCO_OBSERVABLE.EXIFFacet
+    ))
+    graph.add((
+        n_exif_facet,
+        NS_UCO_OBSERVABLE.exifData,
+        n_controlled_dictionary
     ))
     for key in sorted(controlled_dict.keys()):
         v_value = controlled_dict[key]
@@ -310,9 +316,9 @@ def main():
     out_graph.namespace_manager.bind("uco-observable", NS_UCO_OBSERVABLE)
     out_graph.namespace_manager.bind("uco-types", NS_UCO_TYPES)
     out_graph.namespace_manager.bind("uco-vocabulary", NS_UCO_VOCABULARY)
-    controlled_dictionary_node, raster_facets_node, file_facets_node, content_facets \
+    exif_facet_node, raster_facets_node, file_facets_node, content_facets \
         = n_cyber_object_to_node(out_graph)
-    controlled_dictionary_object_to_node(out_graph, tag_dict, controlled_dictionary_node)
+    controlled_dictionary_object_to_node(out_graph, tag_dict, exif_facet_node)
     filefacets_object_to_node(out_graph, file_facets_node, file_info)
     raster_object_to_node(out_graph, tag_dict, raster_facets_node, file_info)
 
