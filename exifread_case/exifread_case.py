@@ -227,25 +227,26 @@ def raster_object_to_node(graph, controlled_dict, n_raster_facets, file_informat
         NS_UCO_OBSERVABLE.pictureType,
         rdflib.Literal(file_ext)
     ))
+    # :TODO The below feels a bit hacky probably a better way to do it
     if 'EXIF ExifImageLength' in controlled_dict.keys():
         graph.add((
             n_raster_facets,
             NS_UCO_OBSERVABLE.pictureHeight,
-            rdflib.term.Literal(str(controlled_dict['EXIF ExifImageLength']),
+            rdflib.term.Literal(int(float(str(controlled_dict['EXIF ExifImageLength']))),
                                 datatype=NS_XSD.integer)
         ))
     if 'EXIF ExifImageWidth' in controlled_dict.keys():
         graph.add((
             n_raster_facets,
             NS_UCO_OBSERVABLE.pictureWidth,
-            rdflib.term.Literal(str(controlled_dict['EXIF ExifImageWidth']),
+            rdflib.term.Literal(int(float(str(controlled_dict['EXIF ExifImageWidth']))),
                                 datatype=NS_XSD.integer)
         ))
     if 'EXIF CompressedBitsPerPixel' in controlled_dict.keys():
         graph.add((
             n_raster_facets,
             NS_UCO_OBSERVABLE.bitsPerPixel,
-            rdflib.term.Literal(str(controlled_dict['EXIF CompressedBitsPerPixel']),
+            rdflib.term.Literal(int(float(str(controlled_dict['EXIF CompressedBitsPerPixel']))),
                                 datatype=NS_XSD.integer)
         ))
     graph.add((
@@ -281,7 +282,9 @@ def controlled_dictionary_object_to_node(graph, controlled_dict, n_exif_facet):
         NS_UCO_TYPES.ControlledDictionary
     ))
     for key in sorted(controlled_dict.keys()):
-        v_value = controlled_dict[key]
+        # :TODO stringing all values to ensure they are strings, open to input
+        # here as maybe assertion or a better way to do this
+        v_value = str(controlled_dict[key])
         v_value = rdflib.Literal(v_value)
         try:
             assert isinstance(v_value, rdflib.Literal)
