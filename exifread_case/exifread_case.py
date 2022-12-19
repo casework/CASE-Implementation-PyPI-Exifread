@@ -5,6 +5,8 @@ import os
 import hashlib
 import argparse
 import logging
+
+import case_utils.local_uuid
 import exifread
 import rdflib
 import rdflib.plugins.sparql
@@ -18,6 +20,11 @@ _logger = logging.getLogger(os.path.basename(__file__))
 parser = argparse.ArgumentParser()
 parser.add_argument("file", help="file to extract exif data from")
 args = parser.parse_args()
+
+
+def get_uuid_stub(ns):
+    uuid = f"{ns}-{case_utils.local_uuid.local_uuid()}"
+    return uuid
 
 
 def get_file_info(filepath):
@@ -71,11 +78,11 @@ def n_cyber_object_to_node(graph):
     :param graph: rdflib graph object for adding nodes to
     :return: The four blank nodes for each fo the other functions to fill
     """
-    cyber_object_facet = rdflib.BNode()
-    n_raster_facets = rdflib.BNode()
-    n_file_facets = rdflib.BNode()
-    n_content_facets = rdflib.BNode()
-    n_exif_facets = rdflib.BNode()
+    cyber_object_facet = rdflib.URIRef(get_uuid_stub("object"))
+    n_raster_facets = rdflib.URIRef(get_uuid_stub("raster"))
+    n_file_facets = rdflib.URIRef(get_uuid_stub("file"))
+    n_content_facets = rdflib.URIRef(get_uuid_stub("content"))
+    n_exif_facets = rdflib.URIRef(get_uuid_stub("exif"))
     graph.add((
         cyber_object_facet,
         NS_RDF.type,
@@ -108,12 +115,12 @@ def filecontent_object_to_node(graph, n_content_facets, file_information):
     """
     Unused: Create a node that will add the file content facet node to the graph
     :param graph: rdflib graph object for adding nodes to
-    :param n_content_facets: Blank node to contain all of the content facet information
+    :param n_content_facets: Blank node to contain all content facet information
     :param file_information: Dictionary containing information about file being analysed
     :return: None
     """
-    byte_order_facet = rdflib.BNode()
-    file_hash_facet = rdflib.BNode()
+    byte_order_facet = rdflib.URIRef(get_uuid_stub("byteorder"))
+    file_hash_facet = rdflib.URIRef(get_uuid_stub("hash"))
     graph.add((
         n_content_facets,
         NS_RDF.type,
@@ -251,13 +258,13 @@ def raster_object_to_node(graph, controlled_dict, n_raster_facets, file_informat
 
 def controlled_dictionary_object_to_node(graph, controlled_dict, n_exif_facet):
     """
-    Add controlled dictionary object to accept all of the Values in the extracted exif
+    Add controlled dictionary object to accept all Values in the extracted exif
     :param graph: rdflib graph object for adding nodes to
     :param controlled_dict: Dictionary containing the EXIF information from image
     :param n_controlled_dictionary:
     :return: None
     """
-    n_controlled_dictionary = rdflib.BNode()
+    n_controlled_dictionary = rdflib.URIRef(get_uuid_stub("controlled-dict"))
     graph.add((
         n_exif_facet,
         NS_RDF.type,
@@ -283,7 +290,7 @@ def controlled_dictionary_object_to_node(graph, controlled_dict, n_exif_facet):
         except AssertionError:
             _logger.info("v_value = %r." % v_value)
             raise
-        n_entry = rdflib.BNode()
+        n_entry = rdflib.URIRef(get_uuid_stub("entry"))
         graph.add((
             n_controlled_dictionary,
             NS_UCO_TYPES.entry,
@@ -330,10 +337,10 @@ def main():
     context = {"kb": "http://example.org/kb/",
                "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
                "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-               "uco-core": "https://unifiedcyberontology.org/ontology/uco/core#",
-               "uco-location": "https://unifiedcyberontology.org/ontology/uco/location#",
-               "uco-observable": "https://unifiedcyberontology.org/ontology/uco/observable#",
-               "uco-types": "https://unifiedcyberontology.org/ontology/uco/types#",
+               "uco-core": "https://ontology.unifiedcyberontology.org/uco/core/",
+               "uco-location": "https://ontology.unifiedcyberontology.org/uco/location/",
+               "uco-observable": "https://ontology.unifiedcyberontology.org/uco/observable/",
+               "uco-types": "https://ontology.unifiedcyberontology.org/uco/types/",
                "xsd": "http://www.w3.org/2001/XMLSchema#"}
 
     graphed = out_graph.serialize(format='json-ld', context=context)
