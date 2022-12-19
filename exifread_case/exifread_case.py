@@ -11,7 +11,7 @@ import exifread
 import rdflib
 import rdflib.plugins.sparql
 
-from case_utils.namespace import NS_RDF, NS_RDFS, NS_UCO_CORE, NS_UCO_LOCATION, NS_UCO_OBSERVABLE, NS_UCO_TYPES, NS_UCO_VOCABULARY, NS_XSD
+from case_utils.namespace import NS_RDF, NS_RDFS, NS_UCO_CORE, NS_UCO_OBSERVABLE, NS_UCO_TYPES, NS_UCO_VOCABULARY, NS_XSD
 
 __version__ = "0.1.2"
 
@@ -23,7 +23,7 @@ args = parser.parse_args()
 
 
 def get_uuid_stub(ns):
-    uuid = f"{ns}-{case_utils.local_uuid.local_uuid()}"
+    uuid = f"kb:{ns}-{case_utils.local_uuid.local_uuid()}"
     return uuid
 
 
@@ -323,11 +323,6 @@ def main():
     tags = get_exif(local_file)
     tag_dict = create_exif_dict(tags)
     out_graph = rdflib.Graph()
-    out_graph.namespace_manager.bind("uco-core", NS_UCO_CORE)
-    out_graph.namespace_manager.bind("uco-location", NS_UCO_LOCATION)
-    out_graph.namespace_manager.bind("uco-observable", NS_UCO_OBSERVABLE)
-    out_graph.namespace_manager.bind("uco-types", NS_UCO_TYPES)
-    out_graph.namespace_manager.bind("uco-vocabulary", NS_UCO_VOCABULARY)
     exif_facet_node, raster_facets_node, file_facets_node, content_facets \
         = n_cyber_object_to_node(out_graph)
     controlled_dictionary_object_to_node(out_graph, tag_dict, exif_facet_node)
@@ -338,7 +333,6 @@ def main():
                "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
                "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
                "uco-core": "https://ontology.unifiedcyberontology.org/uco/core/",
-               "uco-location": "https://ontology.unifiedcyberontology.org/uco/location/",
                "uco-observable": "https://ontology.unifiedcyberontology.org/uco/observable/",
                "uco-types": "https://ontology.unifiedcyberontology.org/uco/types/",
                "xsd": "http://www.w3.org/2001/XMLSchema#"}
