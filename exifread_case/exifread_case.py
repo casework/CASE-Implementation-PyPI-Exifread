@@ -54,9 +54,8 @@ def get_exif(file):
     :param file: The image file
     :return: Dictionary with the exif from the image
     """
-    file = open(file, 'rb')
-    exif_tags = exifread.process_file(file)
-    file.close()
+    with open(file, 'rb') as file:
+        exif_tags = exifread.process_file(file)
     return exif_tags
 
 
@@ -75,9 +74,9 @@ def create_exif_dict(tags):
 
 def n_cyber_object_to_node(graph):
     """
-    Initial function to create the blank nodes for each of the file's facet nodes
+    Initial function to create nodes for each of the file's facet nodes
     :param graph: rdflib graph object for adding nodes to
-    :return: The four blank nodes for each fo the other functions to fill
+    :return: The four nodes for each fo the other functions to fill
     """
     cyber_object_facet = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="observableobject-"))
     n_raster_facets = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="rasterpicture-"))
@@ -289,7 +288,7 @@ def controlled_dictionary_object_to_node(graph, controlled_dict, n_exif_facet):
         try:
             assert isinstance(v_value, rdflib.Literal)
         except AssertionError:
-            _logger.info("v_value = %r." % v_value)
+            _logger.info(f"v_value = {v_value}")
             raise
         n_entry = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="controlleddictionaryentry-"))
         graph.add((

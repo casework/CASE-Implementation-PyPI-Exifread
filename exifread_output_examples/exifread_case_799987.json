@@ -10,58 +10,22 @@
     },
     "@graph": [
         {
-            "@id": "kb:controlleddictionaryentry-10258b92-f98a-5208-a472-082bc040ffea",
+            "@id": "kb:controlleddictionaryentry-eba5b0dd-1a0e-5158-8693-71ef3cad61a0",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF CompressedBitsPerPixel",
-            "uco-types:value": "2"
+            "uco-types:key": "MakerNote BracketingMode",
+            "uco-types:value": "Single frame, no bracketing"
         },
         {
-            "@id": "kb:controlleddictionaryentry-2e0aea96-749d-5483-a451-f5e42bd7707c",
+            "@id": "kb:controlleddictionaryentry-a6dddc22-eddb-5d14-851c-f1f9e95ba661",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Image Make",
-            "uco-types:value": "NIKON CORPORATION"
+            "uco-types:key": "EXIF SubjectDistanceRange",
+            "uco-types:value": "0"
         },
         {
-            "@id": "kb:controlleddictionaryentry-e72a756a-c173-53bd-8975-b817647f6be7",
+            "@id": "kb:controlleddictionaryentry-14c6953d-87d5-51b6-8c7e-2e88d102f0f6",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "GPS GPSAltitude",
-            "uco-types:value": "151"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-2752e421-21ba-5ca3-b779-1c62aeb66cc8",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "JPEGThumbnail",
-            "uco-types:value": "b'\\xff\\xd8\\xff\\xdb\\x00\\x84\\x00\\x02\\x02\\x02\\x03\\x02\\x02\\x03\\x03\\x03\\x03\\x04\\x03\\x03\\x04\\x05\\x08\\x05\\x05\\x04\\x04\\x05\\n\\x07\\x07\\x06\\x08\\x0c\\n\\x0c\\x0c\\x0b\\n\\x0b\\x0b\\r\\x0e\\x12\\x10\\r\\x0e\\x11\\x0e\\x0b\\x0b\\x10\\x16\\x10\\x11\\x13\\x14\\x15\\x15\\x15\\x0c\\x0f\\x17\\x18\\x16\\x14\\x18\\x12\\x14\\x15\\x14\\x01\\x02\\x04\\x04\\x05\\x04\\x05\\t\\x05\\x05\\t\\x14\\r\\x0b\\r\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\xff\\xc4\\x01\\xa2\\x00\\x00\\x01\\x05\\x01\\x01\\x01\\x01\\x01\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\\t\\n\\x0b\\x10\\x00\\x02\\x01\\x03\\x03\\x02\\x04\\x03\\x05\\x05\\x04\\x04\\x00\\x00\\x01}\\x01\\x02\\x03\\x00\\x04\\x11\\x05\\x12!1A\\x06\\x13Qa\\x07\"q\\x142\\x81\\x91\\xa1\\x08#B\\xb1\\xc1\\x15R\\xd1\\xf0$3br\\x82\\t\\n\\x16\\x17\\x18\\x19\\x1a%&\\'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz\\x83\\x84\\x85\\x86\\x87\\x88\\x89\\x8a\\x92\\x93\\x94\\x95\\x96\\x97\\x98\\x99\\x9a\\xa2\\xa3\\xa4\\xa5\\xa6\\xa7\\xa8\\xa9\\xaa\\xb2\\xb3\\xb4\\xb5\\xb6\\xb7\\xb8\\xb9\\xba\\xc2\\xc3\\xc4\\xc5\\xc6\\xc7\\xc8\\xc9\\xca\\xd2\\xd3\\xd4\\xd5\\xd6\\xd7\\xd8\\xd9\\xda\\xe1\\xe2\\xe3\\xe4\\xe5\\xe6\\xe7\\xe8\\xe9\\xea\\xf1\\xf2\\xf3\\xf4\\xf5\\xf6\\xf7\\xf8\\xf9\\xfa\\x01\\x00\\x03\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\\t\\n\\x0b\\x11\\x00\\x02\\x01\\x02\\x04\\x04\\x03\\x04\\x07\\x05\\x04\\x04\\x00\\x01\\x02w\\x00\\x01\\x02\\x03\\x11\\x04\\x05!1\\x06\\x12AQ\\x07aq\\x13\"2\\x81\\x08\\x14B\\x91\\xa1\\xb1\\xc1\\t#3R\\xf0\\x15br\\xd1\\n\\x16$4\\xe1%\\xf1\\x17\\x18\\x19\\x1a&\\'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz\\x82\\x83\\x84\\x85\\x86\\x87\\x88\\x89\\x8a\\x92\\x93\\x94\\x95\\x96\\x97\\x98\\x99\\x9a\\xa2\\xa3\\xa4\\xa5\\xa6\\xa7\\xa8\\xa9\\xaa\\xb2\\xb3\\xb4\\xb5\\xb6\\xb7\\xb8\\xb9\\xba\\xc2\\xc3\\xc4\\xc5\\xc6\\xc7\\xc8\\xc9\\xca\\xd2\\xd3\\xd4\\xd5\\xd6\\xd7\\xd8\\xd9\\xda\\xe2\\xe3\\xe4\\xe5\\xe6\\xe7\\xe8\\xe9\\xea\\xf2\\xf3\\xf4\\xf5\\xf6\\xf7\\xf8\\xf9\\xfa\\xff\\xc0\\x00\\x11\\x08\\x00x\\x00\\xa0\\x03\\x01!\\x00\\x02\\x11\\x01\\x03\\x11\\x01\\xff\\xda\\x00\\x0c\\x03\\x01\\x00\\x02\\x11\\x03\\x11\\x00?\\x00\\xfc=\\xff\\x00\\x85Q\\xe3l\\xff\\x00\\xc8\\x9d\\xaf\\xff\\x00\\xe0\\xae\\x7f\\xfe\"\\xa4_\\x84~9|\\xe3\\xc1~!8\\xeb\\x8d*\\x7f\\xfe\"\\xba=\\x8dE\\xf6_\\xdcq}f\\x87\\xf3\\xaf\\xbd\\n>\\x10\\xf8\\xec\\x9c\\x7f\\xc2\\x15\\xe2,\\xfa\\x7feO\\xff\\x00\\xc4R\\xff\\x00\\xc2\\xa0\\xf1\\xde3\\xff\\x00\\x08O\\x88\\xb1\\xeb\\xfd\\x95?\\xff\\x00\\x11K\\xd9T\\xfeW\\xf7\\x0f\\xeb\\x14\\x7f\\x9d}\\xe8g\\xfc*O\\x1c\\xff\\x00\\xd0\\x99\\xe2\\x1e?\\xea\\x15?\\xff\\x00\\x11R\\x8f\\x83\\xbe=+\\x9f\\xf8B<G\\x8c\\x81\\x9f\\xec\\x9b\\x8e\\xbf\\xf7\\xc5?eS\\xf9_\\xdc\\x1fX\\xa3\\xfc\\xeb\\xefE\\xc5\\xf8\\x1b\\xf1\\x1d\\xd4\\x95\\xf8\\x7f\\xe2\\x96\\x00\\xed$h\\xb7=}>\\xe59\\xfe\\x05|I\\x8ce\\xbe\\x1e\\xf8\\xa9@\\x19\\xc9\\xd1.G\\xfe\\xc9S\\xec\\xe6\\xba1\\xacE\\x17\\xb4\\xd7\\xde\\x86\\xa7\\xc0\\xdf\\x88\\xf2\\x1c/\\xc3\\xff\\x00\\x14\\xb1\\xf4\\x1a-\\xc9\\xff\\x00\\xd9*_\\xf8P\\xbf\\x13?\\xe8\\x9dx\\xb3\\xff\\x00\\x04w_\\xfcEW\\xb2\\xa9\\xfc\\xaf\\xee\\'\\xeb4?\\x9d}\\xe8i\\xf8\\x11\\xf1(\\x1f\\xf9\\'\\x9e+\\xff\\x00\\xc1%\\xcf\\xff\\x00\\x11H~\\x05|I\\x1f\\xf3O|U\\xff\\x00\\x82[\\x9f\\xfe\"\\x8fcS\\xf9_\\xdc/\\xadP\\xff\\x00\\x9f\\x8b\\xefC\\x1b\\xe0w\\xc4u\\xeb\\xf0\\xff\\x00\\xc5#\\xeb\\xa2\\xdc\\xff\\x00\\xf1\\x14\\xc3\\xf0K\\xe2 \\xff\\x00\\x99\\x07\\xc4\\xff\\x00\\xf8&\\xb9\\xff\\x00\\xe2*\\xbd\\x85_\\xe5\\x7fs\\'\\xebx\\x7f\\xf9\\xf9\\x1f\\xbd\\x01\\xf8\\'\\xf1\\x10\\x7f\\xcc\\x85\\xe2\\x7f\\xfc\\x13\\xdc\\x7f\\xf1\\x14\\x9f\\xf0\\xa4\\xfe!\\xff\\x00\\xd0\\x85\\xe2\\x7f\\xfc\\x13\\xdc\\x7f\\xf1\\x14{\\n\\xbf\\xc8\\xfe\\xe6\\x1f[\\xc3\\xff\\x00\\xcf\\xc8\\xfd\\xe8i\\xf8-\\xf1\\x08u\\xf0\\'\\x89\\x87\\xfd\\xc1\\xee?\\xf8\\x8aC\\xf0c\\xe2\\x02\\xf5\\xf0/\\x89G\\xd7H\\xb8\\xff\\x00\\xe2)\\xfb\\n\\xdf\\xc8\\xfe\\xe6\\x1f[\\xc3\\xff\\x00\\xcf\\xc8\\xfd\\xe8i\\xf87\\xe3\\xe1\\xff\\x002?\\x89?\\xf0Qq\\xff\\x00\\xc4S\\x0f\\xc1\\xef\\x1e\\x8e\\xbe\\x08\\xf1\\x18\\xff\\x00\\xb8M\\xc7\\xff\\x00\\x11G\\xd5\\xeb\\x7f#\\xfb\\x98\\xfe\\xb7\\x87\\xff\\x00\\x9f\\x91\\xfb\\xd1\\xfbOm}\\x14\\x92\\x04a\\x02\\xe7?;\\x021\\xf9\\x03Ry\\xa4\\x11\\xb6d\\x91[\\xa0\\x19\\x18>\\xfcW\\xd7\\xde\\xdb\\x9f\\x96\\xf2\\xf6\\'\\xf3Y\\xa4E\\x12\\xc4s\\xd7\\xe6\\xe0}I\\x15zxn\\xa0\\xc2HT\\xe7\\x07\\xe4l\\x8epq\\x9e\\x9d\\xc1\\xfcjy\\x8d\\x12\\xb1\\x0c\\x82h\\xdb\\x19F!7\\xe4\\x1eG\\x19\\xc7#\\xa8\\xa4In%\\x80\\xc8\\x01\\xf2\\xd4\\x13\\xbf#\\x9c{Rl\\xd1+\\x9do\\x87u?\\x14\\xe8\\xd73\\xdbi\\x89r\\xb2?\\xfa\\xc5H\\x81\\xea\\x07<\\x83\\xed\\xc8\\xeb],>*\\xf1E\\xac\\xc7\\xed0\\xa4\\xc4\\xe7\\xe5\\x9623\\xcf\\xaa\\x8e\\xbdx\\xcfj\\xe6U)\\'\\xa6\\xec\\xe9\\x95*\\x92\\x8d\\x9e\\xc8\\xea\\xad|S\\x7f\\x05\\xccp\\xea:d\\xf1\\x99\\xbeh\\xde\\x11\\xb9v\\x901\\x9f\\xc4\\x81\\x9a\\xea\\xb4\\x9b\\xcb}r\\x07\\x95$\\x92\\xd8\\xa3\\xec\"\\xf1\\x0cC<c\\x93\\xc7qC\\xae\\xa2\\xb9\\xba\\x18,+\\x93\\xe5\\xbe\\xa3\\xf5H^\\xc5\\xd6?:\\t\\x89\\\\\\x95\\x86B\\xd8\\x1f\\xed`q\\\\\\xfc\\xb7.\\x01\\'`\\x00\\xf6\\xae\\xdaU#R*H\\xf3\\xabR\\x95\\x198\\xc8\\xa4\\xd2\\xf9\\xaaN\\xe1\\xc7\\xb8\\x07\\xff\\x00\\xafUX\\xe0d\\xb2\\x8c\\x0e\\xe3\\xadw\\'c\\xcdh\\xac\\xf2\\x85\\xc8\\xc89\\xee\\x05D\\x08\\x91\\x89\\x19\\xc0\\xeaI\\xadoa\"\\x9c\\xcc\\x88x_\\xd6\\xa8\\xc9\"\\x80F9\\xf6\\xc5Zle\\t\\'#\\x80:{\\n\\xce\\x9ava\\xd2\\xb4Lh\\xf1xY\\x9eEH\\xff\\x00y\\xbb\\xa6\\x0f \\xfaSM\\xd0B7\\x10_\\xa7\\x07\\xa5|\\xfd\\xcf}\\xa2h\\xe7\\xde\\x1d\\xc0\\x19^\\xac\\x0fCW\\xe3\\xba\\xb8\\x8e\\xc7a\\x9c\\x08\\x8c\\xa3\\x114\\xc0|\\xc4cv\\xd2}\\x00\\xe7\\xe9S\\xb9i\\x10\\xc5x\\xcd<\\xa3-\\'\\x04\\xc8z\\xa9\\x03\\xdc\\x1c\\x1a\\xd4\\xb2\\x82mA\\x95\\xad\"\\x9at\\x07\\x05\\xd0\\x1d\\xa0\\xfadp8\\xa8\\x94\\x94U\\xdb4\\x84\\\\\\xb4H\\xf7\\xcf\\x08xa\\xe6\\xd3\\xc4\\xcdu\\xa9\\xc7{q\\x8d\\xf2\\xb8T\\x85A\\xf5\\xcf-\\xd3\\xaf>\\x98\\x1dk\\xa9\\xb6\\xf0\\x85\\xf6\\x8fws\"\\xf9\\xba\\x88\\xb9RV0\\x8a\\xd1)\\xc98l\\xb2\\xee99\\x07n8<\\n\\xf99W\\xe6\\x9b\\x8e\\x9a\\xf6>\\xba8u\\x18)\\xea\\xed\\xdc\\xeatE\\xd5R\\x0cj6\\x16\\x8c\\xdbvyL\\x8d\\x85\\\\\\xf69 \\x1f\\xa5W\\xbc\\xd1\\xe7\\xb5\\xb87\\x0bd\\x81U\\x81EW*\\x06:\\x10\\xa2\\xbb)B\\x1c\\xd6r\\xd1\\x9c5\\xa7>[\\xc6\\x1a\\xa3\\x0bQ\\xd7^\\xfa/\"\\xf2\\xd6\\xde\\xee Nb\\xb8\\x8fx9\\xfa\\xff\\x00J\\xe4\\xbc\\x8b@$X\\xf4\\xf8m\\xe3n6F\\xa3\\x0c1\\x8e\\x99<W\\xd5Q\\xa4\\xa8\\xabA\\xe8|uz\\xd2\\xac\\xfd\\xf5\\xa9Y\\xb4\\xebb\\x18\\xb5\\xac*\\xa4\\x92IA\\xceq\\x9f\\xe4?*\\xa2\\xf1[)`\\xb1F2I\\xe1G$\\x9c\\x9f\\xcc\\xe2\\xbd\\x04\\xeey\\x8d\\x14\\xa4\\x8e\\x02O\\xeec?U\\xf7\\xcf\\xf3\\xe6\\xab\\xb0\\x89I\\xc4Q\\xe7\\x1dp:gw\\xf3\\xe6\\xb4\\x12 r\\x19~\\xea\\x81\\xcep=N\\x7f\\x9dS\\x95#!\\x83\\x00\\xc0\\x82\\x08=\\xf3\\xc9\\xa0\\xb4P\\x9a@\\xc4\\xf1\\xd7<\\xf5\\xeb\\xd6\\xa8\\xc8\\xea[\\xe5\\xfa\\xf1\\xf4\\xc5R\\x19\\x8b\\xa0h\\xd3Msr\\x91x~\\xfe\\xf4\\xc8\\x85Qey\\xa3g\\xcfF\\x01S\\x1fP\\xc7\\x15\\xd7x7\\xc2\\x1e-\\xb6\\xbb\\x9eK/\\x0b\\xda\\xda\\xf9\\x88\\xb0\\xe3Po\\x9e1\\xbb\\x96\\xc3\\x0c\\xf2\\xb9\\x07\\x04d\\x13\\xc5|\\x8dLE\\x18_\\x9a\\x7fw\\xfc\\x03\\xeb)\\xe1\\xabM\\xaeX\\xff\\x00_3\\xbb\\xb0\\xfd\\x9f\\xf5\\xab\\xf2\\r\\xde\\xbf%\\xa4\\x0c\\xec\\xff\\x00`\\xb7\\x80\\x88P\\x93\\x9c(\\xdc\\xa3\\x1e\\x87\\x15\\xe8\\xdao\\xec\\xe9\\xa3X@\\xb3\\xde[\\xcb\\xa8\\xce\\x9c\\x92\\xcc\\xd8o\\xaa\\x83\\x8f\\xe9_?W1\\x9c\\xf4\\xa2\\xb9|\\xfb\\x9fEG.\\x845\\xac\\xee^\\xba\\xf0~\\x95d\\xacl\\xfc>\\x96w\\x10\\x8e&\\xb8\\xb1v\\x87\\xeb\\x81\\x8fOZ\\x86\\xdbF\\xd3.\\xd3}\\xed\\xcc2F\\xc3\"(\\x02\\xc0\\x8a\\xdd\\xc8\\xc0\\xde>\\x9b\\xb1X\\xd3\\x85I+\\xb6\\xdb\\xfb\\xcd*T\\xa5\\x07\\xcb\\xa4W\\xa5\\xbf\\x1f\\xf25\\xad\\xa4\\xf0\\xf6\\x99\\x1f\\x11\\xdboN\\x86 \\xbb\\x8f\\xe3\\xd6\\xa0\\xbe\\xf1\\xad\\x99\\x01 \\x86b\\x17<\\xf9\\xe4`\\xff\\x00/\\xd2\\xbdjx:\\x93w\\x91\\xe4U\\xc7\\xd3\\x82\\xb45\\xf49\\xe7\\xf1t\\xe9\\xb8E\\x90\\x0fy\\x1c\\xb1\\xfe\\x83\\xf4\\xac[\\xadv\\xe2\\xe4\\xe5\\xdct\\xc7\\n\\x07\\xf2\\xaf\\xa2\\xa7\\x86\\x8c5>^\\xa6*u4\\xe8d=\\xd1\\'9\\xe9\\xcf4\\xc5\\x9d\\x88\\r\\xf2\\xe0\\xf7<\\xd7\\xa1d\\x8f6\\xed\\x99\\xb7\\x17\\x9b\\x8e\\x0b\\x16\\xf6\\x15S\\xcd\\x05I=+e\\xa2#s)\\xef\\x01\\'\\x1f\\xce\\x95e8\\xce\\xdc\\x1fN\\xf5M\\xe8\\t\\x15d\\x9aW$\\xecu\\\\u#\\x83\\xf8\\xd6\\\\\\x92\\xb2\\xc8Wr\\xf4\\xcf\\'\\x8a\\x11V3\\xa4\\x94\\x13\\xc95^I\\xd4.9\\xcf\\xaej\\xd3\\x04\\x8f\\xac\\xec\\xe6\\xd4\\xec\\xc9\\x9a{\\x1bkX\\x87\\x02(\\xa53+{\\xe1\\x99\\x009\\xff\\x00d\\xd6Cx\\xd2\\xe2IYL,\\xad\\x1b\\x0c\\x95>Xo\\xfb\\xe7\\x07\\x1f\\x89\\xfa\\xd7\\xe6\\xd4p\\x10\\xa8\\xee\\xe5\\x7f\\x91\\xfa\\x05|\\xc6\\xa5-\\x14m\\xf3\\x15|u\\xa8\\xc5r\\xd3@L\\x0cF\\xd2\\x03\\xbb)\\x1fB\\xc4~5w\\xfe\\x16&\\xb5#\\x80$\\x8b\\'\\x8c\\x18\\x95\\xb3\\xf9\\x8a\\xf7#\\x80\\xa3\\x15\\xa9\\xe1K2\\xc4I\\xe8lG\\xf1?\\xc46\\x087\\xc5\\x16\\xcfY-\\xf6\\xff\\x00,Tr|X\\xb9\\xb9\\x00\\\\\\xd9\\xc5!=\\xd1\\x8a\\xe3\\xdcu\\xc7\\xff\\x00^\\xa1\\xe0)\\xcbXH\\xddfu\\xa3\\xa4\\xe2\\xbf\"[\\xdf\\x88:%\\xf4J\\x93[\\\\\\xe4(\\x05|\\xa4pO\\xaew\\n\\xe1\\xaf\\xf5_\\x0f\\\\\\xb8\\xd9\\x15\\xd4$\\x0e\\x02F\\x8b\\xf9\\xfc\\xe75\\xa5\\x1c>\"\\x8e\\xcd[\\xe7\\xfeDW\\xc4\\xe1\\xeb\\xea\\xe2\\xd3\\xf4_\\xe6s\\xf3]\\xda9+\\x08p\\xbc\\xe0\\xb9\\x01\\xb1\\xeezV<\\xd32\\xf4 \\xfd\\x085\\xed\\xc5\\xc9i#\\xc2\\x92\\x8b\\xd6%F\\x98\\x8f\\xc7\\x9ej\\xc4\\x97\\x1bmWi\\x19<V\\xcf\\xa1\\x822\\xca\\x97`\\xc0\\x95\\x1d\\xf8\\xa6<\\x9b\\xa3\\xda\\xaa\\xc4wf\\xe0U\\xee\"\\x88e\\\\\\xe4\\xa0\\x1f\\xec\\xf2j\\x9c\\xd7\\x8a\\xa7\\x8c6;\\x9aw\\x04\\x8a\\x17\\x17m \\xf9\\x89\\xc0\\xe4\\x01T\\x1ePF7t\\xf4\\xa7q\\xd8\\xa3$\\xd8\\x07sg\\xf0\\xaa\\x8f>\\x0f\\x7f\\xc6\\xad1\\xa4{\\xdf\\xda\\xf6\\x83\\xd8z\\xd3\\x05\\xd6G\\x1f\\xa5y\\xc9\\x0c\\x89\\xees\\xc6O\\xe5\\xc5V\\x91\\xfc\\xd8\\xd9\\x1b\\x90x+\\xebZ$#1l\"F\\x06?2<vW#\\xf0 U\\xc7a\\xb4e\\xc8\\x1e\\x83\"\\xa9h;\\xdca\\x98`s\\x9f`j36\\xd1\\xd7\\x07\\xf5\\xaa\\xb8\\x87\\x12\\xe7\\x04d{\\xe2\\xa3wE?3\\xaf\\x1e\\x9c\\xd3\\xb8\\x15Z\\xed0@V\\x18\\xe8\\xcd\\xd0\\xd4&\\xfd8\\xc8S\\xf4Rh\\x02\\xd5\\xce\\xa2\\xb1\\xc1\\xb5\\x08\\x00\\x8e\\xc3\\xfc+\\x94\\x9e\\xf0\\xb1\\xc9n{f\\xa6%4U\\x92\\xf0\\x84\\xc0\\xc0\\xfcj\\xb1\\xba\\xc2\\x9e~\\xf5h\"\\xa4\\x92g\\xa9\\x19\\xcfS\\xfc\\xaa\\xabM\\x86\\xc6\\xe0{\\xe4S\\xb8\\xd2)=\\xc7\\xca@$\\x1fZ\\xa1$\\xc4\\x9e\\t\\'\\xdcU&RG\\xbd\\xac\\xfbH\\xe8;\\xe4P\\xd3\\xe0\\x1c\\xe7\\xd7&\\xb8\\x89hg\\xdaT\\x10@\\xfcI\\xebLi\\x99S\\n\\xaf\\x8faT\\x82\\xc4\\r6Fw\\xb2\\xfbq\\x8a\\x89\\xaeQO\\x05Y\\x80\\xee\\xc75Ab1|1\\x90\\xa0{\\x93Q\\x1b\\xc2\\x06s\\x8f\\xa7\\x14\\xc7b\\xbb\\xdd\\x97PK\\xf0z\\x8c\\xd5i/\\t \\x01\\x80\\x7f:w\\x15\\x8a\\xf2\\xde\\x13\\x9e\\x84\\x8fSIk\\x99\\xe6\\x04\\x9c\\xf1\\xdb5-\\xd9\\x14\\x91\\x1d\\xf5\\xc6\\x1fnr\\x07\\xa5b\\xcb.FOOzq\\xd8\\x1e\\xe56\\x95NF\\xecb\\x90\\xcc\\x019#\\xd3\\x00\\xe6\\xad\\x82(\\xbd\\xdeO\\x07\\x83\\xe8j\\x89\\x9dO=G\\xae{\\xd0U\\x8a\\xb2\\\\\\x1d\\xb8$\\x1c{\\xf3U\\x9el1\\xe3nG\\x04\\xf7\\xfc\\xa9\\xa6R=\\xd9\\'y\\x14\\x9d\\xe4\\x0f\\xd2\\x94\\xdc\\xc4\\x80\\x1d\\xe5\\xb8\\xe0\\x8e\\x07\\xe7\\\\\\x86v!k\\xec?\\xee\\xc0_\\xf6\\xbb\\xfdj\\xbb\\xcf$\\xac77\\xcd\\xf8U\\x05\\x88\\x1ab\\tV\\xf9\\x8f`=\\xea\\x138S\\xed\\xefUq\\xd8\\x8c\\xdcd\\x95\\xc9$\\xfd*\\x17\\xba\\xc0#8\\xcf\\\\w\\xa7q\\xd8\\xacns\\xcf\\x1dzc\\x06\\xa17L\\xe3\\x03\\xa7\\xa50\\xb1\\\\\\xca\\n\\xb1\\xceB\\xf6\\xabv\\xd3\\xf9\\x7f>\\xe2\\x14\\x8e\\xd5\\x12\\xd8i\\x19s^y\\x8e\\xc4\\xb7S\\xd4\\x1a\\xa5-\\xd7\\x01z\\x8c\\xe3\\x9e\\xf5\\xa2\\x11\\t\\xb9\\x01I\\x0c\\x08\\x1d\\xb1\\xcdRk\\xa3\\xb8\\xa1\\xcez\\xe0\\x10(\\xb8\\xecUy\\x89\\xc8\\xf9\\x8e{\\x8e\\xb5S\\xcf\\xde\\xbc\\x923\\xc6\\x08\\xcd\\x03 yp\\xc3\\x80}\\xfd*\\xa3\\\\\\x85S\\xc0\\x1e\\xe3\\xd6\\x9ae${[]\\xb3/\\xde\\x18\\xf4\\x1d\\xaa\\x11>\\t\\xdc\\x01\\xcf\\xbf5\\xcc@\\xa9rYq\\xd0\\x0e1\\xde\\x9an\\x82\\xa8\\x00\\x06\\x07\\xaex\\xaa\\x02\\xa3\\xde\\xednN2q\\x85\\xa4y\\xf2\\xbd3\\x91\\x9f\\xad1\\x91\\x1b\\x9c\\xa9\\xf9\\xb1\\xed\\x8a\\xaa.F\\xf6\\x19\\x1f\\x8d\\x01a\\x8fp\\xa0aO\\xcd\\xd8\\x1a\\xaa\\xb7C$\\xb1;\\xbd\\x00\\xe7\\xf3\\xa6;\\x10\\x8b\\x8d\\xc4\\xa9\\xc6{\\x01\\xd2\\x91\\xefHP\\t\\xe4\\x1e\\x94\\x05\\x86Iq\\xb5\\x18)\\xc9\\xacy\\xae\\xbc\\xb97\\x10\\x02\\x9e\\xb9$sB`\\xd1\\x1c\\xb7;A\\x00\\x12\\xc7\\xa2\\xe4qU\\xcc\\xc5\\x97$rz\\x03\\x9aw\\x19^[\\xa7R\\x17 \\xe3\\xb8\\xed\\xf4\\xaa\\xd2\\xce\\xc4\\x12\\xdbJ\\x1e\\xe7\\xfa\\xd3\\x1aE?11\\xc7\\xe7T\\xa5\\x99ZBx\\xe3\\xf8\\xb3M\\x16\\x91\\xed\\x9fh\\xfa\\x11\\xd3\\x19\\xa8\\xdas\\x1a\\xf2\\xf9\\xf4\\x07\\x8a\\xe73hV\\xbaX\\xd4\\x0c\\xe3=\\x81\\xc8\\xfc\\xea\\x01r\\x14\\xe0\\xb0\\xdcG\\xafj\\x07a\\xa6\\xe4\\xa8\\x1d\\x87\\xbf5Q\\xa7!\\x89\\xdf\\xef\\x8f\\xfe\\xb5R\\x0b\\x11,\\xbb\\x8f\\xde?Bj\\xb4\\xd7\\x047\\xc9\\xf3\\xe3\\x92\\x07\\x19\\xa7q\\x91\\x9b\\x9f1\\xcepr9\\x03\\xad2K\\xbd\\xee\\x15W\\xe5\\xf5\\'\\xfa\\xd0+\\\\\\x89\\xeeB\\x9e\\xd9\\xeeOj\\x82)\\x82\\xbb\\x0c\\xa9\\'\\xa3n\\xebCv)\"\\tn\\x1cK\\xcbn\\xe3\\x9e?\\xcf\\xf2\\xaa3M\\xb4\\x92\\t\\xc6rA\\\\f\\x84+\\x11\\xbd\\xda\\x91\\xb8\\x81\\xd3\\xee\\x83\\x90\\x7f\\x1a\\xaf$\\xca3\\xb1\\x87\\xfc\\x04\\xe0S\\x1d\\x8a\\xed(m\\xa7#>\\x8b\\xce~\\xb5^K\\x9f\\xe0\\\\\\x00=\\x18\\x00}\\xa8\\x19\\tbG\\x04\\xe4\\xf5]\\xd9\\xaa\\xd2J\\x8c\\xdcv\\xeb\\x81\\xd2\\x84R=\\x86g\\x96\\xddQ\\x9dY\\x03\\x8c\\xaeA\\x01\\xbd\\xfd\\xea\\x10\\xcc\\xe0\\xb0\\xcb\\xb0\\x04\\x9c\\x8e\\x83\\xb9\\xaet\\xd3\\xd5\\t\\xc5\\xa7b#s\\xbdH\\x038\\xed\\x81\\x8aa\\xb8 dpGZ\\xa1X\\x88M\\xb8\\x92O\\x07\\xb9\\xfe\\x95ZK\\x92\\xee@\\x07o\\xae\\x06?\\xa5P\\xecE$\\xd9?{\\x00\\x7f\\t\\xc5B.\\t\\xf9\\x14\\x82s\\xca\\x81\\x9d\\xbf\\x8f\\xf8\\xd3\\x15\\x88\\xdaR\\xcc9;GV\\xf55^k\\x95\\x8c\\x86\\x03,G\\x19\\x19#\\xfaP\\x16+\\xcb8+\\xd3\\xe6\\xf5\\x1cR\\x8b\\xcf \\x8e\\xa7\\xb0<g\\xf2\\xa1\\xea2\\xbbJ\\x01.IL\\xf58\\xc6j\\xbc\\xb2\\x96m\\xe7*\\xa3\\xa6\\x7f\\xc2\\x9d\\xc4W\\x96_5\\xc7%\\x90\\xf7\\x1d\\xaa6\\xb9!\\xb0\\xbf6;\\xee\\xe4~\\x14\\x86B\\xf23\\xaf8\\xf6\\xc0\\xaa\\xe6\\xe3\\xcbN0\\x01\\xecx\\xa7p+\\xbc\\xa8\\xb99\\x19\\xc7By?\\x8dS\\x13y\\xa3\\xae=\\xc5\\x17-#\\xaf\\xb1\\x82Xu\\xab\\xcb\\xa7\\x99\\xcf\\x9a\\x00\\x03\\xb0\\x03\\xa7\\x03\\xebR\\xeb\\xab-\\xdcVA\\x1c\\xa8K\\x94\\x94\\xf1\\x8cm\\xcfo\\xc6\\xb0Z$\\x8d\\x1e\\xb2\\xb9\\xaf\\r\\xd3\\xc42N\\xe6^\\x80\\x8c)?\\x86+\\x17F\\xd4\\xef\\xee\\xa0\\x9amRcurd,ZF$\\xe3\\x8f\\x7f\\\\\\xd3\\xd2\\xf7%ma\\xd7\\xda\\xa5\\xd2\\xdfYC\\x18O!\\xc3\\xb4\\xa5\\xb1\\x9c\\xe0m\\x00\\xe3#\\x19=\\xf0s\\xec*\\xf3j\\x8be\\x13\\\\In.D`\\xb1\\x88\\x12\\x03\\x9cp\\t\\xc88\\xe9\\xd0\\xd0\\xf6\\xd3pKTe\\xd8\\xea\\xd2\\xea\\x16\\x91\\xcd$\\x06\\x19$\\x1c\\x85l(\\x19\\xe3\\xb9#\\xe9N\\xb9\\xd4\\x96+\\xc8m\\xf2K4FG+\\x91\\x8e@\\x00g\\x19\\xef\\xf9v\\xaa\\x15\\xb7$\\x82\\xf2\\x08W\\xcd\\xba\\x95\\xa2\\xb6PY\\xd9W$\\x00\\x0fl\\xf5\\xe2\\xb3 \\xd5\\xa1\\xbd\\x8b\\xcd\\x82FDl\\x95W\\xce\\xfcg\\xa7\\xa6~\\x94&\\xdb\\xf2\\x0bip{\\xcbe\\x8e##\\x98\\xe5\\x91\\x9b`|\\xe1\\x82\\x80X\\x93\\x9e1\\xb9p9\\xceOLs \\xb8i\\xddQX\\xc8O\\x00\\'#\\xf9\\xe2\\x9d\\xf4\\xb8\\x9a\\xe8B\\xf2\\xae\\x19D\\x89&\\xd3\\x82\\xd1\\x90\\xdc\\xf5\\xebIo\\x13\\xcf\\xe60\\n\\x04j]\\x9aG\\x081\\xd3\\x8c\\x9cd\\xf0\\x00\\xeaI\\x00R\\xe6I\\\\|\\xae\\xf6*<\\x9bF8\\xdb\\xee@\\xa4)$jf\\xd8DLJ\\xab\\x058b;g\\xf1\\x1f\\x9d\\x17HV\\xb9Q\\xe5h\\xce\\xe6 \\x8fL\\xe5\\x85@\\xd3\\xb0A\\xf2\\xbb\\x13\\xd3<\\x1f\\xc6\\x9d\\xc6\\x91X\\xc8\\x1dr\\xc66\\xc7\\x1bA\\xceM6B\\xcb\\xce\\xe0\\xa0\\xf3\\x9cQr\\xd2=\\x06;\\x92\\xc4\\x92\\xf9\\x1f\\x99>\\xd9\\xa5-\\x95\\x18\\xc0\\x00\\xf2N\\x06+ h\\x91\\xa6\"3\\xf2\\x93\\x8eNy\\'\\xe9\\x8a\\xa5\\x13\\x88\\x94\\x01\\x85\\xcfV\\xe9\\x8a\\x10\\xac#L\\x0c\\x8a\\xe0\\x86\\xc7\\x03\\x06\\xa1\\x98\\x02\\x87p\\x07waT\\x04PH\\n\\x04\\x8f\\'gE^\\x7f^\\xd5\\\\\\xec\\x17[\\xdc\\xe1\\x87a\\xc9\\xa0\\x08\\xae\\xe6\\xf3\\xe3u`\\xaa\\xaf\\xc6\\t\\xe9PY7\\xd9\\xa0\\x11\\xc6H\\x00`\\x85\\xe3\\x1f\\x9d\\x01\\xd0\\xabu\\x1cS^\\xc567\\x94V\\x00\\xb8\\xce3\\xff\\x00\\xea\\xab\\x06r\\x91y\\xbc\\x8fB\\x9e\\xbf\\xe7\\xbd\\x00ci\\xb0}\\x92\\xd7nK6\\xec\\x96n\\xb8\\xc0\\x03\\xf4\\x15f\\xf6i\\xbc\\x81\\x1cR\\x18\\x83:y\\x84cs\\x00\\xc1\\xbf\\x0e@4\\xbaX\\xab\\xebq\\xe2GE\\x1f3\\x00z\\xb3\\x1e\\xbf\\x9f\\xf8V}\\xd6\\xb7{uq\\x05\\xbc\\x97\\x05l\\xe0B\\xa8\\x83-\\xd4\\xe7\\xb9\\xc6r[\\x9fz\\x99$\\xdalq\\xd14\\x02vf\\\\1+\\x9f\\xe2 \\x13U\\xeeu\\x07\\xd5.\\xe6\\x9d\\xe3TWr\\xaa\\xac\\xe4\\x95Pp\\xa38\\xe8\\x00\\x03\\xb7J\\xaf\\xb5q\\xad\\x89l\\xb5\\x9b}\\x12e\\xba\\x9a\\xddnc\\x88\\x1c[\\x05;Y\\xb1\\x80H\\'\\xb1\\xe7\\x1d\\xf1Y2\\xea/{3\\\\\\x18\\x05\\xbaJK\\xfc\\xa7\\x01s\\xce\\x00\\'\\xfcjR\\xf7\\x9b\\xbfC_\\xb2\\x8fU2\\x02\\xa4\\xe5\\xa4\\xcf]\\xf98\\xa9c&F\\xc8\\xc6\\x01\\x1f0\\xc0\\xc7\\xe7\\x93\\xf9T\\xb3&\\x89\\x1c\\xaa\\x96\\x04\\xee#\\xf8\\x8eX\\x9fj\\xa6\\xf2(9\\xdb\\x96c\\x90N?\\xc2\\x9a&\\xc59\\xa5\\xf9\\x80\\x07-\\xecG\\x7f\\xc6\\xa02q\\xbc\\xf0z`0\\'5a`wb\\xa3p\\r\\x8e\\xd2|\\xd8\\xfc*\\x03(\\x04m$(\\xea3\\xf2\\xfd1@\\x11\\xc91\\x0b\\xd0\\x0cw\\xe3\\x81\\xfa\\x9a\\x81\\xa7e\\xc0\\x03\\x8e\\xdb\\x8e(\\x0b\\x10\\xb4\\xbb\\x1b,FO\\xa8\\xc7\\xf3\\xa8\\x9aP\\xc7-\\xc7\\x1d\\xb9?\\xca\\x98X\\x8ddQ\\x9cq\\xcf\\xf0\\xf1\\x9a\\xaf$\\xae[\\'\\x908\\xc2q@$\\x12\\xce\\x02\\x00\\x18{\\x80q\\xf8u9\\xaa\\x86f\\x04\\x16\\xdc\\xa7\\xd0\\x1f\\xfe\\xb5\"\\xac2I\\xb7F8\\'=>`?\\x9d@\\xb2\\x90\\x8a0q\\x9e8\\'\\xff\\x00\\xadAv*\\xdc\\xba\\xc8v\\x02\\xaf\\x9e\\xa3#\\x8a\\x85YU6\\xa0\\nGO,\\x81\\x9f\\xae\\x06jlZ?9h\\xaf\\x8e?Q\\n(\\x00\\xa2\\x80\\n(\\x00\\xa2\\x80\\n(\\x00\\xa2\\x80\\n(\\x00\\xa2\\x80\\n(\\x03\\xff\\xd9'"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-60d5093d-7f66-50a4-b438-cda6935ffc1d",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Thumbnail YCbCrPositioning",
-            "uco-types:value": "Co-sited"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-f53291df-ba7c-5944-b1d3-e8badabc5224",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote LightingType",
-            "uco-types:value": "NATURAL    "
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-83c91d92-b4e9-58b1-b936-26ee5d2076b1",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF SensingMethod",
-            "uco-types:value": "One-chip color area"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-d3d9630e-d10e-5b42-ba30-da6cb75e2841",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF Flash",
-            "uco-types:value": "Flash did not fire"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-9a4ce846-2857-51e8-be7b-ba9910de6907",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF SceneCaptureType",
-            "uco-types:value": "Standard"
+            "uco-types:key": "MakerNote Whitebalance",
+            "uco-types:value": "AUTO        "
         },
         {
             "@id": "kb:controlleddictionaryentry-76d92817-f1b9-5d50-afbf-d4d2238caafc",
@@ -70,22 +34,112 @@
             "uco-types:value": "[78, 105, 107, 111, 110, 0, 2, 0, 0, 0, 77, 77, 0, 42, 0, 0, 0, 8, 0, 29, ... ]"
         },
         {
-            "@id": "kb:controlleddictionaryentry-33f84d80-87a6-5cb2-b441-6be731acf9e0",
+            "@id": "kb:controlleddictionaryentry-b212708e-1e39-5e15-9c52-7f593a1575da",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote ISOSetting",
-            "uco-types:value": "[0, 200]"
+            "uco-types:key": "Interoperability InteroperabilityVersion",
+            "uco-types:value": "[48, 49, 48, 48]"
         },
         {
-            "@id": "kb:controlleddictionaryentry-a3e1e3c5-d9a7-5b67-ba8a-998cc7c7c418",
+            "@id": "kb:controlleddictionaryentry-f3c40b22-e1bc-5a0e-b713-89d51e0580a9",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote HueAdjustment",
-            "uco-types:value": "3"
+            "uco-types:key": "EXIF ExifImageWidth",
+            "uco-types:value": "3008"
         },
         {
-            "@id": "kb:controlleddictionaryentry-1656cc15-3d0c-590f-bbef-fdc7b1c1e755",
+            "@id": "kb:controlleddictionaryentry-f882476d-9501-5966-af80-aeb353d24d72",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote NikonPreview",
-            "uco-types:value": "640"
+            "uco-types:key": "Image ResolutionUnit",
+            "uco-types:value": "Pixels/Inch"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-4b0635a0-7a67-5f27-8022-6c607f7c8704",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "MakerNote LensType",
+            "uco-types:value": "14"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-2f0763cd-6c49-53c2-ad4b-2dd9794bac1d",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF CustomRendered",
+            "uco-types:value": "Normal"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-2462bf05-0e99-5a65-b07e-fce83bd42b31",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF FNumber",
+            "uco-types:value": "9"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-e9bb3904-73c6-5d99-9a99-be420da069e1",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "MakerNote ToneCompensation",
+            "uco-types:value": "HIGH    "
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-11664b4b-9913-5d90-b188-18fed4fbf487",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "MakerNote LensData",
+            "uco-types:value": "[48, 49, 48, 48, 1, 117, 120, 64, 55, 110, 44, 60, 124, 21, 54, 20, 99, 28, 100, 0]"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-dedabfa5-a9a5-58fe-9023-97f277be7bad",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF ComponentsConfiguration",
+            "uco-types:value": "YCbCr"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-f978ee0e-6800-5490-85cc-d1080bc12995",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "Thumbnail JPEGInterchangeFormat",
+            "uco-types:value": "26086"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-d3d9630e-d10e-5b42-ba30-da6cb75e2841",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF Flash",
+            "uco-types:value": "Flash did not fire"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-0de56cf5-92ee-52b4-9d65-8762f9a5ae39",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF ExposureBiasValue",
+            "uco-types:value": "0"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-f53291df-ba7c-5944-b1d3-e8badabc5224",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "MakerNote LightingType",
+            "uco-types:value": "NATURAL    "
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-1bdc6f0a-7552-50ea-b37e-fc90ab855482",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "Image GPSInfo",
+            "uco-types:value": "25764"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-2c2ef3af-e55e-589f-b4f8-1b3c5fabd50f",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF LightSource",
+            "uco-types:value": "Unknown"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-139dd9ee-0c67-5ca1-8cf1-80c980d69512",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF DigitalZoomRatio",
+            "uco-types:value": "1"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-d8ad1fc8-9722-5c79-85bf-3e5f7329328c",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "MakerNote Quality",
+            "uco-types:value": "NORMAL "
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-48d0b87d-d3d9-53ca-ac10-c7d85749985d",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF DateTimeDigitized",
+            "uco-types:value": "2005:08:31 21:40:03"
         },
         {
             "@id": "kb:controlleddict-99d5b9ba-de05-5f42-a7e6-05aded194662",
@@ -388,64 +442,10 @@
             ]
         },
         {
-            "@id": "kb:controlleddictionaryentry-02fd1df9-9122-53fd-91fd-eb4f3074fce5",
+            "@id": "kb:controlleddictionaryentry-c4331884-6780-5922-b20d-cdc5ffd292af",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote ProgramShift",
-            "uco-types:value": "0 EV"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-11664b4b-9913-5d90-b188-18fed4fbf487",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote LensData",
-            "uco-types:value": "[48, 49, 48, 48, 1, 117, 120, 64, 55, 110, 44, 60, 124, 21, 54, 20, 99, 28, 100, 0]"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-fef15dbb-ce21-5ee8-9ac7-75bc01a7886c",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Image ImageDescription",
-            "uco-types:value": "                               "
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-683092b8-da56-59c3-bcf5-3c70a6f3c322",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "GPS GPSLongitude",
-            "uco-types:value": "[89, 381/20, 0]"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-d8ad1fc8-9722-5c79-85bf-3e5f7329328c",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote Quality",
-            "uco-types:value": "NORMAL "
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-e9bb3904-73c6-5d99-9a99-be420da069e1",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote ToneCompensation",
-            "uco-types:value": "HIGH    "
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-15e62de8-dbad-5d11-a4fa-a3a5dab5daf2",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote FocusMode",
-            "uco-types:value": "AF-C  "
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-9e580acc-719c-5b0c-93f0-da4ffeb24d40",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "GPS GPSLatitude",
-            "uco-types:value": "[30, 1833/100, 0]"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-eba5b0dd-1a0e-5158-8693-71ef3cad61a0",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote BracketingMode",
-            "uco-types:value": "Single frame, no bracketing"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-f5b21569-23bb-5ce4-b416-ee95b33a903d",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote ImageSharpening",
-            "uco-types:value": "NORMAL"
+            "uco-types:key": "MakerNote AutoFlashMode",
+            "uco-types:value": "        "
         },
         {
             "@id": "kb:controlleddictionaryentry-db2898ec-6b1b-580b-8019-224dcc22c5c9",
@@ -454,16 +454,130 @@
             "uco-types:value": "Directly Photographed"
         },
         {
+            "@id": "kb:controlleddictionaryentry-9a4ce846-2857-51e8-be7b-ba9910de6907",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF SceneCaptureType",
+            "uco-types:value": "Standard"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-6bdd1a7b-c265-543f-8f24-c02cb8d96f2e",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "MakerNote MakernoteVersion",
+            "uco-types:value": "0200"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-d02e12a7-a221-5c91-8f9d-cd7704da2912",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF FlashPixVersion",
+            "uco-types:value": "0100"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-167f4c04-76c3-5ba1-b87d-f409ffbae856",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF ExposureProgram",
+            "uco-types:value": "Program Normal"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-10258b92-f98a-5208-a472-082bc040ffea",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF CompressedBitsPerPixel",
+            "uco-types:value": "2"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-be6f698f-97a5-52ed-8eca-624d3d19ce50",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "Image Model",
+            "uco-types:value": "NIKON D1X"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-fef15dbb-ce21-5ee8-9ac7-75bc01a7886c",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "Image ImageDescription",
+            "uco-types:value": "                               "
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-db89299f-2ff8-5926-a99d-604f6ed121e6",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "GPS GPSLongitudeRef",
+            "uco-types:value": "W"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-1a58d446-36cd-5bb7-845a-7310ab223c0d",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF MeteringMode",
+            "uco-types:value": "Pattern"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-05f510b5-29f1-511b-988b-2d419120963b",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF FileSource",
+            "uco-types:value": "Digital Camera"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-93698944-7921-51cd-a50e-3e14b8d3a40b",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "Image YResolution",
+            "uco-types:value": "300"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-1656cc15-3d0c-590f-bbef-fdc7b1c1e755",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "MakerNote NikonPreview",
+            "uco-types:value": "640"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-60d5093d-7f66-50a4-b438-cda6935ffc1d",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "Thumbnail YCbCrPositioning",
+            "uco-types:value": "Co-sited"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-c38801d6-4768-5b72-b395-15d32677e738",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "Thumbnail YResolution",
+            "uco-types:value": "300"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-9537648c-7b7b-5765-ad71-f790b1b912de",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF ExposureMode",
+            "uco-types:value": "Auto Exposure"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-d8a59695-d057-5d2c-87b9-a4cf2610cdd1",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "Image YCbCrPositioning",
+            "uco-types:value": "Co-sited"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-a3e1e3c5-d9a7-5b67-ba8a-998cc7c7c418",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "MakerNote HueAdjustment",
+            "uco-types:value": "3"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-ddcadf68-b391-5a3a-aecf-978fbf9b3431",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "Image DateTime",
+            "uco-types:value": "2005:08:31 21:40:03"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-f7829fb6-f516-5968-9c70-fb6d6d1e86ba",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF ColorSpace",
+            "uco-types:value": "sRGB"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-b70698b1-7c4c-5a7c-8b07-e52faea55492",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "MakerNote ExposureDifference",
+            "uco-types:value": "0 EV"
+        },
+        {
             "@id": "kb:controlleddictionaryentry-b9783b9a-a122-5e2e-bc9b-90823ddf75a8",
             "@type": "uco-types:ControlledDictionaryEntry",
             "uco-types:key": "GPS GPSLatitudeRef",
             "uco-types:value": "N"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-89ebb167-1fe4-5aa3-b987-b8c23c449601",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "GPS GPSMapDatum",
-            "uco-types:value": "         "
         },
         {
             "@id": "kb:controlleddictionaryentry-62060f51-37bf-558d-83f7-d4cd8a92107a",
@@ -472,10 +586,94 @@
             "uco-types:value": "[21, 39, 596/25]"
         },
         {
+            "@id": "kb:controlleddictionaryentry-4557e210-dff3-51ab-b466-23c172d491bd",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "GPS GPSAltitudeRef",
+            "uco-types:value": "0"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-dd5cdd2c-141b-5274-b372-b492bffa1deb",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF SubSecTimeDigitized",
+            "uco-types:value": "02"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-f0d957ca-b5b6-5113-ac1f-3542ca34b09d",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "Thumbnail JPEGInterchangeFormatLength",
+            "uco-types:value": "4818"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-33f84d80-87a6-5cb2-b441-6be731acf9e0",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "MakerNote ISOSetting",
+            "uco-types:value": "[0, 200]"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-0857dce0-5f59-54a7-957f-3fdb6d319c59",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF SubSecTimeOriginal",
+            "uco-types:value": "02"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-52a9091f-9a04-547a-822b-3c5022a6d3b8",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "MakerNote AutoBracketRelease",
+            "uco-types:value": "0"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-4b496e74-661c-5ea5-af26-eb6930708b86",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "Image ExifOffset",
+            "uco-types:value": "252"
+        },
+        {
             "@id": "kb:controlleddictionaryentry-c6cd6cad-6e23-5126-b146-e6e4238e578c",
             "@type": "uco-types:ControlledDictionaryEntry",
             "uco-types:key": "EXIF UserComment",
             "uco-types:value": ""
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-f94b4c98-35df-52dd-a461-1e2e738297fa",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "MakerNote Tag 0x008E",
+            "uco-types:value": "[387/512, -27/256, -1/4, 395/512]"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-c514e209-aa68-5dd3-b672-05c7326ada09",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "MakerNote ColorMode",
+            "uco-types:value": "MODE1   "
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-805706ba-72d3-5809-b3cf-34aee1d4d599",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "GPS GPSVersionID",
+            "uco-types:value": "[2, 2, 0, 0]"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-2f225dcb-537c-59a6-8425-aa948bf87076",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF GainControl",
+            "uco-types:value": "None"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-bf77ae57-dfba-5cd6-8405-0ec8c3f2475e",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "Image Software",
+            "uco-types:value": "Ver.5.01 "
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-e0725ed7-d0a8-5440-b274-2f40d6fa3ce2",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF FocalLengthIn35mmFilm",
+            "uco-types:value": "75"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-63c4531e-9bda-5436-a2ec-26c03ad21ee2",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "MakerNote WhiteBalanceRBCoeff",
+            "uco-types:value": "[139/64, 155/128, 1, 1]"
         },
         {
             "@id": "kb:exiffacet-48b755d1-610f-523b-9c25-c8cc9893b094",
@@ -485,72 +683,46 @@
             }
         },
         {
-            "@id": "kb:controlleddictionaryentry-d709dba6-27f3-5877-8792-5e0edbb39f4d",
+            "@id": "kb:controlleddictionaryentry-f5b21569-23bb-5ce4-b416-ee95b33a903d",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Thumbnail Compression",
-            "uco-types:value": "JPEG (old-style)"
+            "uco-types:key": "MakerNote ImageSharpening",
+            "uco-types:value": "NORMAL"
         },
         {
-            "@id": "kb:controlleddictionaryentry-9537648c-7b7b-5765-ad71-f790b1b912de",
+            "@id": "kb:controlleddictionaryentry-e33915ea-c959-55b3-aa18-3b37b0fe2ce1",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF ExposureMode",
-            "uco-types:value": "Auto Exposure"
+            "uco-types:key": "EXIF ExposureTime",
+            "uco-types:value": "1/320"
         },
         {
-            "@id": "kb:controlleddictionaryentry-1bdc6f0a-7552-50ea-b37e-fc90ab855482",
+            "@id": "kb:controlleddictionaryentry-46176ef8-6489-5b08-9f8b-1db72558a88a",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Image GPSInfo",
-            "uco-types:value": "25764"
+            "uco-types:key": "EXIF CVAPattern",
+            "uco-types:value": "[0, 2, 0, 2, 2, 1, 1, 0]"
         },
         {
-            "@id": "kb:controlleddictionaryentry-db0d3a30-d983-510a-96a8-8ce3e2cbb8bf",
+            "@id": "kb:controlleddictionaryentry-89ebb167-1fe4-5aa3-b987-b8c23c449601",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF Contrast",
-            "uco-types:value": "Hard"
+            "uco-types:key": "GPS GPSMapDatum",
+            "uco-types:value": "         "
         },
         {
-            "@id": "kb:controlleddictionaryentry-f3c40b22-e1bc-5a0e-b713-89d51e0580a9",
+            "@id": "kb:controlleddictionaryentry-2e0aea96-749d-5483-a451-f5e42bd7707c",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF ExifImageWidth",
-            "uco-types:value": "3008"
+            "uco-types:key": "Image Make",
+            "uco-types:value": "NIKON CORPORATION"
         },
         {
-            "@id": "kb:controlleddictionaryentry-93698944-7921-51cd-a50e-3e14b8d3a40b",
+            "@id": "kb:controlleddictionaryentry-683092b8-da56-59c3-bcf5-3c70a6f3c322",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Image YResolution",
-            "uco-types:value": "300"
+            "uco-types:key": "GPS GPSLongitude",
+            "uco-types:value": "[89, 381/20, 0]"
         },
         {
-            "@id": "kb:filefacet-77aba580-4bf3-5698-992b-262b363a67f8",
-            "@type": "uco-observable:FileFacet",
-            "uco-observable:extension": "jpg",
-            "uco-observable:fileName": "799987.jpg",
-            "uco-observable:filePath": "/mnt/rob/storage/CASE-community/CASE-Implementation-PyPI-Exifread/799987.jpg",
-            "uco-observable:sizeInBytes": 1526008
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-63c4531e-9bda-5436-a2ec-26c03ad21ee2",
+            "@id": "kb:controlleddictionaryentry-e8990cd3-5345-51ea-bfbe-af30cdbaad44",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote WhiteBalanceRBCoeff",
-            "uco-types:value": "[139/64, 155/128, 1, 1]"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-bf77ae57-dfba-5cd6-8405-0ec8c3f2475e",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Image Software",
-            "uco-types:value": "Ver.5.01 "
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-48d0b87d-d3d9-53ca-ac10-c7d85749985d",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF DateTimeDigitized",
-            "uco-types:value": "2005:08:31 21:40:03"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-f62d8c40-5246-5250-adab-54e1fa06c6fe",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote FlashMode",
-            "uco-types:value": "Did Not Fire"
+            "uco-types:key": "MakerNote LensMinMaxFocalMaxAperture",
+            "uco-types:value": "[24, 120, 7/2, 28/5]"
         },
         {
             "@id": "kb:controlleddictionaryentry-dce2a7d4-fa94-5296-a5a1-0533b8d76815",
@@ -559,28 +731,22 @@
             "uco-types:value": "[59/10, 59/10]"
         },
         {
-            "@id": "kb:controlleddictionaryentry-e0725ed7-d0a8-5440-b274-2f40d6fa3ce2",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF FocalLengthIn35mmFilm",
-            "uco-types:value": "75"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-5047c412-9658-5885-bff0-d31af2853b8b",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote AFFocusPosition",
-            "uco-types:value": "1CenterCenterCenter"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-14c6953d-87d5-51b6-8c7e-2e88d102f0f6",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote Whitebalance",
-            "uco-types:value": "AUTO        "
-        },
-        {
             "@id": "kb:controlleddictionaryentry-90c17087-6e1b-56bf-b828-d5ab5b70abea",
             "@type": "uco-types:ControlledDictionaryEntry",
             "uco-types:key": "Image XResolution",
             "uco-types:value": "300"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-b17e03fb-f642-5864-a4c7-39e8efac258e",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF MaxApertureValue",
+            "uco-types:value": "9/2"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-73c786f4-8497-5964-85d2-3373b69eeec6",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF WhiteBalance",
+            "uco-types:value": "Auto"
         },
         {
             "@id": "kb:controlleddictionaryentry-327e59fe-edcf-56d7-86d7-fcdbfbf7a7b2",
@@ -589,28 +755,58 @@
             "uco-types:value": "[48, 49, 48, 48, 0, 0, 0, 0, 50, 77, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... ]"
         },
         {
-            "@id": "kb:controlleddictionaryentry-db89299f-2ff8-5926-a99d-604f6ed121e6",
+            "@id": "kb:controlleddictionaryentry-15b28390-b292-577a-bc3b-2e38dc40c52e",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "GPS GPSLongitudeRef",
-            "uco-types:value": "W"
+            "uco-types:key": "EXIF ExifImageLength",
+            "uco-types:value": "1960"
         },
         {
-            "@id": "kb:controlleddictionaryentry-dedabfa5-a9a5-58fe-9023-97f277be7bad",
+            "@id": "kb:controlleddictionaryentry-5047c412-9658-5885-bff0-d31af2853b8b",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF ComponentsConfiguration",
-            "uco-types:value": "YCbCr"
+            "uco-types:key": "MakerNote AFFocusPosition",
+            "uco-types:value": "1CenterCenterCenter"
         },
         {
-            "@id": "kb:controlleddictionaryentry-d02e12a7-a221-5c91-8f9d-cd7704da2912",
+            "@id": "kb:controlleddictionaryentry-15e62de8-dbad-5d11-a4fa-a3a5dab5daf2",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF FlashPixVersion",
-            "uco-types:value": "0100"
+            "uco-types:key": "MakerNote FocusMode",
+            "uco-types:value": "AF-C  "
         },
         {
-            "@id": "kb:controlleddictionaryentry-e33915ea-c959-55b3-aa18-3b37b0fe2ce1",
+            "@id": "kb:controlleddictionaryentry-d709dba6-27f3-5877-8792-5e0edbb39f4d",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF ExposureTime",
-            "uco-types:value": "1/320"
+            "uco-types:key": "Thumbnail Compression",
+            "uco-types:value": "JPEG (old-style)"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-d1dbdb31-ab06-53ee-8f3a-e14ed076dd81",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "GPS GPSSatellites",
+            "uco-types:value": "04"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-7bc15ef0-38a9-5a0d-bc07-2734df4fcd00",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF SubSecTime",
+            "uco-types:value": "02"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-83c91d92-b4e9-58b1-b936-26ee5d2076b1",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "EXIF SensingMethod",
+            "uco-types:value": "One-chip color area"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-f62d8c40-5246-5250-adab-54e1fa06c6fe",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "MakerNote FlashMode",
+            "uco-types:value": "Did Not Fire"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-e72a756a-c173-53bd-8975-b817647f6be7",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "GPS GPSAltitude",
+            "uco-types:value": "151"
         },
         {
             "@id": "kb:observableobject-96f54c37-f802-5564-9f69-71dae945baab",
@@ -629,76 +825,84 @@
             "uco-observable:hasChanged": false
         },
         {
-            "@id": "kb:controlleddictionaryentry-c4331884-6780-5922-b20d-cdc5ffd292af",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote AutoFlashMode",
-            "uco-types:value": "        "
+            "@id": "kb:filefacet-77aba580-4bf3-5698-992b-262b363a67f8",
+            "@type": "uco-observable:FileFacet",
+            "uco-observable:extension": "jpg",
+            "uco-observable:fileName": "799987.jpg",
+            "uco-observable:filePath": "/mnt/rob/storage/CASE-community/CASE-Implementation-PyPI-Exifread/799987.jpg",
+            "uco-observable:sizeInBytes": 1526008
         },
         {
-            "@id": "kb:controlleddictionaryentry-2f0763cd-6c49-53c2-ad4b-2dd9794bac1d",
+            "@id": "kb:controlleddictionaryentry-bacdd428-f67d-5840-ac5e-e127cedac3f4",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF CustomRendered",
-            "uco-types:value": "Normal"
+            "uco-types:key": "Thumbnail ResolutionUnit",
+            "uco-types:value": "Pixels/Inch"
         },
         {
-            "@id": "kb:controlleddictionaryentry-139dd9ee-0c67-5ca1-8cf1-80c980d69512",
+            "@id": "kb:controlleddictionaryentry-a0f721aa-2c17-5c75-86ef-b02d943b94cb",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF DigitalZoomRatio",
-            "uco-types:value": "1"
+            "uco-types:key": "EXIF ExifVersion",
+            "uco-types:value": "0220"
         },
         {
-            "@id": "kb:controlleddictionaryentry-2462bf05-0e99-5a65-b07e-fce83bd42b31",
+            "@id": "kb:controlleddictionaryentry-b2e87a42-7513-52dc-a9b1-2c0486c862fc",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF FNumber",
-            "uco-types:value": "9"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-15b28390-b292-577a-bc3b-2e38dc40c52e",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF ExifImageLength",
-            "uco-types:value": "1960"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-c38801d6-4768-5b72-b395-15d32677e738",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Thumbnail YResolution",
+            "uco-types:key": "Thumbnail XResolution",
             "uco-types:value": "300"
         },
         {
-            "@id": "kb:controlleddictionaryentry-f978ee0e-6800-5490-85cc-d1080bc12995",
+            "@id": "kb:controlleddictionaryentry-dcff8fe9-eebc-52cc-bc96-e5cba0f2bd76",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Thumbnail JPEGInterchangeFormat",
-            "uco-types:value": "26086"
+            "uco-types:key": "MakerNote FlashSetting",
+            "uco-types:value": "            "
         },
         {
-            "@id": "kb:controlleddictionaryentry-52a9091f-9a04-547a-822b-3c5022a6d3b8",
+            "@id": "kb:controlleddictionaryentry-c5d0ec98-4c4e-58a1-8848-bcfea1ff4fd7",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote AutoBracketRelease",
-            "uco-types:value": "0"
+            "uco-types:key": "EXIF Sharpness",
+            "uco-types:value": "Normal"
         },
         {
-            "@id": "kb:controlleddictionaryentry-46176ef8-6489-5b08-9f8b-1db72558a88a",
+            "@id": "kb:controlleddictionaryentry-982df30a-db38-591e-b220-36f2ef1a3a90",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF CVAPattern",
-            "uco-types:value": "[0, 2, 0, 2, 2, 1, 1, 0]"
+            "uco-types:key": "EXIF DateTimeOriginal",
+            "uco-types:value": "2005:08:31 21:40:03"
         },
         {
-            "@id": "kb:controlleddictionaryentry-2c2ef3af-e55e-589f-b4f8-1b3c5fabd50f",
+            "@id": "kb:controlleddictionaryentry-f8de1052-9e49-5065-99e2-eb0d14369f5d",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF LightSource",
-            "uco-types:value": "Unknown"
+            "uco-types:key": "EXIF InteroperabilityOffset",
+            "uco-types:value": "25734"
         },
         {
-            "@id": "kb:controlleddictionaryentry-b212708e-1e39-5e15-9c52-7f593a1575da",
+            "@id": "kb:controlleddictionaryentry-3f722d35-e71e-5859-822b-2b97a01a4a95",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Interoperability InteroperabilityVersion",
-            "uco-types:value": "[48, 49, 48, 48]"
+            "uco-types:key": "EXIF Saturation",
+            "uco-types:value": "Normal"
         },
         {
-            "@id": "kb:controlleddictionaryentry-f7829fb6-f516-5968-9c70-fb6d6d1e86ba",
+            "@id": "kb:controlleddictionaryentry-02fd1df9-9122-53fd-91fd-eb4f3074fce5",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF ColorSpace",
-            "uco-types:value": "sRGB"
+            "uco-types:key": "MakerNote ProgramShift",
+            "uco-types:value": "0 EV"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-9e580acc-719c-5b0c-93f0-da4ffeb24d40",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "GPS GPSLatitude",
+            "uco-types:value": "[30, 1833/100, 0]"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-090e4ac9-d618-5107-89ea-6cca39f82bee",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "Interoperability InteroperabilityIndex",
+            "uco-types:value": "R98"
+        },
+        {
+            "@id": "kb:controlleddictionaryentry-2752e421-21ba-5ca3-b779-1c62aeb66cc8",
+            "@type": "uco-types:ControlledDictionaryEntry",
+            "uco-types:key": "JPEGThumbnail",
+            "uco-types:value": "b'\\xff\\xd8\\xff\\xdb\\x00\\x84\\x00\\x02\\x02\\x02\\x03\\x02\\x02\\x03\\x03\\x03\\x03\\x04\\x03\\x03\\x04\\x05\\x08\\x05\\x05\\x04\\x04\\x05\\n\\x07\\x07\\x06\\x08\\x0c\\n\\x0c\\x0c\\x0b\\n\\x0b\\x0b\\r\\x0e\\x12\\x10\\r\\x0e\\x11\\x0e\\x0b\\x0b\\x10\\x16\\x10\\x11\\x13\\x14\\x15\\x15\\x15\\x0c\\x0f\\x17\\x18\\x16\\x14\\x18\\x12\\x14\\x15\\x14\\x01\\x02\\x04\\x04\\x05\\x04\\x05\\t\\x05\\x05\\t\\x14\\r\\x0b\\r\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\x14\\xff\\xc4\\x01\\xa2\\x00\\x00\\x01\\x05\\x01\\x01\\x01\\x01\\x01\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\\t\\n\\x0b\\x10\\x00\\x02\\x01\\x03\\x03\\x02\\x04\\x03\\x05\\x05\\x04\\x04\\x00\\x00\\x01}\\x01\\x02\\x03\\x00\\x04\\x11\\x05\\x12!1A\\x06\\x13Qa\\x07\"q\\x142\\x81\\x91\\xa1\\x08#B\\xb1\\xc1\\x15R\\xd1\\xf0$3br\\x82\\t\\n\\x16\\x17\\x18\\x19\\x1a%&\\'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz\\x83\\x84\\x85\\x86\\x87\\x88\\x89\\x8a\\x92\\x93\\x94\\x95\\x96\\x97\\x98\\x99\\x9a\\xa2\\xa3\\xa4\\xa5\\xa6\\xa7\\xa8\\xa9\\xaa\\xb2\\xb3\\xb4\\xb5\\xb6\\xb7\\xb8\\xb9\\xba\\xc2\\xc3\\xc4\\xc5\\xc6\\xc7\\xc8\\xc9\\xca\\xd2\\xd3\\xd4\\xd5\\xd6\\xd7\\xd8\\xd9\\xda\\xe1\\xe2\\xe3\\xe4\\xe5\\xe6\\xe7\\xe8\\xe9\\xea\\xf1\\xf2\\xf3\\xf4\\xf5\\xf6\\xf7\\xf8\\xf9\\xfa\\x01\\x00\\x03\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x00\\x00\\x00\\x00\\x00\\x00\\x01\\x02\\x03\\x04\\x05\\x06\\x07\\x08\\t\\n\\x0b\\x11\\x00\\x02\\x01\\x02\\x04\\x04\\x03\\x04\\x07\\x05\\x04\\x04\\x00\\x01\\x02w\\x00\\x01\\x02\\x03\\x11\\x04\\x05!1\\x06\\x12AQ\\x07aq\\x13\"2\\x81\\x08\\x14B\\x91\\xa1\\xb1\\xc1\\t#3R\\xf0\\x15br\\xd1\\n\\x16$4\\xe1%\\xf1\\x17\\x18\\x19\\x1a&\\'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz\\x82\\x83\\x84\\x85\\x86\\x87\\x88\\x89\\x8a\\x92\\x93\\x94\\x95\\x96\\x97\\x98\\x99\\x9a\\xa2\\xa3\\xa4\\xa5\\xa6\\xa7\\xa8\\xa9\\xaa\\xb2\\xb3\\xb4\\xb5\\xb6\\xb7\\xb8\\xb9\\xba\\xc2\\xc3\\xc4\\xc5\\xc6\\xc7\\xc8\\xc9\\xca\\xd2\\xd3\\xd4\\xd5\\xd6\\xd7\\xd8\\xd9\\xda\\xe2\\xe3\\xe4\\xe5\\xe6\\xe7\\xe8\\xe9\\xea\\xf2\\xf3\\xf4\\xf5\\xf6\\xf7\\xf8\\xf9\\xfa\\xff\\xc0\\x00\\x11\\x08\\x00x\\x00\\xa0\\x03\\x01!\\x00\\x02\\x11\\x01\\x03\\x11\\x01\\xff\\xda\\x00\\x0c\\x03\\x01\\x00\\x02\\x11\\x03\\x11\\x00?\\x00\\xfc=\\xff\\x00\\x85Q\\xe3l\\xff\\x00\\xc8\\x9d\\xaf\\xff\\x00\\xe0\\xae\\x7f\\xfe\"\\xa4_\\x84~9|\\xe3\\xc1~!8\\xeb\\x8d*\\x7f\\xfe\"\\xba=\\x8dE\\xf6_\\xdcq}f\\x87\\xf3\\xaf\\xbd\\n>\\x10\\xf8\\xec\\x9c\\x7f\\xc2\\x15\\xe2,\\xfa\\x7feO\\xff\\x00\\xc4R\\xff\\x00\\xc2\\xa0\\xf1\\xde3\\xff\\x00\\x08O\\x88\\xb1\\xeb\\xfd\\x95?\\xff\\x00\\x11K\\xd9T\\xfeW\\xf7\\x0f\\xeb\\x14\\x7f\\x9d}\\xe8g\\xfc*O\\x1c\\xff\\x00\\xd0\\x99\\xe2\\x1e?\\xea\\x15?\\xff\\x00\\x11R\\x8f\\x83\\xbe=+\\x9f\\xf8B<G\\x8c\\x81\\x9f\\xec\\x9b\\x8e\\xbf\\xf7\\xc5?eS\\xf9_\\xdc\\x1fX\\xa3\\xfc\\xeb\\xefE\\xc5\\xf8\\x1b\\xf1\\x1d\\xd4\\x95\\xf8\\x7f\\xe2\\x96\\x00\\xed$h\\xb7=}>\\xe59\\xfe\\x05|I\\x8ce\\xbe\\x1e\\xf8\\xa9@\\x19\\xc9\\xd1.G\\xfe\\xc9S\\xec\\xe6\\xba1\\xacE\\x17\\xb4\\xd7\\xde\\x86\\xa7\\xc0\\xdf\\x88\\xf2\\x1c/\\xc3\\xff\\x00\\x14\\xb1\\xf4\\x1a-\\xc9\\xff\\x00\\xd9*_\\xf8P\\xbf\\x13?\\xe8\\x9dx\\xb3\\xff\\x00\\x04w_\\xfcEW\\xb2\\xa9\\xfc\\xaf\\xee\\'\\xeb4?\\x9d}\\xe8i\\xf8\\x11\\xf1(\\x1f\\xf9\\'\\x9e+\\xff\\x00\\xc1%\\xcf\\xff\\x00\\x11H~\\x05|I\\x1f\\xf3O|U\\xff\\x00\\x82[\\x9f\\xfe\"\\x8fcS\\xf9_\\xdc/\\xadP\\xff\\x00\\x9f\\x8b\\xefC\\x1b\\xe0w\\xc4u\\xeb\\xf0\\xff\\x00\\xc5#\\xeb\\xa2\\xdc\\xff\\x00\\xf1\\x14\\xc3\\xf0K\\xe2 \\xff\\x00\\x99\\x07\\xc4\\xff\\x00\\xf8&\\xb9\\xff\\x00\\xe2*\\xbd\\x85_\\xe5\\x7fs\\'\\xebx\\x7f\\xf9\\xf9\\x1f\\xbd\\x01\\xf8\\'\\xf1\\x10\\x7f\\xcc\\x85\\xe2\\x7f\\xfc\\x13\\xdc\\x7f\\xf1\\x14\\x9f\\xf0\\xa4\\xfe!\\xff\\x00\\xd0\\x85\\xe2\\x7f\\xfc\\x13\\xdc\\x7f\\xf1\\x14{\\n\\xbf\\xc8\\xfe\\xe6\\x1f[\\xc3\\xff\\x00\\xcf\\xc8\\xfd\\xe8i\\xf8-\\xf1\\x08u\\xf0\\'\\x89\\x87\\xfd\\xc1\\xee?\\xf8\\x8aC\\xf0c\\xe2\\x02\\xf5\\xf0/\\x89G\\xd7H\\xb8\\xff\\x00\\xe2)\\xfb\\n\\xdf\\xc8\\xfe\\xe6\\x1f[\\xc3\\xff\\x00\\xcf\\xc8\\xfd\\xe8i\\xf87\\xe3\\xe1\\xff\\x002?\\x89?\\xf0Qq\\xff\\x00\\xc4S\\x0f\\xc1\\xef\\x1e\\x8e\\xbe\\x08\\xf1\\x18\\xff\\x00\\xb8M\\xc7\\xff\\x00\\x11G\\xd5\\xeb\\x7f#\\xfb\\x98\\xfe\\xb7\\x87\\xff\\x00\\x9f\\x91\\xfb\\xd1\\xfbOm}\\x14\\x92\\x04a\\x02\\xe7?;\\x021\\xf9\\x03Ry\\xa4\\x11\\xb6d\\x91[\\xa0\\x19\\x18>\\xfcW\\xd7\\xde\\xdb\\x9f\\x96\\xf2\\xf6\\'\\xf3Y\\xa4E\\x12\\xc4s\\xd7\\xe6\\xe0}I\\x15zxn\\xa0\\xc2HT\\xe7\\x07\\xe4l\\x8epq\\x9e\\x9d\\xc1\\xfcjy\\x8d\\x12\\xb1\\x0c\\x82h\\xdb\\x19F!7\\xe4\\x1eG\\x19\\xc7#\\xa8\\xa4In%\\x80\\xc8\\x01\\xf2\\xd4\\x13\\xbf#\\x9c{Rl\\xd1+\\x9do\\x87u?\\x14\\xe8\\xd73\\xdbi\\x89r\\xb2?\\xfa\\xc5H\\x81\\xea\\x07<\\x83\\xed\\xc8\\xeb],>*\\xf1E\\xac\\xc7\\xed0\\xa4\\xc4\\xe7\\xe5\\x9623\\xcf\\xaa\\x8e\\xbdx\\xcfj\\xe6U)\\'\\xa6\\xec\\xe9\\x95*\\x92\\x8d\\x9e\\xc8\\xea\\xad|S\\x7f\\x05\\xccp\\xea:d\\xf1\\x99\\xbeh\\xde\\x11\\xb9v\\x901\\x9f\\xc4\\x81\\x9a\\xea\\xb4\\x9b\\xcb}r\\x07\\x95$\\x92\\xd8\\xa3\\xec\"\\xf1\\x0cC<c\\x93\\xc7qC\\xae\\xa2\\xb9\\xba\\x18,+\\x93\\xe5\\xbe\\xa3\\xf5H^\\xc5\\xd6?:\\t\\x89\\\\\\x95\\x86B\\xd8\\x1f\\xed`q\\\\\\xfc\\xb7.\\x01\\'`\\x00\\xf6\\xae\\xdaU#R*H\\xf3\\xabR\\x95\\x198\\xc8\\xa4\\xd2\\xf9\\xaaN\\xe1\\xc7\\xb8\\x07\\xff\\x00\\xafUX\\xe0d\\xb2\\x8c\\x0e\\xe3\\xadw\\'c\\xcdh\\xac\\xf2\\x85\\xc8\\xc89\\xee\\x05D\\x08\\x91\\x89\\x19\\xc0\\xeaI\\xadoa\"\\x9c\\xcc\\x88x_\\xd6\\xa8\\xc9\"\\x80F9\\xf6\\xc5Zle\\t\\'#\\x80:{\\n\\xce\\x9ava\\xd2\\xb4Lh\\xf1xY\\x9eEH\\xff\\x00y\\xbb\\xa6\\x0f \\xfaSM\\xd0B7\\x10_\\xa7\\x07\\xa5|\\xfd\\xcf}\\xa2h\\xe7\\xde\\x1d\\xc0\\x19^\\xac\\x0fCW\\xe3\\xba\\xb8\\x8e\\xc7a\\x9c\\x08\\x8c\\xa3\\x114\\xc0|\\xc4cv\\xd2}\\x00\\xe7\\xe9S\\xb9i\\x10\\xc5x\\xcd<\\xa3-\\'\\x04\\xc8z\\xa9\\x03\\xdc\\x1c\\x1a\\xd4\\xb2\\x82mA\\x95\\xad\"\\x9at\\x07\\x05\\xd0\\x1d\\xa0\\xfadp8\\xa8\\x94\\x94U\\xdb4\\x84\\\\\\xb4H\\xf7\\xcf\\x08xa\\xe6\\xd3\\xc4\\xcdu\\xa9\\xc7{q\\x8d\\xf2\\xb8T\\x85A\\xf5\\xcf-\\xd3\\xaf>\\x98\\x1dk\\xa9\\xb6\\xf0\\x85\\xf6\\x8fws\"\\xf9\\xba\\x88\\xb9RV0\\x8a\\xd1)\\xc98l\\xb2\\xee99\\x07n8<\\n\\xf99W\\xe6\\x9b\\x8e\\x9a\\xf6>\\xba8u\\x18)\\xea\\xed\\xdc\\xeatE\\xd5R\\x0cj6\\x16\\x8c\\xdbvyL\\x8d\\x85\\\\\\xf69 \\x1f\\xa5W\\xbc\\xd1\\xe7\\xb5\\xb87\\x0bd\\x81U\\x81EW*\\x06:\\x10\\xa2\\xbb)B\\x1c\\xd6r\\xd1\\x9c5\\xa7>[\\xc6\\x1a\\xa3\\x0bQ\\xd7^\\xfa/\"\\xf2\\xd6\\xde\\xee Nb\\xb8\\x8fx9\\xfa\\xff\\x00J\\xe4\\xbc\\x8b@$X\\xf4\\xf8m\\xe3n6F\\xa3\\x0c1\\x8e\\x99<W\\xd5Q\\xa4\\xa8\\xabA\\xe8|uz\\xd2\\xac\\xfd\\xf5\\xa9Y\\xb4\\xebb\\x18\\xb5\\xac*\\xa4\\x92IA\\xceq\\x9f\\xe4?*\\xa2\\xf1[)`\\xb1F2I\\xe1G$\\x9c\\x9f\\xcc\\xe2\\xbd\\x04\\xeey\\x8d\\x14\\xa4\\x8e\\x02O\\xeec?U\\xf7\\xcf\\xf3\\xe6\\xab\\xb0\\x89I\\xc4Q\\xe7\\x1dp:gw\\xf3\\xe6\\xb4\\x12 r\\x19~\\xea\\x81\\xcep=N\\x7f\\x9dS\\x95#!\\x83\\x00\\xc0\\x82\\x08=\\xf3\\xc9\\xa0\\xb4P\\x9a@\\xc4\\xf1\\xd7<\\xf5\\xeb\\xd6\\xa8\\xc8\\xea[\\xe5\\xfa\\xf1\\xf4\\xc5R\\x19\\x8b\\xa0h\\xd3Msr\\x91x~\\xfe\\xf4\\xc8\\x85Qey\\xa3g\\xcfF\\x01S\\x1fP\\xc7\\x15\\xd7x7\\xc2\\x1e-\\xb6\\xbb\\x9eK/\\x0b\\xda\\xda\\xf9\\x88\\xb0\\xe3Po\\x9e1\\xbb\\x96\\xc3\\x0c\\xf2\\xb9\\x07\\x04d\\x13\\xc5|\\x8dLE\\x18_\\x9a\\x7fw\\xfc\\x03\\xeb)\\xe1\\xabM\\xaeX\\xff\\x00_3\\xbb\\xb0\\xfd\\x9f\\xf5\\xab\\xf2\\r\\xde\\xbf%\\xa4\\x0c\\xec\\xff\\x00`\\xb7\\x80\\x88P\\x93\\x9c(\\xdc\\xa3\\x1e\\x87\\x15\\xe8\\xdao\\xec\\xe9\\xa3X@\\xb3\\xde[\\xcb\\xa8\\xce\\x9c\\x92\\xcc\\xd8o\\xaa\\x83\\x8f\\xe9_?W1\\x9c\\xf4\\xa2\\xb9|\\xfb\\x9fEG.\\x845\\xac\\xee^\\xba\\xf0~\\x95d\\xacl\\xfc>\\x96w\\x10\\x8e&\\xb8\\xb1v\\x87\\xeb\\x81\\x8fOZ\\x86\\xdbF\\xd3.\\xd3}\\xed\\xcc2F\\xc3\"(\\x02\\xc0\\x8a\\xdd\\xc8\\xc0\\xde>\\x9b\\xb1X\\xd3\\x85I+\\xb6\\xdb\\xfb\\xcd*T\\xa5\\x07\\xcb\\xa4W\\xa5\\xbf\\x1f\\xf25\\xad\\xa4\\xf0\\xf6\\x99\\x1f\\x11\\xdboN\\x86 \\xbb\\x8f\\xe3\\xd6\\xa0\\xbe\\xf1\\xad\\x99\\x01 \\x86b\\x17<\\xf9\\xe4`\\xff\\x00/\\xd2\\xbdjx:\\x93w\\x91\\xe4U\\xc7\\xd3\\x82\\xb45\\xf49\\xe7\\xf1t\\xe9\\xb8E\\x90\\x0fy\\x1c\\xb1\\xfe\\x83\\xf4\\xac[\\xadv\\xe2\\xe4\\xe5\\xdct\\xc7\\n\\x07\\xf2\\xaf\\xa2\\xa7\\x86\\x8c5>^\\xa6*u4\\xe8d=\\xd1\\'9\\xe9\\xcf4\\xc5\\x9d\\x88\\r\\xf2\\xe0\\xf7<\\xd7\\xa1d\\x8f6\\xed\\x99\\xb7\\x17\\x9b\\x8e\\x0b\\x16\\xf6\\x15S\\xcd\\x05I=+e\\xa2#s)\\xef\\x01\\'\\x1f\\xce\\x95e8\\xce\\xdc\\x1fN\\xf5M\\xe8\\t\\x15d\\x9aW$\\xecu\\\\u#\\x83\\xf8\\xd6\\\\\\x92\\xb2\\xc8Wr\\xf4\\xcf\\'\\x8a\\x11V3\\xa4\\x94\\x13\\xc95^I\\xd4.9\\xcf\\xaej\\xd3\\x04\\x8f\\xac\\xec\\xe6\\xd4\\xec\\xc9\\x9a{\\x1bkX\\x87\\x02(\\xa53+{\\xe1\\x99\\x009\\xff\\x00d\\xd6Cx\\xd2\\xe2IYL,\\xad\\x1b\\x0c\\x95>Xo\\xfb\\xe7\\x07\\x1f\\x89\\xfa\\xd7\\xe6\\xd4p\\x10\\xa8\\xee\\xe5\\x7f\\x91\\xfa\\x05|\\xc6\\xa5-\\x14m\\xf3\\x15|u\\xa8\\xc5r\\xd3@L\\x0cF\\xd2\\x03\\xbb)\\x1fB\\xc4~5w\\xfe\\x16&\\xb5#\\x80$\\x8b\\'\\x8c\\x18\\x95\\xb3\\xf9\\x8a\\xf7#\\x80\\xa3\\x15\\xa9\\xe1K2\\xc4I\\xe8lG\\xf1?\\xc46\\x087\\xc5\\x16\\xcfY-\\xf6\\xff\\x00,Tr|X\\xb9\\xb9\\x00\\\\\\xd9\\xc5!=\\xd1\\x8a\\xe3\\xdcu\\xc7\\xff\\x00^\\xa1\\xe0)\\xcbXH\\xddfu\\xa3\\xa4\\xe2\\xbf\"[\\xdf\\x88:%\\xf4J\\x93[\\\\\\xe4(\\x05|\\xa4pO\\xaew\\n\\xe1\\xaf\\xf5_\\x0f\\\\\\xb8\\xd9\\x15\\xd4$\\x0e\\x02F\\x8b\\xf9\\xfc\\xe75\\xa5\\x1c>\"\\x8e\\xcd[\\xe7\\xfeDW\\xc4\\xe1\\xeb\\xea\\xe2\\xd3\\xf4_\\xe6s\\xf3]\\xda9+\\x08p\\xbc\\xe0\\xb9\\x01\\xb1\\xeezV<\\xd32\\xf4 \\xfd\\x085\\xed\\xc5\\xc9i#\\xc2\\x92\\x8b\\xd6%F\\x98\\x8f\\xc7\\x9ej\\xc4\\x97\\x1bmWi\\x19<V\\xcf\\xa1\\x822\\xca\\x97`\\xc0\\x95\\x1d\\xf8\\xa6<\\x9b\\xa3\\xda\\xaa\\xc4wf\\xe0U\\xee\"\\x88e\\\\\\xe4\\xa0\\x1f\\xec\\xf2j\\x9c\\xd7\\x8a\\xa7\\x8c6;\\x9aw\\x04\\x8a\\x17\\x17m \\xf9\\x89\\xc0\\xe4\\x01T\\x1ePF7t\\xf4\\xa7q\\xd8\\xa3$\\xd8\\x07sg\\xf0\\xaa\\x8f>\\x0f\\x7f\\xc6\\xad1\\xa4{\\xdf\\xda\\xf6\\x83\\xd8z\\xd3\\x05\\xd6G\\x1f\\xa5y\\xc9\\x0c\\x89\\xees\\xc6O\\xe5\\xc5V\\x91\\xfc\\xd8\\xd9\\x1b\\x90x+\\xebZ$#1l\"F\\x06?2<vW#\\xf0 U\\xc7a\\xb4e\\xc8\\x1e\\x83\"\\xa9h;\\xdca\\x98`s\\x9f`j36\\xd1\\xd7\\x07\\xf5\\xaa\\xb8\\x87\\x12\\xe7\\x04d{\\xe2\\xa3wE?3\\xaf\\x1e\\x9c\\xd3\\xb8\\x15Z\\xed0@V\\x18\\xe8\\xcd\\xd0\\xd4&\\xfd8\\xc8S\\xf4Rh\\x02\\xd5\\xce\\xa2\\xb1\\xc1\\xb5\\x08\\x00\\x8e\\xc3\\xfc+\\x94\\x9e\\xf0\\xb1\\xc9n{f\\xa6%4U\\x92\\xf0\\x84\\xc0\\xc0\\xfcj\\xb1\\xba\\xc2\\x9e~\\xf5h\"\\xa4\\x92g\\xa9\\x19\\xcfS\\xfc\\xaa\\xabM\\x86\\xc6\\xe0{\\xe4S\\xb8\\xd2)=\\xc7\\xca@$\\x1fZ\\xa1$\\xc4\\x9e\\t\\'\\xdcU&RG\\xbd\\xac\\xfbH\\xe8;\\xe4P\\xd3\\xe0\\x1c\\xe7\\xd7&\\xb8\\x89hg\\xdaT\\x10@\\xfcI\\xebLi\\x99S\\n\\xaf\\x8faT\\x82\\xc4\\r6Fw\\xb2\\xfbq\\x8a\\x89\\xaeQO\\x05Y\\x80\\xee\\xc75Ab1|1\\x90\\xa0{\\x93Q\\x1b\\xc2\\x06s\\x8f\\xa7\\x14\\xc7b\\xbb\\xdd\\x97PK\\xf0z\\x8c\\xd5i/\\t \\x01\\x80\\x7f:w\\x15\\x8a\\xf2\\xde\\x13\\x9e\\x84\\x8fSIk\\x99\\xe6\\x04\\x9c\\xf1\\xdb5-\\xd9\\x14\\x91\\x1d\\xf5\\xc6\\x1fnr\\x07\\xa5b\\xcb.FOOzq\\xd8\\x1e\\xe56\\x95NF\\xecb\\x90\\xcc\\x019#\\xd3\\x00\\xe6\\xad\\x82(\\xbd\\xdeO\\x07\\x83\\xe8j\\x89\\x9dO=G\\xae{\\xd0U\\x8a\\xb2\\\\\\x1d\\xb8$\\x1c{\\xf3U\\x9el1\\xe3nG\\x04\\xf7\\xfc\\xa9\\xa6R=\\xd9\\'y\\x14\\x9d\\xe4\\x0f\\xd2\\x94\\xdc\\xc4\\x80\\x1d\\xe5\\xb8\\xe0\\x8e\\x07\\xe7\\\\\\x86v!k\\xec?\\xee\\xc0_\\xf6\\xbb\\xfdj\\xbb\\xcf$\\xac77\\xcd\\xf8U\\x05\\x88\\x1ab\\tV\\xf9\\x8f`=\\xea\\x138S\\xed\\xefUq\\xd8\\x8c\\xdcd\\x95\\xc9$\\xfd*\\x17\\xba\\xc0#8\\xcf\\\\w\\xa7q\\xd8\\xacns\\xcf\\x1dzc\\x06\\xa17L\\xe3\\x03\\xa7\\xa50\\xb1\\\\\\xca\\n\\xb1\\xceB\\xf6\\xabv\\xd3\\xf9\\x7f>\\xe2\\x14\\x8e\\xd5\\x12\\xd8i\\x19s^y\\x8e\\xc4\\xb7S\\xd4\\x1a\\xa5-\\xd7\\x01z\\x8c\\xe3\\x9e\\xf5\\xa2\\x11\\t\\xb9\\x01I\\x0c\\x08\\x1d\\xb1\\xcdRk\\xa3\\xb8\\xa1\\xcez\\xe0\\x10(\\xb8\\xecUy\\x89\\xc8\\xf9\\x8e{\\x8e\\xb5S\\xcf\\xde\\xbc\\x923\\xc6\\x08\\xcd\\x03 yp\\xc3\\x80}\\xfd*\\xa3\\\\\\x85S\\xc0\\x1e\\xe3\\xd6\\x9ae${[]\\xb3/\\xde\\x18\\xf4\\x1d\\xaa\\x11>\\t\\xdc\\x01\\xcf\\xbf5\\xcc@\\xa9rYq\\xd0\\x0e1\\xde\\x9an\\x82\\xa8\\x00\\x06\\x07\\xaex\\xaa\\x02\\xa3\\xde\\xednN2q\\x85\\xa4y\\xf2\\xbd3\\x91\\x9f\\xad1\\x91\\x1b\\x9c\\xa9\\xf9\\xb1\\xed\\x8a\\xaa.F\\xf6\\x19\\x1f\\x8d\\x01a\\x8fp\\xa0aO\\xcd\\xd8\\x1a\\xaa\\xb7C$\\xb1;\\xbd\\x00\\xe7\\xf3\\xa6;\\x10\\x8b\\x8d\\xc4\\xa9\\xc6{\\x01\\xd2\\x91\\xefHP\\t\\xe4\\x1e\\x94\\x05\\x86Iq\\xb5\\x18)\\xc9\\xacy\\xae\\xbc\\xb97\\x10\\x02\\x9e\\xb9$sB`\\xd1\\x1c\\xb7;A\\x00\\x12\\xc7\\xa2\\xe4qU\\xcc\\xc5\\x97$rz\\x03\\x9aw\\x19^[\\xa7R\\x17 \\xe3\\xb8\\xed\\xf4\\xaa\\xd2\\xce\\xc4\\x12\\xdbJ\\x1e\\xe7\\xfa\\xd3\\x1aE?11\\xc7\\xe7T\\xa5\\x99ZBx\\xe3\\xf8\\xb3M\\x16\\x91\\xed\\x9fh\\xfa\\x11\\xd3\\x19\\xa8\\xdas\\x1a\\xf2\\xf9\\xf4\\x07\\x8a\\xe73hV\\xbaX\\xd4\\x0c\\xe3=\\x81\\xc8\\xfc\\xea\\x01r\\x14\\xe0\\xb0\\xdcG\\xafj\\x07a\\xa6\\xe4\\xa8\\x1d\\x87\\xbf5Q\\xa7!\\x89\\xdf\\xef\\x8f\\xfe\\xb5R\\x0b\\x11,\\xbb\\x8f\\xde?Bj\\xb4\\xd7\\x047\\xc9\\xf3\\xe3\\x92\\x07\\x19\\xa7q\\x91\\x9b\\x9f1\\xcepr9\\x03\\xad2K\\xbd\\xee\\x15W\\xe5\\xf5\\'\\xfa\\xd0+\\\\\\x89\\xeeB\\x9e\\xd9\\xeeOj\\x82)\\x82\\xbb\\x0c\\xa9\\'\\xa3n\\xebCv)\"\\tn\\x1cK\\xcbn\\xe3\\x9e?\\xcf\\xf2\\xaa3M\\xb4\\x92\\t\\xc6rA\\\\f\\x84+\\x11\\xbd\\xda\\x91\\xb8\\x81\\xd3\\xee\\x83\\x90\\x7f\\x1a\\xaf$\\xca3\\xb1\\x87\\xfc\\x04\\xe0S\\x1d\\x8a\\xed(m\\xa7#>\\x8b\\xce~\\xb5^K\\x9f\\xe0\\\\\\x00=\\x18\\x00}\\xa8\\x19\\tbG\\x04\\xe4\\xf5]\\xd9\\xaa\\xd2J\\x8c\\xdcv\\xeb\\x81\\xd2\\x84R=\\x86g\\x96\\xddQ\\x9dY\\x03\\x8c\\xaeA\\x01\\xbd\\xfd\\xea\\x10\\xcc\\xe0\\xb0\\xcb\\xb0\\x04\\x9c\\x8e\\x83\\xb9\\xaet\\xd3\\xd5\\t\\xc5\\xa7b#s\\xbdH\\x038\\xed\\x81\\x8aa\\xb8 dpGZ\\xa1X\\x88M\\xb8\\x92O\\x07\\xb9\\xfe\\x95ZK\\x92\\xee@\\x07o\\xae\\x06?\\xa5P\\xecE$\\xd9?{\\x00\\x7f\\t\\xc5B.\\t\\xf9\\x14\\x82s\\xca\\x81\\x9d\\xbf\\x8f\\xf8\\xd3\\x15\\x88\\xdaR\\xcc9;GV\\xf55^k\\x95\\x8c\\x86\\x03,G\\x19\\x19#\\xfaP\\x16+\\xcb8+\\xd3\\xe6\\xf5\\x1cR\\x8b\\xcf \\x8e\\xa7\\xb0<g\\xf2\\xa1\\xea2\\xbbJ\\x01.IL\\xf58\\xc6j\\xbc\\xb2\\x96m\\xe7*\\xa3\\xa6\\x7f\\xc2\\x9d\\xc4W\\x96_5\\xc7%\\x90\\xf7\\x1d\\xaa6\\xb9!\\xb0\\xbf6;\\xee\\xe4~\\x14\\x86B\\xf23\\xaf8\\xf6\\xc0\\xaa\\xe6\\xe3\\xcbN0\\x01\\xecx\\xa7p+\\xbc\\xa8\\xb99\\x19\\xc7By?\\x8dS\\x13y\\xa3\\xae=\\xc5\\x17-#\\xaf\\xb1\\x82Xu\\xab\\xcb\\xa7\\x99\\xcf\\x9a\\x00\\x03\\xb0\\x03\\xa7\\x03\\xebR\\xeb\\xab-\\xdcVA\\x1c\\xa8K\\x94\\x94\\xf1\\x8cm\\xcfo\\xc6\\xb0Z$\\x8d\\x1e\\xb2\\xb9\\xaf\\r\\xd3\\xc42N\\xe6^\\x80\\x8c)?\\x86+\\x17F\\xd4\\xef\\xee\\xa0\\x9amRcurd,ZF$\\xe3\\x8f\\x7f\\\\\\xd3\\xd2\\xf7%ma\\xd7\\xda\\xa5\\xd2\\xdfYC\\x18O!\\xc3\\xb4\\xa5\\xb1\\x9c\\xe0m\\x00\\xe3#\\x19=\\xf0s\\xec*\\xf3j\\x8be\\x13\\\\In.D`\\xb1\\x88\\x12\\x03\\x9cp\\t\\xc88\\xe9\\xd0\\xd0\\xf6\\xd3pKTe\\xd8\\xea\\xd2\\xea\\x16\\x91\\xcd$\\x06\\x19$\\x1c\\x85l(\\x19\\xe3\\xb9#\\xe9N\\xb9\\xd4\\x96+\\xc8m\\xf2K4FG+\\x91\\x8e@\\x00g\\x19\\xef\\xf9v\\xaa\\x15\\xb7$\\x82\\xf2\\x08W\\xcd\\xba\\x95\\xa2\\xb6PY\\xd9W$\\x00\\x0fl\\xf5\\xe2\\xb3 \\xd5\\xa1\\xbd\\x8b\\xcd\\x82FDl\\x95W\\xce\\xfcg\\xa7\\xa6~\\x94&\\xdb\\xf2\\x0bip{\\xcbe\\x8e##\\x98\\xe5\\x91\\x9b`|\\xe1\\x82\\x80X\\x93\\x9e1\\xb9p9\\xceOLs \\xb8i\\xddQX\\xc8O\\x00\\'#\\xf9\\xe2\\x9d\\xf4\\xb8\\x9a\\xe8B\\xf2\\xae\\x19D\\x89&\\xd3\\x82\\xd1\\x90\\xdc\\xf5\\xebIo\\x13\\xcf\\xe60\\n\\x04j]\\x9aG\\x081\\xd3\\x8c\\x9cd\\xf0\\x00\\xeaI\\x00R\\xe6I\\\\|\\xae\\xf6*<\\x9bF8\\xdb\\xee@\\xa4)$jf\\xd8DLJ\\xab\\x058b;g\\xf1\\x1f\\x9d\\x17HV\\xb9Q\\xe5h\\xce\\xe6 \\x8fL\\xe5\\x85@\\xd3\\xb0A\\xf2\\xbb\\x13\\xd3<\\x1f\\xc6\\x9d\\xc6\\x91X\\xc8\\x1dr\\xc66\\xc7\\x1bA\\xceM6B\\xcb\\xce\\xe0\\xa0\\xf3\\x9cQr\\xd2=\\x06;\\x92\\xc4\\x92\\xf9\\x1f\\x99>\\xd9\\xa5-\\x95\\x18\\xc0\\x00\\xf2N\\x06+ h\\x91\\xa6\"3\\xf2\\x93\\x8eNy\\'\\xe9\\x8a\\xa5\\x13\\x88\\x94\\x01\\x85\\xcfV\\xe9\\x8a\\x10\\xac#L\\x0c\\x8a\\xe0\\x86\\xc7\\x03\\x06\\xa1\\x98\\x02\\x87p\\x07waT\\x04PH\\n\\x04\\x8f\\'gE^\\x7f^\\xd5\\\\\\xec\\x17[\\xdc\\xe1\\x87a\\xc9\\xa0\\x08\\xae\\xe6\\xf3\\xe3u`\\xaa\\xaf\\xc6\\t\\xe9PY7\\xd9\\xa0\\x11\\xc6H\\x00`\\x85\\xe3\\x1f\\x9d\\x01\\xd0\\xabu\\x1cS^\\xc567\\x94V\\x00\\xb8\\xce3\\xff\\x00\\xea\\xab\\x06r\\x91y\\xbc\\x8fB\\x9e\\xbf\\xe7\\xbd\\x00ci\\xb0}\\x92\\xd7nK6\\xec\\x96n\\xb8\\xc0\\x03\\xf4\\x15f\\xf6i\\xbc\\x81\\x1cR\\x18\\x83:y\\x84cs\\x00\\xc1\\xbf\\x0e@4\\xbaX\\xab\\xebq\\xe2GE\\x1f3\\x00z\\xb3\\x1e\\xbf\\x9f\\xf8V}\\xd6\\xb7{uq\\x05\\xbc\\x97\\x05l\\xe0B\\xa8\\x83-\\xd4\\xe7\\xb9\\xc6r[\\x9fz\\x99$\\xdalq\\xd14\\x02vf\\\\1+\\x9f\\xe2 \\x13U\\xeeu\\x07\\xd5.\\xe6\\x9d\\xe3TWr\\xaa\\xac\\xe4\\x95Pp\\xa38\\xe8\\x00\\x03\\xb7J\\xaf\\xb5q\\xad\\x89l\\xb5\\x9b}\\x12e\\xba\\x9a\\xddnc\\x88\\x1c[\\x05;Y\\xb1\\x80H\\'\\xb1\\xe7\\x1d\\xf1Y2\\xea/{3\\\\\\x18\\x05\\xbaJK\\xfc\\xa7\\x01s\\xce\\x00\\'\\xfcjR\\xf7\\x9b\\xbfC_\\xb2\\x8fU2\\x02\\xa4\\xe5\\xa4\\xcf]\\xf98\\xa9c&F\\xc8\\xc6\\x01\\x1f0\\xc0\\xc7\\xe7\\x93\\xf9T\\xb3&\\x89\\x1c\\xaa\\x96\\x04\\xee#\\xf8\\x8eX\\x9fj\\xa6\\xf2(9\\xdb\\x96c\\x90N?\\xc2\\x9a&\\xc59\\xa5\\xf9\\x80\\x07-\\xecG\\x7f\\xc6\\xa02q\\xbc\\xf0z`0\\'5a`wb\\xa3p\\r\\x8e\\xd2|\\xd8\\xfc*\\x03(\\x04m$(\\xea3\\xf2\\xfd1@\\x11\\xc91\\x0b\\xd0\\x0cw\\xe3\\x81\\xfa\\x9a\\x81\\xa7e\\xc0\\x03\\x8e\\xdb\\x8e(\\x0b\\x10\\xb4\\xbb\\x1b,FO\\xa8\\xc7\\xf3\\xa8\\x9aP\\xc7-\\xc7\\x1d\\xb9?\\xca\\x98X\\x8ddQ\\x9cq\\xcf\\xf0\\xf1\\x9a\\xaf$\\xae[\\'\\x908\\xc2q@$\\x12\\xce\\x02\\x00\\x18{\\x80q\\xf8u9\\xaa\\x86f\\x04\\x16\\xdc\\xa7\\xd0\\x1f\\xfe\\xb5\"\\xac2I\\xb7F8\\'=>`?\\x9d@\\xb2\\x90\\x8a0q\\x9e8\\'\\xff\\x00\\xadAv*\\xdc\\xba\\xc8v\\x02\\xaf\\x9e\\xa3#\\x8a\\x85YU6\\xa0\\nGO,\\x81\\x9f\\xae\\x06jlZ?9h\\xaf\\x8e?Q\\n(\\x00\\xa2\\x80\\n(\\x00\\xa2\\x80\\n(\\x00\\xa2\\x80\\n(\\x00\\xa2\\x80\\n(\\x03\\xff\\xd9'"
         },
         {
             "@id": "kb:rasterpicture-fc6fe12b-4a8e-5aaf-994b-85e922c476da",
@@ -710,130 +914,16 @@
             "uco-observable:pictureWidth": 3008
         },
         {
-            "@id": "kb:controlleddictionaryentry-0857dce0-5f59-54a7-957f-3fdb6d319c59",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF SubSecTimeOriginal",
-            "uco-types:value": "02"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-dd5cdd2c-141b-5274-b372-b492bffa1deb",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF SubSecTimeDigitized",
-            "uco-types:value": "02"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-4b0635a0-7a67-5f27-8022-6c607f7c8704",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote LensType",
-            "uco-types:value": "14"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-a0f721aa-2c17-5c75-86ef-b02d943b94cb",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF ExifVersion",
-            "uco-types:value": "0220"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-2be78428-98a8-5e61-a68d-e3c0bb7947ae",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote WhiteBalanceBias",
-            "uco-types:value": "0"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-4b496e74-661c-5ea5-af26-eb6930708b86",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Image ExifOffset",
-            "uco-types:value": "252"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-b70698b1-7c4c-5a7c-8b07-e52faea55492",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote ExposureDifference",
-            "uco-types:value": "0 EV"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-f0d957ca-b5b6-5113-ac1f-3542ca34b09d",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Thumbnail JPEGInterchangeFormatLength",
-            "uco-types:value": "4818"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-6bdd1a7b-c265-543f-8f24-c02cb8d96f2e",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote MakernoteVersion",
-            "uco-types:value": "0200"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-05f510b5-29f1-511b-988b-2d419120963b",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF FileSource",
-            "uco-types:value": "Digital Camera"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-3f722d35-e71e-5859-822b-2b97a01a4a95",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF Saturation",
-            "uco-types:value": "Normal"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-e8990cd3-5345-51ea-bfbe-af30cdbaad44",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote LensMinMaxFocalMaxAperture",
-            "uco-types:value": "[24, 120, 7/2, 28/5]"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-ddcadf68-b391-5a3a-aecf-978fbf9b3431",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Image DateTime",
-            "uco-types:value": "2005:08:31 21:40:03"
-        },
-        {
             "@id": "kb:controlleddictionaryentry-5d01056d-3690-5636-b5cc-e72ba1fa1a64",
             "@type": "uco-types:ControlledDictionaryEntry",
             "uco-types:key": "MakerNote LensFStops",
             "uco-types:value": "[64, 1, 12, 0]"
         },
         {
-            "@id": "kb:controlleddictionaryentry-0de56cf5-92ee-52b4-9d65-8762f9a5ae39",
+            "@id": "kb:controlleddictionaryentry-db0d3a30-d983-510a-96a8-8ce3e2cbb8bf",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF ExposureBiasValue",
-            "uco-types:value": "0"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-b2e87a42-7513-52dc-a9b1-2c0486c862fc",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Thumbnail XResolution",
-            "uco-types:value": "300"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-167f4c04-76c3-5ba1-b87d-f409ffbae856",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF ExposureProgram",
-            "uco-types:value": "Program Normal"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-c5d0ec98-4c4e-58a1-8848-bcfea1ff4fd7",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF Sharpness",
-            "uco-types:value": "Normal"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-1a58d446-36cd-5bb7-845a-7310ab223c0d",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF MeteringMode",
-            "uco-types:value": "Pattern"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-7bc15ef0-38a9-5a0d-bc07-2734df4fcd00",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF SubSecTime",
-            "uco-types:value": "02"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-982df30a-db38-591e-b220-36f2ef1a3a90",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF DateTimeOriginal",
-            "uco-types:value": "2005:08:31 21:40:03"
+            "uco-types:key": "EXIF Contrast",
+            "uco-types:value": "Hard"
         },
         {
             "@id": "kb:controlleddictionaryentry-1f02236d-dc85-538b-8939-a8ba81102521",
@@ -842,100 +932,10 @@
             "uco-types:value": "50"
         },
         {
-            "@id": "kb:controlleddictionaryentry-73c786f4-8497-5964-85d2-3373b69eeec6",
+            "@id": "kb:controlleddictionaryentry-2be78428-98a8-5e61-a68d-e3c0bb7947ae",
             "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF WhiteBalance",
-            "uco-types:value": "Auto"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-d8a59695-d057-5d2c-87b9-a4cf2610cdd1",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Image YCbCrPositioning",
-            "uco-types:value": "Co-sited"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-2f225dcb-537c-59a6-8425-aa948bf87076",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF GainControl",
-            "uco-types:value": "None"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-a6dddc22-eddb-5d14-851c-f1f9e95ba661",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF SubjectDistanceRange",
+            "uco-types:key": "MakerNote WhiteBalanceBias",
             "uco-types:value": "0"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-dcff8fe9-eebc-52cc-bc96-e5cba0f2bd76",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote FlashSetting",
-            "uco-types:value": "            "
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-c514e209-aa68-5dd3-b672-05c7326ada09",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote ColorMode",
-            "uco-types:value": "MODE1   "
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-b17e03fb-f642-5864-a4c7-39e8efac258e",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF MaxApertureValue",
-            "uco-types:value": "9/2"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-f94b4c98-35df-52dd-a461-1e2e738297fa",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "MakerNote Tag 0x008E",
-            "uco-types:value": "[387/512, -27/256, -1/4, 395/512]"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-bacdd428-f67d-5840-ac5e-e127cedac3f4",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Thumbnail ResolutionUnit",
-            "uco-types:value": "Pixels/Inch"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-090e4ac9-d618-5107-89ea-6cca39f82bee",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Interoperability InteroperabilityIndex",
-            "uco-types:value": "R98"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-4557e210-dff3-51ab-b466-23c172d491bd",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "GPS GPSAltitudeRef",
-            "uco-types:value": "0"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-805706ba-72d3-5809-b3cf-34aee1d4d599",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "GPS GPSVersionID",
-            "uco-types:value": "[2, 2, 0, 0]"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-be6f698f-97a5-52ed-8eca-624d3d19ce50",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Image Model",
-            "uco-types:value": "NIKON D1X"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-f8de1052-9e49-5065-99e2-eb0d14369f5d",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "EXIF InteroperabilityOffset",
-            "uco-types:value": "25734"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-d1dbdb31-ab06-53ee-8f3a-e14ed076dd81",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "GPS GPSSatellites",
-            "uco-types:value": "04"
-        },
-        {
-            "@id": "kb:controlleddictionaryentry-f882476d-9501-5966-af80-aeb353d24d72",
-            "@type": "uco-types:ControlledDictionaryEntry",
-            "uco-types:key": "Image ResolutionUnit",
-            "uco-types:value": "Pixels/Inch"
         }
     ]
 }
