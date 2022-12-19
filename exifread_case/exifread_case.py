@@ -9,6 +9,7 @@ import exifread
 import rdflib
 import rdflib.plugins.sparql
 
+from case_utils.namespace import NS_RDF, NS_RDFS, NS_UCO_CORE, NS_UCO_LOCATION, NS_UCO_OBSERVABLE, NS_UCO_TYPES, NS_UCO_VOCABULARY, NS_XSD
 
 __version__ = "0.1.1"
 
@@ -17,15 +18,6 @@ _logger = logging.getLogger(os.path.basename(__file__))
 parser = argparse.ArgumentParser()
 parser.add_argument("file", help="file to extract exif data from")
 args = parser.parse_args()
-
-NS_RDF = rdflib.RDF
-NS_RDFS = rdflib.RDFS
-NS_UCO_CORE = rdflib.Namespace("https://unifiedcyberontology.org/ontology/uco/core#")
-NS_UCO_LOCATION = rdflib.Namespace("https://unifiedcyberontology.org/ontology/uco/location#")
-NS_UCO_OBSERVABLE = rdflib.Namespace("https://unifiedcyberontology.org/ontology/uco/observable#")
-NS_UCO_TYPES = rdflib.Namespace("https://unifiedcyberontology.org/ontology/uco/types#")
-NS_UCO_VOCABULARY = rdflib.Namespace("https://unifiedcyberontology.org/ontology/uco/vocabulary#")
-NS_XSD = rdflib.namespace.XSD
 
 
 def get_file_info(filepath):
