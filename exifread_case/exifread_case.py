@@ -11,27 +11,28 @@ import exifread
 import rdflib
 import rdflib.plugins.sparql
 
-from case_utils.namespace import NS_RDF, NS_RDFS, NS_UCO_CORE, NS_UCO_OBSERVABLE, NS_UCO_TYPES, NS_UCO_VOCABULARY, NS_XSD
+from case_utils.namespace import NS_RDF, \
+    NS_RDFS, NS_UCO_CORE, NS_UCO_OBSERVABLE, \
+    NS_UCO_TYPES, NS_UCO_VOCABULARY, NS_XSD
 
 __version__ = "0.1.2"
 
 _logger = logging.getLogger(os.path.basename(__file__))
 
-parser = argparse.ArgumentParser()
-parser.add_argument("file", help="file to extract exif data from")
-args = parser.parse_args()
+
+ns_kb = rdflib.Namespace("http://example.org/kb/")
 
 
-def get_uuid_stub(ns):
-    uuid = f"kb:{ns}-{case_utils.local_uuid.local_uuid()}"
-    return uuid
+def get_node_iri(ns: rdflib.Namespace, prefix: str) -> rdflib.URIRef:
+    node_id = rdflib.URIRef(f"{prefix}{case_utils.local_uuid.demo_uuid()}", ns)
+    return node_id
 
 
 def get_file_info(filepath):
     """
     A function to get some basic information about the file application being run against
     :param filepath: The relative path to the image
-    :return: A Dictinary with some information about the file
+    :return: A Dictionary with some information about the file
     """
     file_information = {}
     try:
@@ -78,11 +79,11 @@ def n_cyber_object_to_node(graph):
     :param graph: rdflib graph object for adding nodes to
     :return: The four blank nodes for each fo the other functions to fill
     """
-    cyber_object_facet = rdflib.URIRef(get_uuid_stub("object"))
-    n_raster_facets = rdflib.URIRef(get_uuid_stub("raster"))
-    n_file_facets = rdflib.URIRef(get_uuid_stub("file"))
-    n_content_facets = rdflib.URIRef(get_uuid_stub("content"))
-    n_exif_facets = rdflib.URIRef(get_uuid_stub("exif"))
+    cyber_object_facet = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="observableobject-"))
+    n_raster_facets = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="rasterpicture-"))
+    n_file_facets = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="filefacet-"))
+    n_content_facets = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="contentfacet-"))
+    n_exif_facets = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="exiffacet-"))
     graph.add((
         cyber_object_facet,
         NS_RDF.type,
@@ -119,8 +120,8 @@ def filecontent_object_to_node(graph, n_content_facets, file_information):
     :param file_information: Dictionary containing information about file being analysed
     :return: None
     """
-    byte_order_facet = rdflib.URIRef(get_uuid_stub("byteorder"))
-    file_hash_facet = rdflib.URIRef(get_uuid_stub("hash"))
+    byte_order_facet = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="byteorder-"))
+    file_hash_facet = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="hash-"))
     graph.add((
         n_content_facets,
         NS_RDF.type,
@@ -261,10 +262,10 @@ def controlled_dictionary_object_to_node(graph, controlled_dict, n_exif_facet):
     Add controlled dictionary object to accept all Values in the extracted exif
     :param graph: rdflib graph object for adding nodes to
     :param controlled_dict: Dictionary containing the EXIF information from image
-    :param n_controlled_dictionary:
+    :param n_exif_facet:
     :return: None
     """
-    n_controlled_dictionary = rdflib.URIRef(get_uuid_stub("controlled-dict"))
+    n_controlled_dictionary = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="controlleddict-"))
     graph.add((
         n_exif_facet,
         NS_RDF.type,
@@ -290,7 +291,7 @@ def controlled_dictionary_object_to_node(graph, controlled_dict, n_exif_facet):
         except AssertionError:
             _logger.info("v_value = %r." % v_value)
             raise
-        n_entry = rdflib.URIRef(get_uuid_stub("entry"))
+        n_entry = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="controlleddictionaryentry-"))
         graph.add((
             n_controlled_dictionary,
             NS_UCO_TYPES.entry,
@@ -318,10 +319,14 @@ def main():
     Main function to run the application
     :return: prints out the case file - TODO: write to file instead
     """
+    parser = argparse.ArgumentParser()
+    parser.add_argument("file", help="file to extract exif data from")
+    args = parser.parse_args()
     local_file = args.file
     file_info = get_file_info(local_file)
     tags = get_exif(local_file)
     tag_dict = create_exif_dict(tags)
+    case_utils.local_uuid.configure()
     out_graph = rdflib.Graph()
     exif_facet_node, raster_facets_node, file_facets_node, content_facets \
         = n_cyber_object_to_node(out_graph)
@@ -336,12 +341,10 @@ def main():
                "uco-observable": "https://ontology.unifiedcyberontology.org/uco/observable/",
                "uco-types": "https://ontology.unifiedcyberontology.org/uco/types/",
                "xsd": "http://www.w3.org/2001/XMLSchema#"}
-
     graphed = out_graph.serialize(format='json-ld', context=context)
 
-    graph = json.dumps(graphed, indent=4)
-    case_json = json.loads(graph.encode('utf-8'))
-    print(case_json)
+    parsed = json.loads(graphed)
+    print(json.dumps(parsed, indent=4))
 
 
 if __name__ == "__main__":
