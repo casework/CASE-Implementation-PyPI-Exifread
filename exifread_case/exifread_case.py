@@ -119,7 +119,6 @@ def filecontent_object_to_node(graph, n_content_facet, file_information):
     :param file_information: Dictionary containing information about file being analysed
     :return: None
     """
-    byte_order_facet = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="byteorder-"))
     file_hash_facet = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="hash-"))
     graph.add((
         n_content_facet,
@@ -129,17 +128,7 @@ def filecontent_object_to_node(graph, n_content_facet, file_information):
     graph.add((
         n_content_facet,
         NS_UCO_OBSERVABLE.byteOrder,
-        byte_order_facet
-    ))
-    graph.add((
-        byte_order_facet,
-        NS_RDF.type,
-        NS_UCO_VOCABULARY.EndiannessTypeVocab,
-    ))
-    graph.add((
-        byte_order_facet,
-        NS_UCO_VOCABULARY.value,
-        rdflib.Literal("Big-endian")
+        rdflib.Literal("Big-endian", datatype=NS_UCO_VOCABULARY.EndiannessTypeVocab)
     ))
     if 'mimetype' in file_information.keys():
         graph.add((
