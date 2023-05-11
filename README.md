@@ -1,5 +1,5 @@
 [![CASE-Implementation-PyPI-Exifread](https://github.com/casework/CASE-Implementation-PyPI-Exifread/actions/workflows/python-package.yml/badge.svg)](https://github.com/casework/CASE-Implementation-PyPI-Exifread/actions/workflows/python-package.yml)
-![CASE Version](https://img.shields.io/badge/CASE%20Version-1.1.0-brightgreen)
+![CASE Version](https://img.shields.io/badge/CASE%20Version-1.2.0-brightgreen)
 
 # CASE-Implementation-PyPI-Exifread
 
