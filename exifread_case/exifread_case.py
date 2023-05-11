@@ -78,56 +78,56 @@ def n_cyber_object_to_node(graph):
     :param graph: rdflib graph object for adding nodes to
     :return: The four nodes for each fo the other functions to fill
     """
-    cyber_object_facet = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="observableobject-"))
-    n_raster_facets = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="rasterpicture-"))
-    n_file_facets = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="filefacet-"))
-    n_content_facets = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="contentfacet-"))
-    n_exif_facets = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="exiffacet-"))
+    cyber_object = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="observableobject-"))
+    n_raster_facet = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="rasterpicture-"))
+    n_file_facet = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="filefacet-"))
+    n_content_facet = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="contentfacet-"))
+    n_exif_facet = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="exiffacet-"))
     graph.add((
-        cyber_object_facet,
+        cyber_object,
         NS_RDF.type,
         NS_UCO_OBSERVABLE.ObservableObject
     ))
     graph.add((
-        cyber_object_facet,
+        cyber_object,
         NS_UCO_OBSERVABLE.hasChanged,
         rdflib.Literal(False)
     ))
     graph.add((
-        cyber_object_facet,
+        cyber_object,
         NS_UCO_CORE.hasFacet,
-        n_exif_facets
+        n_exif_facet
     ))
     graph.add((
-        cyber_object_facet,
+        cyber_object,
         NS_UCO_CORE.hasFacet,
-        n_raster_facets
+        n_raster_facet
     ))
     graph.add((
-        cyber_object_facet,
+        cyber_object,
         NS_UCO_CORE.hasFacet,
-        n_file_facets
+        n_file_facet
     ))
-    return n_exif_facets, n_raster_facets, n_file_facets, n_content_facets
+    return n_exif_facet, n_raster_facet, n_file_facet, n_content_facet
 
 
-def filecontent_object_to_node(graph, n_content_facets, file_information):
+def filecontent_object_to_node(graph, n_content_facet, file_information):
     """
     Unused: Create a node that will add the file content facet node to the graph
     :param graph: rdflib graph object for adding nodes to
-    :param n_content_facets: Blank node to contain all content facet information
+    :param n_content_facet: Blank node to contain all content facet information
     :param file_information: Dictionary containing information about file being analysed
     :return: None
     """
     byte_order_facet = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="byteorder-"))
     file_hash_facet = rdflib.URIRef(get_node_iri(ns=ns_kb, prefix="hash-"))
     graph.add((
-        n_content_facets,
+        n_content_facet,
         NS_RDF.type,
         NS_UCO_OBSERVABLE.ContentDataFacet
     ))
     graph.add((
-        n_content_facets,
+        n_content_facet,
         NS_UCO_OBSERVABLE.byteOrder,
         byte_order_facet
     ))
@@ -143,19 +143,19 @@ def filecontent_object_to_node(graph, n_content_facets, file_information):
     ))
     if 'mimetype' in file_information.keys():
         graph.add((
-            n_content_facets,
+            n_content_facet,
             NS_UCO_OBSERVABLE.mimeType,
             rdflib.Literal(file_information["mimetype"])
         ))
     if 'size' in file_information.keys():
         graph.add((
-            n_content_facets,
+            n_content_facet,
             NS_UCO_OBSERVABLE.sizeInBytes,
             rdflib.term.Literal(file_information["size"],
                                 datatype=NS_XSD.integer)
         ))
     graph.add((
-        n_content_facets,
+        n_content_facet,
         NS_UCO_OBSERVABLE.hash,
         file_hash_facet
     ))
@@ -166,90 +166,90 @@ def filecontent_object_to_node(graph, n_content_facets, file_information):
     ))
 
 
-def filefacets_object_to_node(graph, n_file_facets, file_information):
+def filefacets_object_to_node(graph, n_file_facet, file_information):
     """
     Adding file facet object to the graph object
     :param graph: rdflib graph object for adding nodes to
-    :param n_file_facets: file facet node to add facets of file to
+    :param n_file_facet: file facet node to add facets of file to
     :param file_information: Dictionary containing information about file being analysed
     :return: None
     """
     file_name, ext = os.path.splitext(file_information['Filename'])
     file_ext = ext[1:]
     graph.add((
-        n_file_facets,
+        n_file_facet,
         NS_RDF.type,
         NS_UCO_OBSERVABLE.FileFacet
     ))
     graph.add((
-        n_file_facets,
+        n_file_facet,
         NS_UCO_OBSERVABLE.fileName,
         rdflib.Literal(os.path.basename(file_information["Filename"]))
     ))
     graph.add((
-        n_file_facets,
+        n_file_facet,
         NS_UCO_OBSERVABLE.filePath,
         rdflib.Literal(os.path.abspath(file_information["Filename"]))
     ))
     graph.add((
-        n_file_facets,
+        n_file_facet,
         NS_UCO_OBSERVABLE.extension,
         rdflib.Literal(file_ext)
     ))
     if 'size' in file_information.keys():
         graph.add((
-            n_file_facets,
+            n_file_facet,
             NS_UCO_OBSERVABLE.sizeInBytes,
             rdflib.term.Literal(file_information["size"],
                                 datatype=NS_XSD.integer)
         ))
 
 
-def raster_object_to_node(graph, controlled_dict, n_raster_facets, file_information):
+def raster_object_to_node(graph, controlled_dict, n_raster_facet, file_information):
     """
     Adding file's raster facet objects to the graph object
     :param graph: rdflib graph object for adding nodes to
     :param controlled_dict: Dictionary containing the EXIF information from image
-    :param n_raster_facets: raster facet node to add raster facets of file to
+    :param n_raster_facet: raster facet node to add raster facets of file to
     :param file_information: Dictionary containing information about file being analysed
     :return: None
     """
     file_name, ext = os.path.splitext(file_information['Filename'])
     file_ext = ext[1:]
     graph.add((
-        n_raster_facets,
+        n_raster_facet,
         NS_RDF.type,
         NS_UCO_OBSERVABLE.RasterPictureFacet
     ))
     graph.add((
-        n_raster_facets,
+        n_raster_facet,
         NS_UCO_OBSERVABLE.pictureType,
         rdflib.Literal(file_ext)
     ))
     # :TODO The below feels a bit hacky probably a better way to do it
     if 'EXIF ExifImageLength' in controlled_dict.keys():
         graph.add((
-            n_raster_facets,
+            n_raster_facet,
             NS_UCO_OBSERVABLE.pictureHeight,
             rdflib.term.Literal(int(float(str(controlled_dict['EXIF ExifImageLength']))),
                                 datatype=NS_XSD.integer)
         ))
     if 'EXIF ExifImageWidth' in controlled_dict.keys():
         graph.add((
-            n_raster_facets,
+            n_raster_facet,
             NS_UCO_OBSERVABLE.pictureWidth,
             rdflib.term.Literal(int(float(str(controlled_dict['EXIF ExifImageWidth']))),
                                 datatype=NS_XSD.integer)
         ))
     if 'EXIF CompressedBitsPerPixel' in controlled_dict.keys():
         graph.add((
-            n_raster_facets,
+            n_raster_facet,
             NS_UCO_OBSERVABLE.bitsPerPixel,
             rdflib.term.Literal(int(float(str(controlled_dict['EXIF CompressedBitsPerPixel']))),
                                 datatype=NS_XSD.integer)
         ))
     graph.add((
-        n_raster_facets,
+        n_raster_facet,
         NS_RDFS.comment,
         rdflib.Literal("Information represented here from exif information not from "
                        "file system stats except for extension, which uses os python lib")
@@ -327,11 +327,11 @@ def main():
     tag_dict = create_exif_dict(tags)
     case_utils.local_uuid.configure()
     out_graph = rdflib.Graph()
-    exif_facet_node, raster_facets_node, file_facets_node, content_facets \
+    exif_facet_node, raster_facet_node, file_facet_node, content_facet_node \
         = n_cyber_object_to_node(out_graph)
     controlled_dictionary_object_to_node(out_graph, tag_dict, exif_facet_node)
-    filefacets_object_to_node(out_graph, file_facets_node, file_info)
-    raster_object_to_node(out_graph, tag_dict, raster_facets_node, file_info)
+    filefacets_object_to_node(out_graph, file_facet_node, file_info)
+    raster_object_to_node(out_graph, tag_dict, raster_facet_node, file_info)
 
     context = {"kb": "http://example.org/kb/",
                "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
