@@ -24,7 +24,7 @@ ns_kb = rdflib.Namespace("http://example.org/kb/")
 
 
 def get_node_iri(ns: rdflib.Namespace, prefix: str) -> rdflib.URIRef:
-    node_id = rdflib.URIRef(f"{prefix}{case_utils.local_uuid.demo_uuid()}", ns)
+    node_id = rdflib.URIRef(f"{prefix}{case_utils.local_uuid.local_uuid()}", ns)
     return node_id
 
 
