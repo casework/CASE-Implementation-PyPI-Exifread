@@ -50,8 +50,7 @@ def get_node_iri(
                 node_id = ns[f"{prefix}{_node_uuid}"]
 
     if node_id is None:
-        node_id = ns[f"{prefix}{case_utils.local_uuid.demo_uuid()}"]
-
+        node_id = ns[f"{prefix}{case_utils.local_uuid.local_uuid()}"]
     return node_id
 
 
