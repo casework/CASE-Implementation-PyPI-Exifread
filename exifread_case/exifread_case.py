@@ -19,8 +19,6 @@ from case_utils.namespace import NS_RDF, \
     NS_RDFS, NS_UCO_CORE, NS_UCO_OBSERVABLE, \
     NS_UCO_TYPES, NS_UCO_VOCABULARY, NS_XSD
 
-__version__ = "0.1.2"
-
 _logger = logging.getLogger(os.path.basename(__file__))
 
 
