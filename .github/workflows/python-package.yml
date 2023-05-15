@@ -49,7 +49,7 @@ jobs:
 
     # Run the CASE validation job to confirm all examples in exifread_output_examples are valid
     - name: CASE Export Validation
-      uses: kchason/case-validation-action@v2.6
+      uses: kchason/case-validation-action@v2.6.1
       with:
         case-path: ./exifread_output_examples/
         case-version: "case-1.2.0"
