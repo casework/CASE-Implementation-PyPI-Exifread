@@ -31,7 +31,7 @@ jobs:
       run: |
         python -m venv development
         . development/bin/activate
-        python -m pip install --upgrade pip
+        python -m pip install --upgrade pip setuptools wheel
         python -m pip install flake8 pylint pytest rdflib
         python setup.py install
         exifread2case --help
