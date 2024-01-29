@@ -10,10 +10,11 @@ import uuid
 import warnings
 
 import case_utils.inherent_uuid
-import case_utils.local_uuid
+import cdo_local_uuid
 import exifread
 import rdflib
 import rdflib.plugins.sparql
+from cdo_local_uuid import local_uuid
 
 from case_utils.namespace import NS_RDF, \
     NS_RDFS, NS_UCO_CORE, NS_UCO_OBSERVABLE, \
@@ -48,7 +49,7 @@ def get_node_iri(
                 node_id = ns[f"{prefix}{_node_uuid}"]
 
     if node_id is None:
-        node_id = ns[f"{prefix}{case_utils.local_uuid.local_uuid()}"]
+        node_id = ns[f"{prefix}{local_uuid()}"]
     return node_id
 
 
@@ -365,7 +366,7 @@ def main():
     file_info = get_file_info(local_file)
     tags = get_exif(local_file)
     tag_dict = create_exif_dict(tags)
-    case_utils.local_uuid.configure()
+    cdo_local_uuid.configure()
     out_graph = rdflib.Graph()
     exif_facet_node, raster_facet_node, file_facet_node, content_facet_node \
         = n_cyber_object_to_node(out_graph)
