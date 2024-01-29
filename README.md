@@ -1,5 +1,5 @@
 [![CASE-Implementation-PyPI-Exifread](https://github.com/casework/CASE-Implementation-PyPI-Exifread/actions/workflows/python-package.yml/badge.svg)](https://github.com/casework/CASE-Implementation-PyPI-Exifread/actions/workflows/python-package.yml)
-![CASE Version](https://img.shields.io/badge/CASE%20Version-1.2.0-brightgreen)
+![CASE Version](https://img.shields.io/badge/CASE%20Version-1.3.0-brightgreen)
 
 # CASE-Implementation-PyPI-Exifread
 
@@ -33,3 +33,6 @@ Version notes:
 	- fixes to some of the vocabulary used in the code for clarity
 	- new flag for deterministic uuids in certain instances
 	- thanks to @ajnelson-nist for all the PRs on this one
+
+- 0.2.0 - Case 1.3.0 support
+	- testing in Python 3.12

@@ -17,7 +17,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: [3.8, 3.9, "3.10", "3.11"]
+        python-version: [3.9, "3.10", "3.11", "3.12"]
 
     steps:
     - uses: actions/checkout@v3
@@ -31,7 +31,7 @@ jobs:
       run: |
         python -m venv development
         . development/bin/activate
-        python -m pip install --upgrade pip
+        python -m pip install --upgrade pip setuptools wheel
         python -m pip install flake8 pylint pytest rdflib
         python setup.py install
         exifread2case --help
@@ -49,8 +49,8 @@ jobs:
 
     # Run the CASE validation job to confirm all examples in exifread_output_examples are valid
     - name: CASE Export Validation
-      uses: kchason/case-validation-action@v2.6
+      uses: kchason/case-validation-action@v2.9.0
       with:
         case-path: ./exifread_output_examples/
-        case-version: "case-1.2.0"
+        case-version: "case-1.3.0"
         extension-filter: "json"
