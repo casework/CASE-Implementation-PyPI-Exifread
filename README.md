@@ -33,3 +33,6 @@ Version notes:
 	- fixes to some of the vocabulary used in the code for clarity
 	- new flag for deterministic uuids in certain instances
 	- thanks to @ajnelson-nist for all the PRs on this one
+
+- 0.2.0 - Case 1.3.0 support
+	- testing in Python 3.12
